@@ -1,0 +1,39 @@
+.fotos-trabajos{
+    mix-blend-mode: multiply;
+    filter: grayscale(100%);
+    transition: 0.5s all;
+}
+.fotos-trabajos:hover{
+    filter: grayscale(0%);
+    transition: 0.5s all;
+}
+.fondo-naranja{
+    background-color: #FF6700;    
+    transition: 0.5s all;
+}
+.fondo-naranja:hover{
+    background-color:#FFFFFF;
+    transition: 0.5s all;
+}
+.swiper-trabajos .swiper-slide {
+    width: 440px;
+    height: 440px;
+    position: relative;
+}
+@media screen and (max-width: 575px) {
+    .swiper-trabajos .swiper-slide {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .swiper-trabajos .swiper-slide {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.swiper-trabajos {
+    --swiper-theme-color: #f88f49 !important;
+  }

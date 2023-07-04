@@ -1,0 +1,41 @@
+.banderas {
+  width: 36px;
+}
+
+@media screen and (max-width: 575px) {
+  .banderas {
+    width: 25px;
+  }
+}
+
+
+.navbar-toggler-icon {
+  background-image: url(../../assets/img/burger.png) !important;
+}
+.navbar-toggler {
+  border-color: transparent !important;
+}
+
+.margen-navbar {
+  margin-top: calc(50vh - 128px);
+}
+
+@media screen and (max-width: 1199px) {
+  .margen-navbar {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+.fondo-completo {
+  height: calc(100vh - 128px);
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+.nav-link:hover {
+  color: #ff6700 !important;
+}
+.nav-link:active {
+  color: #ff6700 !important;
+}

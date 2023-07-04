@@ -1,0 +1,34 @@
+.logo-cpa {
+  width: 350px;
+  height: 350px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.texto-alineado {
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .logo-cpa {
+    width: 180px !important;
+    height: 200px !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .texto-alineado {
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo-cpa {
+    width: 140px !important;
+    height: 140px !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .texto-alineado {
+    text-align: start;
+  }
+}

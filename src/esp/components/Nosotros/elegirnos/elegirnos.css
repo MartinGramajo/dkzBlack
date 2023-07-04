@@ -1,0 +1,33 @@
+.posicion-logo {
+  margin-left: 7rem !important;
+}
+
+@media screen and (max-width: 780px) {
+  .posicion-logo {
+    text-align: center;
+  }
+
+  .posicion-texto {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .posicion-logo {
+    text-align: center;
+  }
+
+  .posicion-texto {
+    text-align: initial;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.icono-width {
+  width: 130px !important;
+}

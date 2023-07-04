@@ -1,0 +1,14 @@
+.cartas-slider {
+  width: 230px;
+  padding-bottom: 2rem;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, none);
+  top: var(--swiper-pagination-top, none);
+  left: 0;
+  width: none;
+}

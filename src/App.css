@@ -1,0 +1,373 @@
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(./esp/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(./esp/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "Asap-Regular";
+  src: url(./esp/fonts/Asap/Asap-Regular.ttf);
+}
+@font-face {
+  font-family: "Asap-Bold";
+  src: url(./esp/fonts/Asap/Asap-Bold.ttf);
+}
+
+body {
+  font-family: "Poppins-Regular";
+  font-size: 24px;
+  color: #ffffff !important;
+  margin: 0;
+  padding: 0;
+}
+
+/*Weight 400 */
+.peso-regular {
+  font-family: "Poppins-Regular" !important;
+}
+/*Weight 700 */
+.peso-bold {
+  font-family: "Poppins-Bold" !important;
+}
+/*Asap Weight 400 */
+.peso-regular-asap {
+  font-family: "Asap-Regular" !important;
+}
+/*Asap Weight 700 */
+.peso-bold-asap {
+  font-family: "Asap-Bold" !important;
+}
+
+h1 {
+  font-size: 96px !important;
+  margin-bottom: 0 !important;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 1) 45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 40px !important;
+  margin-bottom: 0 !important;
+}
+
+h3 {
+  font-size: 32px !important;
+  margin-bottom: 0 !important;
+}
+
+h4,
+.fs-24 {
+  font-size: 24px !important;
+  margin-bottom: 0 !important;
+}
+h5 {
+  font-size: 20px !important;
+  margin-bottom: 0 !important;
+}
+
+h6,
+.fs-16 {
+  font-size: 16px !important;
+  margin-bottom: 0 !important;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+  margin-bottom: 0 !important;
+}
+
+.fs-12 {
+  font-size: 12px !important;
+  margin-bottom: 0 !important;
+}
+
+.sin-sombreado {
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrap-pre {
+  white-space: pre-wrap;
+}
+
+.color-blanco {
+  color: #ffffff;
+}
+
+.color-blanco-fondo {
+  background-color: #ffffff;
+}
+
+.color-naranja {
+  color: #ff6700 !important;
+}
+
+.color-naranja-fondo {
+  background-color: #ff6700;
+}
+
+.color-negro {
+  color: #000000;
+}
+
+.color-negro-fondo {
+  background-color: #000000;
+}
+
+.color-negroclaro {
+  color: #090909;
+}
+
+.color-negroclaro-fondo {
+  background-color: #090909;
+}
+
+.color-negro-a-negroclaro-fondo {
+  background: linear-gradient(0deg, rgba(9, 9, 9, 1) 50%, rgba(0, 0, 0, 1) 50%);
+}
+
+.color-gris {
+  color: #0f0f0f;
+}
+
+.color-gris-fondo {
+  color: #0f0f0f;
+}
+
+.interlineado {
+  line-height: 20px !important;
+}
+
+.interlineado2 {
+  line-height: 30px !important;
+}
+
+.interlineado3 {
+  line-height: 40px !important;
+}
+
+/* BtnContacto */
+.boton-contactanos {
+  width: 276px;
+  background-color: #000000 !important;
+  mix-blend-mode: normal !important;
+  border-radius: 0px !important;
+  border: 2px solid #ff6700 !important;
+  backdrop-filter: blur(37.2289px) !important;
+}
+
+.boton-naranja-grande {
+  background-color: #ff6700 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  height: 141px;
+  width: 600px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1400px) {
+  .boton-naranja-grande {
+    height: 141px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .boton-naranja-grande {
+    height: 100px;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .boton-naranja-grande {
+    height: 75px;
+    width: 350px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .boton-naranja-grande {
+    height: 70px;
+    width: 332px;
+  }
+}
+
+.padding-titulo {
+  padding-top: 5rem !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .padding-titulo {
+    padding-top: 3rem !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .padding-titulo {
+    padding-top: 2rem !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .padding-titulo {
+    padding-top: 1.5rem !important;
+  }
+}
+
+.padding-abajo {
+  padding-bottom: 5rem !important;
+}
+
+.carta-naranja-servicios {
+  width: 50%;
+  height: 355px;
+  background-color: #ff6700 !important;
+  border-radius: 0 !important;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.carta-negra-servicios {
+  width: 50%;
+  height: 355px;
+  background-color: #0f0f0f !important;
+  border-radius: 0 !important;
+}
+
+.carta-trans-servicios {
+  width: 50%;
+  height: 355px;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+}
+
+@media screen and (max-width: 991px) {
+  .carta-negra-servicios {
+    width: 100%;
+  }
+
+  .carta-trans-servicios {
+    width: 100%;
+  }
+
+  .carta-naranja-servicios {
+    width: 100%;
+  }
+}
+
+.swiper-casos .swiper-slide {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+@media screen and (max-width: 575px) {
+  .swiper-casos .swiper-slide {
+    width: 350px;
+    height: 350px;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .swiper-casos .swiper-slide {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.swiper-casos a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.swiper-casos-cel .swiper-slide {
+  width: 350px;
+  height: 350px;
+  position: relative;
+}
+
+.titulo-caso-detallado {
+  position: absolute;
+  transform: translate(0px, -250px);
+  transition: 0.5s all;
+}
+
+.titulo-caso-principal {
+  transform: translate(0px, 20px);
+}
+
+@media screen and (max-width: 1200px) {
+  .titulo-caso-detallado {
+    transform: translate(0px, -200px);
+  }
+
+  .titulo-caso-detallado h1 {
+    font-size: 70px !important;
+  }
+}
+
+.fusion-video {
+  filter: grayscale(100%);
+  mix-blend-mode: multiply;
+}
+
+.modal-casos .modal-body {
+  padding: 0;
+}
+
+.modal-casos .modal-content {
+  width: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .modal-dialog {
+    max-width: 90% !important;
+  }
+}
+
+.carousel-casos .carousel-control-next-icon {
+  background-image: url(./esp/assets/img/derecha.png);
+  width: 1rem;
+}
+.carousel-casos .carousel-control-prev-icon {
+  background-image: url(./esp/assets/img/izquierda.png);
+  width: 1rem;
+}
+
+.carousel-casos .carousel-item {
+  transition: none !important;
+}
+
+.cursor {
+  cursor: default !important;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: transparent !important;
+  background-clip: padding-box;
+  border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+  border-radius: var(--bs-modal-border-radius);
+  outline: 0;
+}
+
+.imagen-cover {
+  object-fit: cover;
+}
+
+.scroll-to-top {
+  background-color: #ff6700 !important;
+  position:static !important;
+  box-shadow: none !important;
+
+}

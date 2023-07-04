@@ -1,0 +1,41 @@
+.boton-proceso-a {
+  width: 450px;
+  height: 90px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  background-color: #090909 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.boton-proceso-b {
+  width: 450px;
+  height: 90px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  background-color: #000000 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.foto-equipo {
+  width: 500px;
+}
+
+@media screen and (max-width: 780px) {
+  .boton-proceso-a {
+    width: 100%;
+    height: 70px;
+  }
+
+  .boton-proceso-b {
+    width: 100%;
+    height: 70px;
+  }
+
+  .foto-equipo {
+    width: 100%;
+  }
+}
