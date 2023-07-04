@@ -32,7 +32,7 @@ export default function PublicidadContenido() {
                     <h1 className="peso-bold mb-4">PUBLICIDAD TRADICIONAL</h1>
                     <h4 className="pt-5 pb-5 mb-3 peso-regular">
                         Hacemos que tu marca llegue a públicos masivos por
-                        diferentes medios, prensa, televisión, radio, vallas,
+                        diferentes medios: prensa, televisión, radio, vallas,
                         sextuples, autobuses y pantallas led gigantes. Contamos
                         con los mejores convenios y una agenda de medios de
                         máximo alcance y variabilidad de acuerdo a diferentes
@@ -100,7 +100,7 @@ export default function PublicidadContenido() {
                             </h3>
                             <h6 className="pt-3 pb-4 mb-3 peso-regular interlineado">
                                 Hacemos que tu marca llegue a públicos masivos
-                                por diferentes medios, prensa, televisión,
+                                por diferentes medios: prensa, televisión,
                                 radio, vallas, sextuples, autobuses y pantallas
                                 led gigantes. Contamos con los mejores convenios
                                 y una agenda de medios de máximo alcance y
