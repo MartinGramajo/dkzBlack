@@ -1,9 +1,5 @@
 import "./videoBanner.css";
 import ReactPlayer from "react-player";
-import video1 from "../../assets/video/escritoriolargo.mp4"
-import video2 from "../../assets/video/videodkz.mp4"
-import video3 from "../../assets/video/celular.mp4"
-
 
 export default function VideoBanner() {
     
@@ -13,7 +9,7 @@ export default function VideoBanner() {
                 {/* PANTALLA GRANDE */}
                 <ReactPlayer
                     className="d-none d-xl-block"
-                    url={video1}
+                    url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1688596266/VIDEOS%20BANNER/escritoriolargo_ynd1au.mp4"
                     muted
                     loop
                     playing
@@ -23,7 +19,7 @@ export default function VideoBanner() {
                 {/* ESCRITORIO */}
                 <ReactPlayer
                     className="d-none d-md-block d-xl-none"
-                    url={video2}
+                    url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1688596296/VIDEOS%20BANNER/videodkz_gtb2fq.mp4"
                     muted
                     loop
                     playing
@@ -33,7 +29,7 @@ export default function VideoBanner() {
                 {/* CELULAR */}
                 <ReactPlayer
                     className="d-block d-sm-none"
-                    url={video3}
+                    url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1688596266/VIDEOS%20BANNER/celular_o9fpoz.mp4"
                     muted
                     loop
                     playing
