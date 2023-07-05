@@ -32,13 +32,13 @@ export default function Certificaciones() {
             <div className="d-none d-lg-block">
               <h2 className="peso-bold">FORMAMOS PARTE DEL</h2>
               <h3 className="peso-bold color-naranja">
-                consejo publicitario Argentino
+                Consejo Publicitario Argentino
               </h3>
             </div>
             <div className="d-lg-none d-block ">
-              <h5 className="peso-bold">FORMAMOS PARTE Del</h5>
+              <h5 className="peso-bold">FORMAMOS PARTE DEL</h5>
               <h5 className="peso-bold color-naranja">
-                consejo publicitario Argentino
+                Consejo Publicitario Argentino
               </h5>
             </div>
           </div>
