@@ -52,7 +52,6 @@ export default function CarouselHome() {
                                         <br /> DIGITAL
                                     </h4>
                                 </div>
-
                                 <div className="padding-btn-contactanos ">
                                     <BtnContact />
                                 </div>
@@ -177,8 +176,9 @@ export default function CarouselHome() {
                 <SwiperSlide>
                     <div className="ms-3">
                         <LineaNaranja />
-                        <h3 className="peso-bold">
-                            TUS IDEAS <br /> DONDE NUNCA <br /> IMAGINASTE
+                        <h3 className="peso-bold mb-1">
+                            BIENVENIDOS <br /> A LA REVOLUCIÓN
+                            <br /> DIGITAL
                         </h3>
                     </div>
                     <div className="d-flex justify-content-center">
@@ -200,9 +200,8 @@ export default function CarouselHome() {
                 <SwiperSlide>
                     <div className="ms-3">
                         <LineaNaranja />
-                        <h3 className="peso-bold mb-1">
-                            BIENVENIDOS <br /> A LA REVOLUCIÓN
-                            <br /> DIGITAL
+                        <h3 className="peso-bold">
+                            TUS IDEAS <br /> DONDE NUNCA <br /> IMAGINASTE
                         </h3>
                     </div>
                     <div className="d-flex justify-content-center">
