@@ -6,7 +6,7 @@ export default function VideoBanner() {
             <div className="d-flex justify-content-center">
                 {/* ESCRITORIO */}
                 <video
-                    className="video d-none d-sm-block"
+                    className="videoHome tamaño-video d-none d-sm-block"
                     src="https://res.cloudinary.com/dlzcbrqax/video/upload/v1688596296/VIDEOS%20BANNER/videodkz_gtb2fq.mp4"
                     autoPlay
                     loop
@@ -14,8 +14,8 @@ export default function VideoBanner() {
                 ></video>
                 {/* CELULAR */}
                 <video
-                    className="video d-block d-sm-none"
-                    src="https://res.cloudinary.com/dlzcbrqax/video/upload/v1688596266/VIDEOS%20BANNER/celular_o9fpoz.mp4"
+                    className="videoHome d-block d-sm-none"
+                    src="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
                     autoPlay
                     loop
                     muted

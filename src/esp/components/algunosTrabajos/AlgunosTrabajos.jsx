@@ -77,7 +77,7 @@ export default function AlgunosTrabajos() {
           initialSlide={2}
           control={true}
           slidesPerView={"auto"}
-          navigation={true}
+          navigation={false}
           coverflowEffect={{
             rotate: 0,
             strech: 0,

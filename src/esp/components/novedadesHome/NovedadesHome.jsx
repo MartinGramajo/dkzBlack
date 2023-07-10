@@ -83,7 +83,7 @@ export default function NovedadesHome() {
                         grabCursor={true}
                         centeredSlides={true}
                         initialSlide={1}
-                        navigation={true}
+                        navigation={false}
                         control={true}
                         slidesPerView={"auto"}
                         coverflowEffect={{

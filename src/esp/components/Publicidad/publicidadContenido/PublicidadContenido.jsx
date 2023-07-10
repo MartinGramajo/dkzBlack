@@ -67,7 +67,7 @@ export default function PublicidadContenido() {
                     </Card>
                 </div>
                 <Swiper
-                    navigation={true}
+                    navigation={false}
                     modules={[Navigation]}
                     className="swiper-publicidad"
                 >

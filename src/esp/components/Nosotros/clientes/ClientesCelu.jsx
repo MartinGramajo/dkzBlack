@@ -42,13 +42,13 @@ export const ClientesCelu = () => {
                 slidesPerView={"auto"}
                 spaceBetween={30}
                 autoplay={{
-                    delay: 2500,
+                    delay: 4000,
                     disableOnInteraction: false,
                 }}
                 pagination={{
                     clickable: true,
                 }}
-                navigation={true}
+                navigation={false}
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper bg-white"
             >

@@ -1,5 +1,8 @@
-.video{
-    height:calc(100vh - 128px);
+.tamaño-video{
+    height:calc(100vh - 128px)
+}
+
+.videoHome{
     width: 100%;
     object-fit: cover;
 }

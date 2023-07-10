@@ -28,7 +28,7 @@ export default function CarouselHome() {
             <Swiper
                 navigation={true}
                 autoplay={{
-                    delay: 3000,
+                    delay: 4000,
                     disableOnInteraction: false,
                 }}
                 modules={[Autoplay, Navigation]}
