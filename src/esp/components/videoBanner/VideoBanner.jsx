@@ -19,6 +19,7 @@ export default function VideoBanner() {
                     autoPlay
                     loop
                     muted
+                    playsinline
                 ></video>
             </div>
         </div>
