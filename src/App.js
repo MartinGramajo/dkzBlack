@@ -1,4 +1,4 @@
-import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./esp/pages/Home";
 import Wapp from "./esp/components/wapp/Wsp";
@@ -26,7 +26,6 @@ import EventosDettalle from "./esp/pages/EventosDetalle";
 import SocialMediaDetalle from "./esp/pages/SocialMediaDetalle";
 import PublicidadDetalle from "./esp/pages/PublicidadDetalle";
 import AudioVisualDetalle from "./esp/pages/AudioVisualDetalle";
-// import ScrollToTop from "react-scroll-to-top";
 import ScrollToTop2 from "./esp/components/ScrollToTop2";
 import HomeEN from "./en/pages/HomeEN";
 

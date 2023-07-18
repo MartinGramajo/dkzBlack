@@ -1,15 +1,14 @@
 import React from "react";
-// import LineaNaranja from "../../components/LineaNaranja";
-// import "../../components/servicios/servicios.css";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import LineaNaranja from "../../../esp/components/LineaNaranja";
 
 export default function ServiciosEN() {
     return (
         <div className="container padding-titulo">
             {/* ESCRITORIO */}
             <div id="Servicios" className="pb-5 d-none d-sm-block">
-                {/* <LineaNaranja /> */}
+                <LineaNaranja />
                 <h2 className="color-blanco mt-5 peso-bold">SERVICES</h2>
                 <h3 className="color-naranja mt-2 peso-bold mb-5">
                     More than for you, we work with you.
@@ -17,10 +16,10 @@ export default function ServiciosEN() {
                 <div className="d-flex flex-wrap">
                     <Button
                         as={Link}
-                        to="/eventos"
+                        to="/events"
                         className="boton-servicios mb-3 me-3"
                     >
-                        <h4 className="">Eventos</h4>
+                        <h4 className="">Events</h4>
                         <h3 className="">➝</h3>
                     </Button>
                     <Button
@@ -33,57 +32,57 @@ export default function ServiciosEN() {
                     </Button>
                     <Button
                         as={Link}
-                        to="/sitiosweb"
+                        to="/websites"
                         className="boton-servicios mb-3 me-3"
                     >
-                        <h4 className="">Sitios Web</h4>
+                        <h4 className="">Web Sites</h4>
                         <h3 className="">➝</h3>
                     </Button>
                     <Button
                         as={Link}
-                        to="/audiovisuales"
+                        to="/audiovisual"
                         className="boton-servicios mb-3 me-3"
                     >
-                        <h4 className="">Producción AudioVisual</h4>
+                        <h4 className="">AudioVisual Production</h4>
                         <h3 className="">➝</h3>
                     </Button>
                     <Button
                         as={Link}
-                        to="/coberturas"
+                        to="/coverage"
                         className="boton-servicios mb-3 me-3"
                     >
-                        <h4 className="">Cobertura de prensa</h4>
+                        <h4 className="">Press coverage</h4>
                         <h3 className="">➝</h3>
                     </Button>
                     <Button
                         as={Link}
-                        to="/consultoria"
+                        to="/consulting"
                         className="boton-servicios mb-3 me-3"
                     >
-                        <h4 className="">Consultoría y asesoramiento</h4>
+                        <h4 className="">Consulting and advisory services</h4>
                         <h3 className="">➝</h3>
                     </Button>
                     <Button
                         as={Link}
-                        to="/publicidad"
+                        to="/advertising"
                         className="boton-servicios mb-3 me-3"
                     >
-                        <h4 className="">Publicidad tradicional</h4>
+                        <h4 className="">Traditional advertising</h4>
                         <h3 className="">➝</h3>
                     </Button>
                     <Button
                         as={Link}
-                        to="/investigacion"
+                        to="/research"
                         className="boton-servicios mb-3 me-3"
                     >
-                        <h4 className="">Investigación de mercado</h4>
+                        <h4 className="">Market research</h4>
                         <h3 className="">➝</h3>
                     </Button>
                 </div>
             </div>
             {/* CELULAR */}
             <div id="Servicios" className="pb-5 d-sm-none d-block mx-3">
-                {/* <LineaNaranja /> */}
+                <LineaNaranja />
 
                 <h3 className="color-blanco mt-5 peso-bold">SERVICES</h3>
                 <h4 className="color-naranja mt-2 peso-bold mb-5">
@@ -92,10 +91,10 @@ export default function ServiciosEN() {
                 <div className="d-flex flex-wrap">
                     <Button
                         as={Link}
-                        to="/eventos"
+                        to="/events"
                         className="boton-servicios mb-3 me-sm-3 me-0"
                     >
-                        <h6 className="ms-3">Eventos</h6>
+                        <h6 className="ms-3">Events</h6>
                         <h3 className="">➝</h3>
                     </Button>
                     <Button
@@ -108,50 +107,50 @@ export default function ServiciosEN() {
                     </Button>
                     <Button
                         as={Link}
-                        to="/sitiosweb"
+                        to="/websites"
                         className="boton-servicios mb-3 me-sm-3 me-0"
                     >
-                        <h6 className="ms-3">Sitios Web</h6>
+                        <h6 className="ms-3">Web Sites</h6>
                         <h3 className="">➝</h3>
                     </Button>
                     <Button
                         as={Link}
-                        to="/audiovisuales"
+                        to="/audiovisual"
                         className="boton-servicios mb-3 me-sm-3 me-0"
                     >
-                        <h6 className="ms-3">Producción AudioVisual</h6>
+                        <h6 className="ms-3">AudioVisual Production</h6>
                         <h3 className="">➝</h3>
                     </Button>
                     <Button
                         as={Link}
-                        to="/coberturas"
+                        to="/coverage"
                         className="boton-servicios mb-3 me-sm-3 me-0"
                     >
-                        <h6 className="ms-3">Cobertura de prensa</h6>
+                        <h6 className="ms-3">Press coverage</h6>
                         <h3 className="">➝</h3>
                     </Button>
                     <Button
                         as={Link}
-                        to="/consultoria"
+                        to="/consulting"
                         className="boton-servicios mb-3 me-sm-3 me-0 text-start"
                     >
-                        <h6 className="ms-3">Consultoría y asesoramiento</h6>
+                        <h6 className="ms-3">Consulting and advisory services</h6>
                         <h3 className="">➝</h3>
                     </Button>
                     <Button
                         as={Link}
-                        to="/publicidad"
+                        to="/advertising"
                         className="boton-servicios mb-3 me-sm-3 me-0"
                     >
-                        <h6 className="ms-3">Publicidad tradicional</h6>
+                        <h6 className="ms-3">Traditional advertising</h6>
                         <h3 className="">➝</h3>
                     </Button>
                     <Button
                         as={Link}
-                        to="/investigacion"
+                        to="/research"
                         className="boton-servicios mb-3 me-sm-3 me-0"
                     >
-                        <h6 className="ms-3">Investigación de mercado</h6>
+                        <h6 className="ms-3">Market research</h6>
                         <h3 className="">➝</h3>
                     </Button>
                 </div>
