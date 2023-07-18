@@ -28,7 +28,8 @@ import PublicidadDetalle from "./esp/pages/PublicidadDetalle";
 import AudioVisualDetalle from "./esp/pages/AudioVisualDetalle";
 // import ScrollToTop from "react-scroll-to-top";
 import ScrollToTop2 from "./esp/components/ScrollToTop2";
-import HomeEN from "./esp/pages/HomeEN";
+import HomeEN from "./en/pages/HomeEN";
+
 
 function App() {
     return (
