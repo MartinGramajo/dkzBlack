@@ -28,6 +28,7 @@ import PublicidadDetalle from "./esp/pages/PublicidadDetalle";
 import AudioVisualDetalle from "./esp/pages/AudioVisualDetalle";
 // import ScrollToTop from "react-scroll-to-top";
 import ScrollToTop2 from "./esp/components/ScrollToTop2";
+import HomeEN from "./esp/pages/HomeEN";
 
 function App() {
     return (
@@ -38,6 +39,7 @@ function App() {
                 <ScrollToTop2 />
                 <Routes>
                     <Route path="/" element={<Home />} />
+                    <Route path="/en" element={<HomeEN />} />
                     <Route path="/conocenos" element={<Conocenos />} />
                     <Route path="/servicios" element={<ServiciosPage />} />
                     <Route path="/novedades" element={<Novedades />} />
