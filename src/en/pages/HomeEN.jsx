@@ -2,10 +2,16 @@ import React from "react";
 import ServiciosEN from "../components/serviciosEN/ServiciosEN";
 import AlgunosTrabajosEN from "../components/algunosTrabajosEN/AlgunosTrabajosEN";
 import DosBotonesHomeEN from "../components/dosBotonesHome/DosBotonesHomeEN";
+import { CarouselHomeEN } from "../components/carouselHomeEN/CarouselHomeEN";
+import CartasEN from "../components/carouselHomeEN/CartasEN";
 
 export default function HomeEN() {
     return (
         <div>
+            <div className="color-negro-fondo ">
+                <CarouselHomeEN />
+                <CartasEN />
+            </div>
             <div className="color-negroclaro-fondo d-lg-block d-none">
                 <ServiciosEN />
                 <AlgunosTrabajosEN />
