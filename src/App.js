@@ -1,4 +1,4 @@
-import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./esp/pages/Home";
 import Wapp from "./esp/components/wapp/Wsp";
@@ -20,13 +20,11 @@ import { NavbarReactV2 } from "./esp/components/navbarReactV2/NavbarReactV2";
 import NovedadesDetalle from "./esp/pages/NovedadesDetalle";
 import CasosDettalle from "./esp/pages/CasosDetalle";
 import { ServiciosPage } from "./esp/pages/ServiciosPage";
-import NovedadesDetalle2 from "./esp/pages/NovedadesDetalle2";
 import { SitiosWebDetallados } from "./esp/pages/SitiosWebDetallados";
 import EventosDettalle from "./esp/pages/EventosDetalle";
 import SocialMediaDetalle from "./esp/pages/SocialMediaDetalle";
 import PublicidadDetalle from "./esp/pages/PublicidadDetalle";
 import AudioVisualDetalle from "./esp/pages/AudioVisualDetalle";
-// import ScrollToTop from "react-scroll-to-top";
 import ScrollToTop2 from "./esp/components/ScrollToTop2";
 import HomeEN from "./en/pages/HomeEN";
 

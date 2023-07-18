@@ -10,7 +10,6 @@ import NovedadesHome from "../components/novedadesHome/NovedadesHome";
 import DosBotonesHome from "../components/dosBotonesHome/DosBotonesHome";
 import { ClientesCelu } from "../components/Nosotros/clientes/ClientesCelu";
 import Clientes from "../components/Nosotros/clientes/Clientes";
-import ScrollToTop from "react-scroll-to-top";
 
 export default function Home() {
     return (
