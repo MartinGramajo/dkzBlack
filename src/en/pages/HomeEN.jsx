@@ -1,9 +1,10 @@
 import React from "react";
+import ServiciosEN from "../components/serviciosEN/ServiciosEN";
 
 export default function HomeEN() {
   return (
     <div>
-      <h1>hola fan de los panqueques</h1>
+      <ServiciosEN />
     </div>
   );
 }
