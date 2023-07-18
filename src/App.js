@@ -20,7 +20,6 @@ import { NavbarReactV2 } from "./esp/components/navbarReactV2/NavbarReactV2";
 import NovedadesDetalle from "./esp/pages/NovedadesDetalle";
 import CasosDettalle from "./esp/pages/CasosDetalle";
 import { ServiciosPage } from "./esp/pages/ServiciosPage";
-import NovedadesDetalle2 from "./esp/pages/NovedadesDetalle2";
 import { SitiosWebDetallados } from "./esp/pages/SitiosWebDetallados";
 import EventosDettalle from "./esp/pages/EventosDetalle";
 import SocialMediaDetalle from "./esp/pages/SocialMediaDetalle";
