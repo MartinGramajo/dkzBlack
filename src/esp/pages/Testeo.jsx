@@ -84,12 +84,20 @@ export default function Testeo() {
             autoPlay
             loop
             muted
-            playsinline
+            playsInline
+            controls={true}
           ></video>
         </div>
         {/* react-player + local */}
         <div className="d-flex justify-content-center">
-          <ReactPlayer playing loop muted playsInline={true} url={videoLocal} />
+          <ReactPlayer
+            controls
+            playing
+            loop
+            muted
+            playsInline
+            url={videoLocal}
+          />
         </div>
       </div>
     </div>
