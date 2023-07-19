@@ -27,7 +27,7 @@ export default function Testeo() {
             {/* MOV */}
             <video
               className="videoHome d-block d-sm-none"
-              src="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
+              src="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689789892/VIDEOS%20BANNER/MobileCuadrado_xor9qc.mov"
               autoPlay
               loop
               muted
@@ -36,7 +36,7 @@ export default function Testeo() {
             {/* M4V */}
             <video
               className="videoHome d-block d-sm-none"
-              src="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
+              src="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689790052/VIDEOS%20BANNER/MobileCuadrado_ibjhe7.mp4"
               autoPlay
               loop
               muted
@@ -51,10 +51,10 @@ export default function Testeo() {
               loop
               muted
               playsInline={true}
-              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
+              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689789892/VIDEOS%20BANNER/MobileCuadrado_xor9qc.mov"
             />
           </div>
-          {/* MP4 */}
+          {/* MOV */}
           <div className="d-flex justify-content-center">
             <ReactPlayer
               playing
@@ -71,7 +71,7 @@ export default function Testeo() {
               loop
               muted
               playsInline={true}
-              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
+              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689790052/VIDEOS%20BANNER/MobileCuadrado_ibjhe7.mp4"
             />
           </div>
         </div>
