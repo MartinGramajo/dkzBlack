@@ -19,7 +19,7 @@ export default function Testeo() {
             {/* CELULAR */}
             <video
               className="videoHome d-block d-sm-none"
-              src="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
+              src="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689791260/VIDEOS%20BANNER/originalsinveneno30_bwx2fg.mp4"
               autoPlay
               loop
               muted
@@ -34,7 +34,7 @@ export default function Testeo() {
               loop
               muted
               playsInline={true}
-              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
+              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689791260/VIDEOS%20BANNER/originalsinveneno30_bwx2fg.mp4"
             />
           </div>
         </div>
