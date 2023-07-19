@@ -127,10 +127,10 @@ export const FooterReact = () => {
               <h6 className="peso-regular-asap">
                 Info@dkzstudio.com <br />
                 Sede Argentina: Juramento 60 - San Miguel de Tucumán <br />
-                código postal: 4000 <br />
+                código postal Tucumán: 4000 <br />
                 Sede España: Avenida Juan Carlos Primero 4 - 2do Piso “B” -
                 Murcia <br />
-                código postal: 30007
+                código postal Murcia: 30007
               </h6>
             </div>
             <div className="pb-4">
