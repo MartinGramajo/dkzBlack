@@ -1,6 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
-import videoLocal from "../assets/video/MobileCuadradoComprimido.mp4";
+import videoLocal from "../assets/video/originalnoenvenenado.mp4";
 
 export default function Testeo() {
   return (
@@ -25,24 +25,6 @@ export default function Testeo() {
               muted
               playsinline
             ></video>
-            {/* MOV */}
-            <video
-              className="videoHome d-block d-sm-none"
-              src="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689789892/VIDEOS%20BANNER/MobileCuadrado_xor9qc.mov"
-              autoPlay
-              loop
-              muted
-              playsinline
-            ></video>
-            {/* M4V */}
-            <video
-              className="videoHome d-block d-sm-none"
-              src="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689790052/VIDEOS%20BANNER/MobileCuadrado_ibjhe7.mp4"
-              autoPlay
-              loop
-              muted
-              playsinline
-            ></video>
           </div>
         </div>
         <div>
@@ -53,26 +35,6 @@ export default function Testeo() {
               muted
               playsInline={true}
               url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
-            />
-          </div>
-          {/* MOV */}
-          <div className="d-flex justify-content-center">
-            <ReactPlayer
-              playing
-              loop
-              muted
-              playsInline={true}
-              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689789892/VIDEOS%20BANNER/MobileCuadrado_xor9qc.mov"
-            />
-          </div>
-          {/* M4V */}
-          <div className="d-flex justify-content-center">
-            <ReactPlayer
-              playing
-              loop
-              muted
-              playsInline={true}
-              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689790052/VIDEOS%20BANNER/MobileCuadrado_ibjhe7.mp4"
             />
           </div>
         </div>
