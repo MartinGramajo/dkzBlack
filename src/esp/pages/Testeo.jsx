@@ -1,5 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import videoLocal from "../assets/video/MobileCuadradoComprimido.mp4";
 
 export default function Testeo() {
   return (
@@ -51,7 +52,7 @@ export default function Testeo() {
               loop
               muted
               playsInline={true}
-              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689789892/VIDEOS%20BANNER/MobileCuadrado_xor9qc.mov"
+              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
             />
           </div>
           {/* MOV */}
@@ -61,7 +62,7 @@ export default function Testeo() {
               loop
               muted
               playsInline={true}
-              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
+              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689789892/VIDEOS%20BANNER/MobileCuadrado_xor9qc.mov"
             />
           </div>
             {/* M4V */}
@@ -74,6 +75,16 @@ export default function Testeo() {
               url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689790052/VIDEOS%20BANNER/MobileCuadrado_ibjhe7.mp4"
             />
           </div>
+        </div>
+        <div>
+          <video
+            className="videoHome d-block d-sm-none"
+            src={videoLocal}
+            autoPlay
+            loop
+            muted
+            playsinline
+          ></video>
         </div>
       </div>
     </div>
