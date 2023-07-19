@@ -15,14 +15,36 @@ export default function Testeo() {
               muted
             ></video>
             {/* CELULAR */}
-            <video
+            {/* <video
               className="videoHome d-block d-sm-none"
               src="https://youtu.be/oX28ph8JiYU"
               autoPlay
               loop
               muted
-            ></video>
+            ></video> */}
+            <div className="videoHome d-block d-sm-none">
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/oX28ph8JiYU?autoplay=1&loop=1&mute=1&controls=0&playlist=oX28ph8JiYU"
+                title="YouTube video player"
+                frameborder="0"
+                allow="autoplay"
+                encrypted-media
+                allowfullscreen
+              ></iframe>
+            </div>
           </div>
+
+          {/* <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/oX28ph8JiYU?autoplay=1&loop=1&mute=1&controls=0&playlist=OtqBf9IRFW4"
+            frameborder="0"
+            allow="autoplay"
+            encrypted-media
+            allowfullscreen
+          ></iframe> */}
         </div>
       </div>
     </div>
