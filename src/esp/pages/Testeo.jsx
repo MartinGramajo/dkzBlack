@@ -1,5 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import videoLocal from "../assets/video/MobileCuadradoComprimido.mp4";
 
 export default function Testeo() {
   return (
@@ -32,10 +33,19 @@ export default function Testeo() {
               playing
               loop
               muted
-              playsInline={true}
               url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
             />
           </div>
+        </div>
+        <div>
+          <video
+            className="videoHome d-block d-sm-none"
+            src={videoLocal}
+            autoPlay
+            loop
+            muted
+            playsinline
+          ></video>
         </div>
       </div>
     </div>
