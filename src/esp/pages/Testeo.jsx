@@ -19,47 +19,13 @@ export default function Testeo() {
             {/* CELULAR */}
             <video
               className="videoHome d-block d-sm-none"
-              src="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
+              src="https://youtu.be/oX28ph8JiYU"
               autoPlay
               loop
               muted
               playsinline
             ></video>
           </div>
-        </div>
-        <div>
-          <div className="d-flex justify-content-center">
-            <ReactPlayer
-              playing
-              loop
-              muted
-              playsInline={true}
-              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
-            />
-          </div>
-        </div>
-        {/* local */}
-        <div>
-          <video
-            className="videoHome d-block d-sm-none"
-            src={videoLocal}
-            autoPlay
-            loop
-            muted
-            playsInline
-            controls={true}
-          ></video>
-        </div>
-        {/* react-player + local */}
-        <div className="d-flex justify-content-center">
-          <ReactPlayer
-            controls
-            playing
-            loop
-            muted
-            playsInline
-            url={videoLocal}
-          />
         </div>
       </div>
     </div>
