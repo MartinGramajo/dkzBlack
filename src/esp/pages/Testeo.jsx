@@ -64,7 +64,7 @@ export default function Testeo() {
               url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
             />
           </div>
-            {/* M4V */}
+          {/* M4V */}
           <div className="d-flex justify-content-center">
             <ReactPlayer
               playing
@@ -75,6 +75,7 @@ export default function Testeo() {
             />
           </div>
         </div>
+        {/* local */}
         <div>
           <video
             className="videoHome d-block d-sm-none"
@@ -84,6 +85,10 @@ export default function Testeo() {
             muted
             playsinline
           ></video>
+        </div>
+        {/* react-player + local */}
+        <div className="d-flex justify-content-center">
+          <ReactPlayer playing loop muted playsInline={true} url={videoLocal} />
         </div>
       </div>
     </div>
