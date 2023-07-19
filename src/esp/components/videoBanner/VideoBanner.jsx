@@ -13,14 +13,18 @@ export default function VideoBanner() {
           muted
         ></video>
         {/* CELULAR */}
-        <video
-          className="videoHome d-block d-sm-none"
-          src="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
-          autoPlay
-          loop
-          muted
-          playsinline
-        ></video>
+        <div className="videoHome d-block d-sm-none no-clicker">
+          <iframe
+            width="100%"
+            height="515"
+            src="https://www.youtube.com/embed/XXX1bgaZJeg?autoplay=1&loop=1&mute=1&controls=0&playlist=XXX1bgaZJeg&showshare=0&showinfo=0&"
+            title="YouTube video player"
+            frameborder="0"
+            allow="autoplay"
+            encrypted-media
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
     </div>
   );
