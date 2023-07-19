@@ -22,7 +22,7 @@ export default function Testeo() {
               loop
               muted
             ></video> */}
-            <div className="videoHome d-block d-sm-none">
+            <div className="videoHome d-block d-sm-none no-clicker">
               <iframe
                 width="100%"
                 height="315"
