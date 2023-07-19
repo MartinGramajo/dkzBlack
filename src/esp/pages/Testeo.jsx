@@ -24,9 +24,47 @@ export default function Testeo() {
               muted
               playsinline
             ></video>
+            {/* MOV */}
+            <video
+              className="videoHome d-block d-sm-none"
+              src="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
+              autoPlay
+              loop
+              muted
+              playsinline
+            ></video>
+            {/* M4V */}
+            <video
+              className="videoHome d-block d-sm-none"
+              src="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
+              autoPlay
+              loop
+              muted
+              playsinline
+            ></video>
           </div>
         </div>
         <div>
+          <div className="d-flex justify-content-center">
+            <ReactPlayer
+              playing
+              loop
+              muted
+              playsInline={true}
+              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
+            />
+          </div>
+          {/* MP4 */}
+          <div className="d-flex justify-content-center">
+            <ReactPlayer
+              playing
+              loop
+              muted
+              playsInline={true}
+              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
+            />
+          </div>
+            {/* M4V */}
           <div className="d-flex justify-content-center">
             <ReactPlayer
               playing
