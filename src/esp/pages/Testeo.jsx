@@ -1,6 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
-import videoLocal from "../assets/video/originalnoenvenenado.mp4";
+import videoLocal from "../assets/video/originalsinveneno30.mp4";
 
 export default function Testeo() {
   return (
