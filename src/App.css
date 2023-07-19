@@ -367,7 +367,15 @@ h6,
 
 .scroll-to-top {
   background-color: #ff6700 !important;
-  position:static !important;
+  position: static !important;
   box-shadow: none !important;
+}
 
+.tamaño-video {
+  height: calc(100vh - 128px);
+}
+
+.videoHome {
+  width: 100%;
+  object-fit: cover;
 }
