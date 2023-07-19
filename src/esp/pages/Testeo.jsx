@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPlayer from "react-player";
 
 export default function Testeo() {
   return (
@@ -23,6 +24,17 @@ export default function Testeo() {
               muted
               playsinline
             ></video>
+          </div>
+        </div>
+        <div>
+          <div className="d-flex justify-content-center">
+            <ReactPlayer
+              playing
+              loop
+              muted
+              playsInline={true}
+              url="https://res.cloudinary.com/dlzcbrqax/video/upload/v1689023000/VIDEOS%20BANNER/MobileCuadrado_ec0a4j.mp4"
+            />
           </div>
         </div>
       </div>
