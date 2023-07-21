@@ -126,11 +126,9 @@ export const FooterReact = () => {
             <div className="py-3 text-center text-white">
               <h6 className="peso-regular-asap">
                 Info@dkzstudio.com <br />
-                Sede Argentina: Juramento 60 - San Miguel de Tucumán <br />
-                código postal Tucumán: 4000 <br />
-                Sede España: Avenida Juan Carlos Primero 4 - 2do Piso “B” -
-                Murcia <br />
-                código postal Murcia: 30007
+                Argentina - Juramento 60 - SM de Tucumán (4000)
+                <br />
+                España - Av. Juan Carlos I 48 Piso 2 “B” - Murcia (30007)
               </h6>
             </div>
             <div className="pb-4">
@@ -149,11 +147,9 @@ export const FooterReact = () => {
             <div className="py-3 text-center text-white">
               <p className="fs-12">
                 Info@dkzstudio.com <br />
-                Sede Argentina: Juramento 60 - San Miguel de Tucumán <br />
-                código postal: 4000 <br />
-                Sede España: Avenida Juan Carlos Primero 4 - 2do Piso “B” -
-                Murcia <br />
-                código postal: 30007
+                Argentina - Juramento 60 - SM de Tucumán (4000)
+                <br />
+                España - Av. Juan Carlos I 48 Piso 2 “B” - Murcia (30007)
               </p>
             </div>
             <div className="pb-4">
