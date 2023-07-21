@@ -5,29 +5,39 @@ import DosBotonesHomeEN from "../components/dosBotonesHome/DosBotonesHomeEN";
 import { CarouselHomeEN } from "../components/carouselHomeEN/CarouselHomeEN";
 import CartasEN from "../components/carouselHomeEN/CartasEN";
 import ClientesEN from "../components/clientesEN/ClientesEN";
+import VideoBanner from "../../esp/components/videoBanner/VideoBanner";
+import NovedadesHomeEN from "../components/novedadesHomeEN/NovedadesHomeEN";
+import { NavbarReactV2EN } from "../components/navbarReactV2EN/NavbarReactV2EN";
+import WspEN from "../components/wappEN/WspEN";
 
 export default function HomeEN() {
-  return (
-    <div>
-      <div className="color-negro-fondo ">
-        <CarouselHomeEN />
-        <CartasEN />
-      </div>
-      <div className="color-negroclaro-fondo d-lg-block d-none">
-        <ServiciosEN />
-        <AlgunosTrabajosEN />
-      </div>
-      <div className="color-negro-fondo d-block d-lg-none ">
-        <ServiciosEN />
-        <AlgunosTrabajosEN />
-      </div>
+    return (
+        <div>
+            <NavbarReactV2EN />
+            <WspEN />
+            <div className="color-negro-fondo ">
+                <VideoBanner />
+                <CarouselHomeEN />
+                <CartasEN />
+            </div>
+            <div className="color-negroclaro-fondo d-lg-block d-none">
+                <ServiciosEN />
+                <AlgunosTrabajosEN />
+            </div>
+            <div className="color-negro-fondo d-block d-lg-none ">
+                <ServiciosEN />
+                <AlgunosTrabajosEN />
+            </div>
 
-      <div className="color-negro-fondo ">
-        <ClientesEN />
-      </div>
-      <div className="color-negro-a-negroclaro-fondo">
-        <DosBotonesHomeEN />
-      </div>
-    </div>
-  );
+            <div className="color-negro-fondo ">
+                <ClientesEN />
+            </div>
+            <div className="color-negro-a-negroclaro-fondo">
+                <DosBotonesHomeEN />
+            </div>
+            <div className="color-negroclaro-fondo ">
+                <NovedadesHomeEN />
+            </div>
+        </div>
+    );
 }

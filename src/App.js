@@ -29,7 +29,6 @@ import ScrollToTop2 from "./esp/components/ScrollToTop2";
 import HomeEN from "./en/pages/HomeEN";
 import Testeo from "./esp/pages/Testeo";
 
-
 function App() {
     return (
         <div className="d-flex flex-column min-vh-100">
@@ -39,8 +38,8 @@ function App() {
                 <ScrollToTop2 />
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/test" element={<Testeo />} />
                     <Route path="/en" element={<HomeEN />} />
+                    <Route path="/test" element={<Testeo />} />
                     <Route path="/conocenos" element={<Conocenos />} />
                     <Route path="/servicios" element={<ServiciosPage />} />
                     <Route path="/novedades" element={<Novedades />} />
