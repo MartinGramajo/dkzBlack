@@ -13,17 +13,21 @@ export default function VideoBanner() {
           muted
         ></video>
         {/* CELULAR */}
-        <div className="videoHome d-block d-sm-none no-clicker">
-          <iframe
-            width="100%"
-            height="515"
-            src="https://www.youtube.com/embed/XXX1bgaZJeg?autoplay=1&loop=1&mute=1&controls=0&playlist=XXX1bgaZJeg&showshare=0&showinfo=0&"
-            title="YouTube video player"
-            frameborder="0"
-            allow="autoplay"
-            encrypted-media
-            allowfullscreen
-          ></iframe>
+        <div className=" d-block d-sm-none no-clicker">
+          <div className="video-container">
+            <div className="video-foreground">
+              <iframe
+                width="100%"
+                height="515"
+                src="https://www.youtube.com/embed/XXX1bgaZJeg?showinfo=0&showshare=0&autoplay=1&loop=1&mute=1&controls=0&playlist=XXX1bgaZJeg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="autoplay"
+                encrypted-media
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </div>
