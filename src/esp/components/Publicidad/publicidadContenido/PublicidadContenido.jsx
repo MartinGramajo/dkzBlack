@@ -8,10 +8,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import publi from "../../../assets/img/publi.png";
 import publi2 from "../../../assets/img/publi2.png";
 
-import publiCel from "../../../assets/img/publi-cel.png";
-import publiCel2 from "../../../assets/img/publi-cel2.png";
-import publiCel3 from "../../../assets/img/publi-cel3.png";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
