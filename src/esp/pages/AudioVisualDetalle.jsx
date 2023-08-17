@@ -7,6 +7,7 @@ import { useParams } from "react-router-dom";
 import BotonContactanos from "../components/BotonContactanos";
 import OtrosCasos from "../components/OtrosCasos";
 import ContenidoDetalle from "../components/ContenidoDetalle";
+import { NavbarReactV2 } from "../components/navbarReactV2/NavbarReactV2";
 
 export default function AudioVisualDetalle() {
   const params = useParams();
@@ -44,6 +45,7 @@ export default function AudioVisualDetalle() {
 
   return (
     <div>
+      <NavbarReactV2 />
       <ContenidoDetalle trabajos={trabajos} />
       <div className="d-flex justify-content-center py-5 color-negro-a-negroclaro-fondo">
         <BotonContactanos />

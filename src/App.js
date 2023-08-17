@@ -30,10 +30,10 @@ import HomeEN from "./en/pages/HomeEN";
 import Testeo from "./esp/pages/Testeo";
 
 function App() {
+
     return (
         <div className="d-flex flex-column min-vh-100">
             <HashRouter>
-                <NavbarReactV2 />
                 <Wapp />
                 <ScrollToTop2 />
                 <Routes>
@@ -63,7 +63,7 @@ function App() {
                     <Route path="/eventos" element={<EventosPage />} />
                     <Route path="/sitiosweb" element={<SitiosWeb />} />
                     <Route
-                        path="/sitioweb/:id"
+                        path="/sitiosweb/:id"
                         element={<SitiosWebDetallados />}
                     />
                     <Route path="/socialmedia" element={<SocialMedialPage />} />

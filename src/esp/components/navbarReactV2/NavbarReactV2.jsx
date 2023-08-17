@@ -23,35 +23,30 @@ export const NavbarReactV2 = () => {
             <Image src={logo} alt="Logo-DKZ" fluid />
           </Nav.Link>
         </Navbar.Brand>
-        {/* <div className="d-flex ms-auto">
-                    <Nav.Link
-                        className="me-sm-4 me-3 "
-                        to="/"
-                        as={NavLink}
-                        href
-                        onClick={() => {
-                            window.location.href = "/";
-                        }}
-                    >
-                        <Image
-                            className="banderas"
-                            src={espa}
-                            alt="spain"
-                            fluid
-                        />
-                    </Nav.Link>
-                    <Nav.Link
-                        className="me-sm-4 me-3 "
-                        to="/en"
-                        as={NavLink}
-                        href
-                        onClick={() => {
-                            window.location.href = "#/en";
-                        }}
-                    >
-                        <Image className="banderas" src={usa} alt="usa" fluid />
-                    </Nav.Link>
-                </div> */}
+        <div className="d-flex ms-auto">
+          <Nav.Link
+            className="me-sm-4 me-3 "
+            to="/"
+            as={NavLink}
+            href
+            onClick={() => {
+              window.location.href = "/";
+            }}
+          >
+            <Image className="banderas" src={espa} alt="spain" fluid />
+          </Nav.Link>
+          <Nav.Link
+            className="me-sm-4 me-3 "
+            to="/en"
+            as={NavLink}
+            href
+            onClick={() => {
+              window.location.href = "#/en";
+            }}
+          >
+            <Image className="banderas" src={usa} alt="usa" fluid />
+          </Nav.Link>
+        </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="" id="basic-navbar-nav">
           <Nav className="fondo-completo">

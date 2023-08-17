@@ -7,6 +7,7 @@ import "./casosContenido.css";
 import { MenuData } from "./MenuData";
 import { BotonesCat } from "./BotonesCat";
 import { Spinner } from "react-bootstrap";
+import { NavbarReactV2 } from "../../navbarReactV2/NavbarReactV2";
 
 export default function CasosContenido() {
   const [datos, setDatos] = useState([]);
