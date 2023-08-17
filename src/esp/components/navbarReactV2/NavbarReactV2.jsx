@@ -23,7 +23,7 @@ export const NavbarReactV2 = () => {
             <Image src={logo} alt="Logo-DKZ" fluid />
           </Nav.Link>
         </Navbar.Brand>
-        <div className="d-flex ms-auto">
+        {/* <div className="d-flex ms-auto">
           <Nav.Link
             className="me-sm-4 me-3 "
             to="/"
@@ -46,7 +46,7 @@ export const NavbarReactV2 = () => {
           >
             <Image className="banderas" src={usa} alt="usa" fluid />
           </Nav.Link>
-        </div>
+        </div> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="" id="basic-navbar-nav">
           <Nav className="fondo-completo">
