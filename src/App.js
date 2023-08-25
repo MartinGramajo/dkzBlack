@@ -30,6 +30,8 @@ import HomeEN from "./en/pages/HomeEN";
 import Testeo from "./esp/pages/Testeo";
 import ConocenosEN from "./en/pages/ConocenosEN";
 import ServiciosPageEN from "./en/pages/ServiciosPageEN";
+import NovedadesEN from "./en/pages/NovedadesEN";
+import NovedadesDetalleEN from "./en/pages/NovedadesDetalleEN";
 
 function App() {
 
@@ -47,10 +49,12 @@ function App() {
                     <Route path="/servicios" element={<ServiciosPage />} />
                     <Route path="/services" element={<ServiciosPageEN />} />
                     <Route path="/novedades" element={<Novedades />} />
+                    <Route path="/news" element={<NovedadesEN />} />
                     <Route
                         path="/novedades/:id"
                         element={<NovedadesDetalle />}
                     />
+                    <Route path="/news/:id" element={<NovedadesDetalleEN />} />
                     <Route path="/casos" element={<Casos />} />
                     <Route path="/casos/:id" element={<CasosDettalle />} />
                     <Route path="/eventos/:id" element={<EventosDettalle />} />
