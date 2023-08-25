@@ -1,9 +1,9 @@
 import React from "react";
 
 import { NavbarReactV2EN } from "../components/navbarReactV2EN/NavbarReactV2EN";
-import NovedadesDetalleEscEN from "../components/novedadesEN/NovedadesDetalleEscEN";
 import NovedadesDetalleCelEN from "../components/novedadesEN/NovedadesDetalleCelEN";
 import DosBotonesHomeEN from "../components/dosBotonesHome/DosBotonesHomeEN";
+import NovedadesDetalleEscEN from "../components/novedadesEN/NovedadesDetalleEscEN";
 
 const NovedadesDetalleEN = () => {
   return (

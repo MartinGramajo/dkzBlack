@@ -32,6 +32,7 @@ import ConocenosEN from "./en/pages/ConocenosEN";
 import ServiciosPageEN from "./en/pages/ServiciosPageEN";
 import NovedadesEN from "./en/pages/NovedadesEN";
 import NovedadesDetalleEN from "./en/pages/NovedadesDetalleEN";
+import ContactoEN from "./en/pages/ContactoEN";
 
 function App() {
 
@@ -59,6 +60,7 @@ function App() {
                     <Route path="/casos/:id" element={<CasosDettalle />} />
                     <Route path="/eventos/:id" element={<EventosDettalle />} />
                     <Route path="/contactanos" element={<Contacto />} />
+                    <Route path="/contact-us" element={<ContactoEN />} />
                     <Route
                         path="/trabajaconnosotros"
                         element={<TrabajaConNosotros />}

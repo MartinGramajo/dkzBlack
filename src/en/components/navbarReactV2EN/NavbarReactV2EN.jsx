@@ -67,12 +67,7 @@ export const NavbarReactV2EN = () => {
               >
                 <h2>SERVICES</h2>
               </Nav.Link>
-              <Nav.Link
-                className="peso-bold-asap"
-                to="en/news"
-                as={NavLink}
-                href
-              >
+              <Nav.Link className="peso-bold-asap" to="/news" as={NavLink} href>
                 <h2>NEWS</h2>
               </Nav.Link>
               <Nav.Link
@@ -85,7 +80,7 @@ export const NavbarReactV2EN = () => {
               </Nav.Link>
               <Nav.Link
                 className="peso-bold-asap"
-                to="en/contactus"
+                to="/contact-us"
                 as={NavLink}
                 href
               >

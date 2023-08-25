@@ -1,0 +1,117 @@
+.equipo {
+  width: 600px;
+  margin-top: 4rem;
+}
+
+.input-style {
+  background-color: #090909 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: aliceblue !important;
+}
+
+.input-style-text-area {
+  background-color: #090909 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  height: 180px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: aliceblue !important;
+}
+
+.input-style-idea {
+  background-color: #090909 !important;
+  border: none !important;
+  border-radius: none !important;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: aliceblue !important;
+}
+
+@media screen and (max-width: 767px) {
+  .input-style-idea {
+    height: 158px !important;
+  }
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #ff6700 !important;
+}
+
+.boton-formulario {
+  width: 250px;
+  height: 50px;
+  background-color: #ff6700 !important;
+  mix-blend-mode: normal !important;
+  border-radius: 0 !important;
+  border: #ff6700 !important;
+  backdrop-filter: blur(37.2289px) !important;
+}
+
+.check-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.fondo-contacto {
+  background-image: url(../../../esp/assets/img/bg-contacto.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: top;
+  background-size: contain;
+}
+
+@media screen and (max-width: 767px) {
+  .fondo-contacto {
+    background-image: none;
+  }
+}
+
+.form-check-input:checked {
+  background-color: #ff6700 !important;
+  border-color: #ff6700 !important;
+}
+
+.form-check-input {
+  width: 20px !important;
+  height: 20px !important;
+  margin-top: 0.25em;
+  vertical-align: top;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid rgba(185, 185, 185, 0.25);
+  appearance: none;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.separador-input {
+  padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .form-check-input {
+    width: 20px !important;
+    height: 20px !important;
+    margin-right: 1rem;
+  }
+  .separador-input {
+    padding-bottom: 0rem;
+  }
+}
+
+.form-check {
+  margin-bottom: 20px !important;
+}
+
+.form-check label {
+  padding-left: 8px !important;
+}
