@@ -53,7 +53,7 @@ export const NavbarReactV2EN = () => {
             <div className="d-flex justify-content-between flex-column flex-xl-row margen-navbar text-center">
               <Nav.Link
                 className="peso-bold-asap"
-                to="en/meetus"
+                to="/meet-us"
                 as={NavLink}
                 href
               >

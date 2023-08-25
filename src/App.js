@@ -28,6 +28,7 @@ import AudioVisualDetalle from "./esp/pages/AudioVisualDetalle";
 import ScrollToTop2 from "./esp/components/ScrollToTop2";
 import HomeEN from "./en/pages/HomeEN";
 import Testeo from "./esp/pages/Testeo";
+import ConocenosEN from "./en/pages/ConocenosEN";
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
                     <Route path="/en" element={<HomeEN />} />
                     <Route path="/test" element={<Testeo />} />
                     <Route path="/conocenos" element={<Conocenos />} />
+                    <Route path="/meet-us" element={<ConocenosEN />} />
                     <Route path="/servicios" element={<ServiciosPage />} />
                     <Route path="/novedades" element={<Novedades />} />
                     <Route
