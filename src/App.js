@@ -29,6 +29,7 @@ import ScrollToTop2 from "./esp/components/ScrollToTop2";
 import HomeEN from "./en/pages/HomeEN";
 import Testeo from "./esp/pages/Testeo";
 import ConocenosEN from "./en/pages/ConocenosEN";
+import ServiciosPageEN from "./en/pages/ServiciosPageEN";
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
                     <Route path="/conocenos" element={<Conocenos />} />
                     <Route path="/meet-us" element={<ConocenosEN />} />
                     <Route path="/servicios" element={<ServiciosPage />} />
+                    <Route path="/services" element={<ServiciosPageEN />} />
                     <Route path="/novedades" element={<Novedades />} />
                     <Route
                         path="/novedades/:id"
