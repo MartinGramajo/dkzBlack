@@ -5,7 +5,6 @@ import LineaNaranja from "../../../esp/components/LineaNaranja";
 import equipo from "../../../esp/assets/img/equipo.png";
 import { Image } from "react-bootstrap";
 import FormEmailEN from "./FormEmailEN";
-// import FormEmail from "./FormEmail";
 
 export default function FormContactoEN() {
   return (

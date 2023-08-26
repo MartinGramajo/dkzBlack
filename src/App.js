@@ -33,6 +33,8 @@ import ServiciosPageEN from "./en/pages/ServiciosPageEN";
 import NovedadesEN from "./en/pages/NovedadesEN";
 import NovedadesDetalleEN from "./en/pages/NovedadesDetalleEN";
 import ContactoEN from "./en/pages/ContactoEN";
+import FormTrabajaConNosotrosEN from "./en/components/contactanosEN/FormTrabajaConNosotrosEN";
+import TrabajaConNosotrosEN from "./en/pages/TrabajaConNosotrosEN";
 
 function App() {
 
@@ -64,6 +66,10 @@ function App() {
                     <Route
                         path="/trabajaconnosotros"
                         element={<TrabajaConNosotros />}
+                    />
+                    <Route
+                        path="/work-with-us"
+                        element={<TrabajaConNosotrosEN />}
                     />
                     <Route path="/audiovisuales" element={<ProducionAV />} />
                     <Route

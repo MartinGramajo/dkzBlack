@@ -32,7 +32,7 @@ export default function FormTrabajaConNosotrosEN() {
         );
       Swal.fire({
         icon: "success",
-        title: "Mensaje enviado con éxito",
+        title: "Message sent successfully",
         showConfirmButton: false,
         timer: 2000,
       });
@@ -42,7 +42,7 @@ export default function FormTrabajaConNosotrosEN() {
       setValidated(true);
       Swal.fire({
         icon: "error",
-        title: "No se pudo enviar el mensaje",
+        title: "Message could not be sent",
       });
     }
   };
@@ -58,13 +58,13 @@ export default function FormTrabajaConNosotrosEN() {
                 type="text"
                 required
                 name="name"
-                placeholder="Nombre completo"
+                placeholder="Full name"
               />
               <Form.Control.Feedback
                 className="peso-bold tamaño-mas-chico"
                 type="invalid"
               >
-                Ingrese su nombre completo por favor.
+                Enter your full name please.
               </Form.Control.Feedback>
             </Form.Group>
           </Row>
@@ -82,7 +82,7 @@ export default function FormTrabajaConNosotrosEN() {
                 className="peso-bold tamaño-mas-chico"
                 type="invalid"
               >
-                Ingrese su email por favor.
+                Please enter your email address.
               </Form.Control.Feedback>
             </Form.Group>
             <Form.Group as={Col} md="6" controlId="validationCustom03">
@@ -91,13 +91,13 @@ export default function FormTrabajaConNosotrosEN() {
                 type="number"
                 required
                 name="cel"
-                placeholder="Teléfono"
+                placeholder="telephone"
               />
               <Form.Control.Feedback
                 className="peso-bold tamaño-mas-chico"
                 type="invalid"
               >
-                Ingrese su teléfono por favor.
+                Please enter your phone number.
               </Form.Control.Feedback>
             </Form.Group>
           </Row>
@@ -109,13 +109,13 @@ export default function FormTrabajaConNosotrosEN() {
               as="textarea"
               required
               name="msj"
-              placeholder="Aca podés poner tu mensaje, referencias, links y cualquier información que nos sirva para conocerte más"
+              placeholder="Here you can post your message, references, links and any information that will help us to know you better."
             />
             <Form.Control.Feedback
               className="peso-bold tamaño-mas-chico"
               type="invalid"
             >
-              Ingrese un mensaje por favor.
+              Please enter a message.
             </Form.Control.Feedback>
           </Form.Group>
         </Row>
@@ -125,7 +125,7 @@ export default function FormTrabajaConNosotrosEN() {
             type="submit"
             value="Send"
           >
-            <span className="peso-bold h5"> Enviar</span>
+            <span className="peso-bold h5"> Send to</span>
           </Button>
         </div>
       </Form>
