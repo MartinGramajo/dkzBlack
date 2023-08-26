@@ -1,4 +1,5 @@
 // import { NovedadesDetallados } from "../components/Novedades/NovedadesContenido/NovedadesDetallados";
+import { FooterReact } from "../components/FooterReact/FooterReact";
 import { NovedadesDetalleCel } from "../components/Novedades/NovedadesContenido/NovedadesDetalleCel";
 import NovedadesDetalleEsc from "../components/Novedades/NovedadesContenido/NovedadesDetalleEsc";
 import DosBotonesSC from "../components/dosBotonesSC/DosBotonesSC";
@@ -17,6 +18,7 @@ export default function NovedadesDetalle() {
       <div className="color-negro-fondo">
         <DosBotonesSC />
       </div>
+      <FooterReact />
     </div>
   );
 }

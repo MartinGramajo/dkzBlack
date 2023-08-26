@@ -8,6 +8,7 @@ import BotonContactanos from "../components/BotonContactanos";
 import OtrosCasos from "../components/OtrosCasos";
 import ContenidoDetalle from "../components/ContenidoDetalle";
 import { NavbarReactV2 } from "../components/navbarReactV2/NavbarReactV2";
+import { FooterReact } from "../components/FooterReact/FooterReact";
 
 export default function PublicidadDetalle() {
   const params = useParams();
@@ -53,6 +54,7 @@ export default function PublicidadDetalle() {
       <div className="color-negroclaro-fondo">
         <OtrosCasos trabajos={casos} tipo="publicidad" />
       </div>
+      <FooterReact />
     </div>
   );
 }

@@ -12,6 +12,7 @@ import { Carousel, Image, Spinner } from "react-bootstrap";
 import { Autoplay } from "swiper";
 import { Link } from "react-router-dom";
 import { NavbarReactV2 } from "../components/navbarReactV2/NavbarReactV2";
+import { FooterReact } from "../components/FooterReact/FooterReact";
 
 function getWindowDimensions() {
   const { innerWidth: width } = window;
@@ -470,6 +471,7 @@ export const SitiosWebDetallados = () => {
           <h4 className="peso-bold">{"< < Volver"}</h4>
         </Link>
       </div>
+      <FooterReact />
     </div>
   );
 };

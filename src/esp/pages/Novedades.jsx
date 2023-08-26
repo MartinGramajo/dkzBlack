@@ -2,6 +2,7 @@ import React from "react";
 import DosBotonesSC from "../components/dosBotonesSC/DosBotonesSC";
 import NovedadesContenido from "../components/Novedades/NovedadesContenido/NovedadesContenido";
 import { NavbarReactV2 } from "../components/navbarReactV2/NavbarReactV2";
+import { FooterReact } from "../components/FooterReact/FooterReact";
 
 export default function Novedades() {
   return (
@@ -13,6 +14,7 @@ export default function Novedades() {
       <div className="color-negro-a-negroclaro-fondo">
         <DosBotonesSC />
       </div>
+      <FooterReact />
     </div>
   );
 }

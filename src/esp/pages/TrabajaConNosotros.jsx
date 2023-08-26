@@ -2,6 +2,7 @@ import React from "react";
 import LineaNaranja from "../components/LineaNaranja";
 import FormTrabajaConNosotros from "../components/Contactanos/FormTrabajaConNosotros";
 import { NavbarReactV2 } from "../components/navbarReactV2/NavbarReactV2";
+import { FooterReact } from "../components/FooterReact/FooterReact";
 
 export default function TrabajaConNosotros() {
   return (
@@ -47,6 +48,7 @@ export default function TrabajaConNosotros() {
           </div>
         </div>
       </div>
+      <FooterReact />
     </div>
   );
 }

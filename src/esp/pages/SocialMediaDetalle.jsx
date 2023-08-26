@@ -8,6 +8,7 @@ import BotonContactanos from "../components/BotonContactanos";
 import OtrosCasos from "../components/OtrosCasos";
 import ContenidoDetalle from "../components/ContenidoDetalle";
 import { NavbarReactV2 } from "../components/navbarReactV2/NavbarReactV2";
+import { FooterReact } from "../components/FooterReact/FooterReact";
 
 export default function SocialMediaDetalle() {
   const params = useParams();
@@ -79,6 +80,7 @@ export default function SocialMediaDetalle() {
       <div className="color-negroclaro-fondo">
         <OtrosCasos trabajos={casos} tipo="socialmedia" />
       </div>
+      <FooterReact />
     </div>
   );
 }

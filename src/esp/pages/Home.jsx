@@ -11,6 +11,7 @@ import DosBotonesHome from "../components/dosBotonesHome/DosBotonesHome";
 import { ClientesCelu } from "../components/Nosotros/clientes/ClientesCelu";
 import Clientes from "../components/Nosotros/clientes/Clientes";
 import { NavbarReactV2 } from "../components/navbarReactV2/NavbarReactV2";
+import { FooterReact } from "../components/FooterReact/FooterReact";
 
 export default function Home() {
   return (
@@ -48,6 +49,7 @@ export default function Home() {
       <div className="color-negroclaro-fondo ">
         <NovedadesHome />
       </div>
+      <FooterReact />
     </div>
   );
 }

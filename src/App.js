@@ -15,8 +15,6 @@ import Consultoria from "./esp/pages/Consultoria";
 import Coberturas from "./esp/pages/Coberturas";
 import Publicidad from "./esp/pages/Publicidad";
 import Investigacion from "./esp/pages/Investigacion";
-import { FooterReact } from "./esp/components/FooterReact/FooterReact";
-import { NavbarReactV2 } from "./esp/components/navbarReactV2/NavbarReactV2";
 import NovedadesDetalle from "./esp/pages/NovedadesDetalle";
 import CasosDettalle from "./esp/pages/CasosDetalle";
 import { ServiciosPage } from "./esp/pages/ServiciosPage";
@@ -33,7 +31,6 @@ import ServiciosPageEN from "./en/pages/ServiciosPageEN";
 import NovedadesEN from "./en/pages/NovedadesEN";
 import NovedadesDetalleEN from "./en/pages/NovedadesDetalleEN";
 import ContactoEN from "./en/pages/ContactoEN";
-import FormTrabajaConNosotrosEN from "./en/components/contactanosEN/FormTrabajaConNosotrosEN";
 import TrabajaConNosotrosEN from "./en/pages/TrabajaConNosotrosEN";
 
 function App() {
@@ -96,7 +93,7 @@ function App() {
                     />
                     <Route path="/investigacion" element={<Investigacion />} />
                 </Routes>
-                <FooterReact />
+
             </HashRouter>
         </div>
     );

@@ -9,6 +9,7 @@ import BotonContactanos from "../components/BotonContactanos";
 import OtrosCasos from "../components/OtrosCasos";
 import ContenidoDetalle from "../components/ContenidoDetalle";
 import { NavbarReactV2 } from "../components/navbarReactV2/NavbarReactV2";
+import { FooterReact } from "../components/FooterReact/FooterReact";
 
 export default function EventosDetalle() {
   const params = useParams();
@@ -68,6 +69,7 @@ export default function EventosDetalle() {
       <div className="color-negroclaro-fondo">
         <OtrosCasos trabajos={casos} tipo="eventos" />
       </div>
+      <FooterReact />
     </div>
   );
 }
