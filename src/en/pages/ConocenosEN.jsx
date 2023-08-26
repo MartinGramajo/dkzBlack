@@ -5,6 +5,7 @@ import { CabezasSliderEN } from "../components/conocenos/cabezasEN/CabezasSlider
 import PorQueElegirnosEN from "../components/conocenos/elegirnos/PorQueElegirnosEN";
 import NuestroProcesoCelEN from "../components/conocenos/procesoEN/NuestroProcesoCelEN";
 import NuestroProcesoEN from "../components/conocenos/procesoEN/NuestroProcesoEN";
+import { FooterReactEN } from "../components/footerReactEN/FooterReactEN";
 import { NavbarReactV2EN } from "../components/navbarReactV2EN/NavbarReactV2EN";
 
 const ConocenosEN = () => {
@@ -36,6 +37,7 @@ const ConocenosEN = () => {
 
         <ClientesEN />
       </div>
+      <FooterReactEN />
     </div>
   );
 };

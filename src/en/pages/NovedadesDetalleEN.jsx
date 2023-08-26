@@ -4,6 +4,7 @@ import { NavbarReactV2EN } from "../components/navbarReactV2EN/NavbarReactV2EN";
 import NovedadesDetalleCelEN from "../components/novedadesEN/NovedadesDetalleCelEN";
 import DosBotonesHomeEN from "../components/dosBotonesHome/DosBotonesHomeEN";
 import NovedadesDetalleEscEN from "../components/novedadesEN/NovedadesDetalleEscEN";
+import { FooterReactEN } from "../components/footerReactEN/FooterReactEN";
 
 const NovedadesDetalleEN = () => {
   return (
@@ -18,6 +19,7 @@ const NovedadesDetalleEN = () => {
       <div className="color-negro-fondo">
         <DosBotonesHomeEN />
       </div>
+      <FooterReactEN />
     </div>
   );
 };

@@ -9,35 +9,37 @@ import VideoBanner from "../../esp/components/videoBanner/VideoBanner";
 import NovedadesHomeEN from "../components/novedadesHomeEN/NovedadesHomeEN";
 import { NavbarReactV2EN } from "../components/navbarReactV2EN/NavbarReactV2EN";
 import WspEN from "../components/wappEN/WspEN";
+import { FooterReactEN } from "../components/footerReactEN/FooterReactEN";
 
 export default function HomeEN() {
-    return (
-        <div>
-            <NavbarReactV2EN />
-            <WspEN />
-            <div className="color-negro-fondo ">
-                <VideoBanner />
-                <CarouselHomeEN />
-                <CartasEN />
-            </div>
-            <div className="color-negroclaro-fondo d-lg-block d-none">
-                <ServiciosEN />
-                <AlgunosTrabajosEN />
-            </div>
-            <div className="color-negro-fondo d-block d-lg-none ">
-                <ServiciosEN />
-                <AlgunosTrabajosEN />
-            </div>
+  return (
+    <div>
+      <NavbarReactV2EN />
+      <WspEN />
+      <div className="color-negro-fondo ">
+        <VideoBanner />
+        <CarouselHomeEN />
+        <CartasEN />
+      </div>
+      <div className="color-negroclaro-fondo d-lg-block d-none">
+        <ServiciosEN />
+        <AlgunosTrabajosEN />
+      </div>
+      <div className="color-negro-fondo d-block d-lg-none ">
+        <ServiciosEN />
+        <AlgunosTrabajosEN />
+      </div>
 
-            <div className="color-negro-fondo ">
-                <ClientesEN />
-            </div>
-            <div className="color-negro-a-negroclaro-fondo">
-                <DosBotonesHomeEN />
-            </div>
-            <div className="color-negroclaro-fondo ">
-                <NovedadesHomeEN />
-            </div>
-        </div>
-    );
+      <div className="color-negro-fondo ">
+        <ClientesEN />
+      </div>
+      <div className="color-negro-a-negroclaro-fondo">
+        <DosBotonesHomeEN />
+      </div>
+      <div className="color-negroclaro-fondo ">
+        <NovedadesHomeEN />
+      </div>
+      <FooterReactEN />
+    </div>
+  );
 }

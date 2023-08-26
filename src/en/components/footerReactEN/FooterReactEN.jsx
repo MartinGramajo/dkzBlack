@@ -1,15 +1,15 @@
-import "../../components/FooterReact/footerReact.css";
+import "./footerReactEN.css";
 import React from "react";
 import { Image } from "react-bootstrap";
-import BtnContact from "../BtnContact";
-import logo from "../../assets/img/logo-dkz.png";
-import face from "../../assets/img/face.png";
-import instagram from "../../assets/img/instagram.png";
-import linked from "../../assets/img/linked.png";
+import logo from "../../../esp/assets/img/logo-dkz.png";
+import face from "../../../esp/assets/img/face.png";
+import instagram from "../../../esp/assets/img/instagram.png";
+import linked from "../../../esp/assets/img/linked.png";
 import ScrollToTop from "react-scroll-to-top";
-import { ReactComponent as MySVG } from "../../assets/img/flecha1.svg";
+import { ReactComponent as MySVG } from "../../../esp/assets/img/flecha1.svg";
+import BtnContactEN from "../BtnContactEN";
 
-export const FooterReact = () => {
+export const FooterReactEN = () => {
   return (
     <div className="mt-auto color-negroclaro-fondo pt-2">
       <div className="justify-content-center d-none d-md-flex pt-4">
@@ -20,7 +20,7 @@ export const FooterReact = () => {
         <div className="d-none d-md-block">
           <div className="btn-display">
             <div className="d-flex justify-content-center align-items-center pb-4">
-              <BtnContact />
+              <BtnContactEN />
             </div>
 
             <div className="text-footer pb-2 padding-redes">
@@ -113,7 +113,7 @@ export const FooterReact = () => {
               </a>
             </div>
             <div className="d-flex justify-content-center align-items-center py-5">
-              <BtnContact />
+              <BtnContactEN />
             </div>
           </div>
         </div>
@@ -133,8 +133,8 @@ export const FooterReact = () => {
             </div>
             <div className="pb-4">
               <h6 className="text-footer py-3 text-white peso-regular-asap">
-                Copyright © {new Date().getFullYear()} <br /> Todos los derechos
-                reservados <br />
+                Copyright © {new Date().getFullYear()} <br /> All rights
+                reserved <br />
                 T&Cs
               </h6>
             </div>
@@ -155,8 +155,8 @@ export const FooterReact = () => {
             </div>
             <div className="pb-4">
               <p className="text-footer py-3 text-white fs-12">
-                Copyright © {new Date().getFullYear()} <br /> Todos los derechos
-                reservados
+                Copyright © {new Date().getFullYear()} <br /> All rights
+                reserved
               </p>
             </div>
           </div>

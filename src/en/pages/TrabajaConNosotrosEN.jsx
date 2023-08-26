@@ -2,6 +2,7 @@ import React from "react";
 import LineaNaranja from "../../esp/components/LineaNaranja";
 import { NavbarReactV2EN } from "../components/navbarReactV2EN/NavbarReactV2EN";
 import FormTrabajaConNosotrosEN from "../components/contactanosEN/FormTrabajaConNosotrosEN";
+import { FooterReactEN } from "../components/footerReactEN/FooterReactEN";
 
 export default function TrabajaConNosotrosEN() {
   return (
@@ -48,6 +49,7 @@ export default function TrabajaConNosotrosEN() {
           </div>
         </div>
       </div>
+      <FooterReactEN />
     </div>
   );
 }

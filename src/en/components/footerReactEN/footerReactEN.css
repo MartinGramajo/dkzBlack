@@ -1,0 +1,45 @@
+.btn-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.padding-footer-top {
+  padding-top: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-display {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-footer-centrado {
+    text-align: center;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text-footer {
+  text-align: right;
+}
+
+.redes-width {
+  width: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-footer {
+    text-align: center;
+  }
+}
