@@ -38,6 +38,7 @@ import SitiosWebPageEN from "./en/pages/SitiosWebPageEN";
 import ProduccionAVPageEN from "./en/pages/ProduccionAVPageEN";
 import CoberturaPageEN from "./en/pages/CoberturaPageEN";
 import ConsultoriaPageEN from "./en/pages/ConsultoriaPageEN";
+import PublicidadTradicionalPageEN from "./en/pages/PublicidadTradicionalPageEN";
 
 function App() {
 
@@ -99,6 +100,7 @@ function App() {
                     <Route path="/coberturas" element={<Coberturas />} />
                     <Route path="/coverage" element={<CoberturaPageEN />} />
                     <Route path="/publicidad" element={<Publicidad />} />
+                    <Route path="/traditional-advertising" element={<PublicidadTradicionalPageEN />} />
                     <Route
                         path="/publicidad/:id"
                         element={<PublicidadDetalle />}
