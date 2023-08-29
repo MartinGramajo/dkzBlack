@@ -39,6 +39,7 @@ import ProduccionAVPageEN from "./en/pages/ProduccionAVPageEN";
 import CoberturaPageEN from "./en/pages/CoberturaPageEN";
 import ConsultoriaPageEN from "./en/pages/ConsultoriaPageEN";
 import PublicidadTradicionalPageEN from "./en/pages/PublicidadTradicionalPageEN";
+import InvestigacionPageEN from "./en/pages/InvestigacionPageEN";
 
 function App() {
 
@@ -106,6 +107,7 @@ function App() {
                         element={<PublicidadDetalle />}
                     />
                     <Route path="/investigacion" element={<Investigacion />} />
+                    <Route path="/market-research-investigation" element={<InvestigacionPageEN />} />
                 </Routes>
 
             </HashRouter>
