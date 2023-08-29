@@ -34,6 +34,8 @@ import ContactoEN from "./en/pages/ContactoEN";
 import TrabajaConNosotrosEN from "./en/pages/TrabajaConNosotrosEN";
 import EventosPageEN from "./en/pages/EventosPageEN";
 import SocialMediaPageEN from "./en/pages/SocialMediaPageEN";
+import SitiosWebPageEN from "./en/pages/SitiosWebPageEN";
+import ProduccionAVPageEN from "./en/pages/ProduccionAVPageEN";
 
 function App() {
 
@@ -71,6 +73,7 @@ function App() {
                         element={<TrabajaConNosotrosEN />}
                     />
                     <Route path="/audiovisuales" element={<ProducionAV />} />
+                    <Route path="/audio-visual-production" element={<ProduccionAVPageEN />} />
                     <Route
                         path="/audiovisuales/:id"
                         element={<AudioVisualDetalle />}
@@ -78,6 +81,7 @@ function App() {
                     <Route path="/eventos" element={<EventosPage />} />
                     <Route path="/events" element={<EventosPageEN />} />
                     <Route path="/sitiosweb" element={<SitiosWeb />} />
+                    <Route path="/web-sites" element={<SitiosWebPageEN />} />
                     <Route
                         path="/sitiosweb/:id"
                         element={<SitiosWebDetallados />}
