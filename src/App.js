@@ -32,6 +32,7 @@ import NovedadesEN from "./en/pages/NovedadesEN";
 import NovedadesDetalleEN from "./en/pages/NovedadesDetalleEN";
 import ContactoEN from "./en/pages/ContactoEN";
 import TrabajaConNosotrosEN from "./en/pages/TrabajaConNosotrosEN";
+import EventosPageEN from "./en/pages/EventosPageEN";
 
 function App() {
 
@@ -74,6 +75,7 @@ function App() {
                         element={<AudioVisualDetalle />}
                     />
                     <Route path="/eventos" element={<EventosPage />} />
+                    <Route path="/events" element={<EventosPageEN />} />
                     <Route path="/sitiosweb" element={<SitiosWeb />} />
                     <Route
                         path="/sitiosweb/:id"
