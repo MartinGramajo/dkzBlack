@@ -36,6 +36,7 @@ import EventosPageEN from "./en/pages/EventosPageEN";
 import SocialMediaPageEN from "./en/pages/SocialMediaPageEN";
 import SitiosWebPageEN from "./en/pages/SitiosWebPageEN";
 import ProduccionAVPageEN from "./en/pages/ProduccionAVPageEN";
+import CoberturaPageEN from "./en/pages/CoberturaPageEN";
 
 function App() {
 
@@ -94,6 +95,7 @@ function App() {
                     />
                     <Route path="/consultoria" element={<Consultoria />} />
                     <Route path="/coberturas" element={<Coberturas />} />
+                    <Route path="/coverage" element={<CoberturaPageEN />} />
                     <Route path="/publicidad" element={<Publicidad />} />
                     <Route
                         path="/publicidad/:id"
