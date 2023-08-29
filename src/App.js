@@ -33,6 +33,7 @@ import NovedadesDetalleEN from "./en/pages/NovedadesDetalleEN";
 import ContactoEN from "./en/pages/ContactoEN";
 import TrabajaConNosotrosEN from "./en/pages/TrabajaConNosotrosEN";
 import EventosPageEN from "./en/pages/EventosPageEN";
+import SocialMediaPageEN from "./en/pages/SocialMediaPageEN";
 
 function App() {
 
@@ -82,6 +83,7 @@ function App() {
                         element={<SitiosWebDetallados />}
                     />
                     <Route path="/socialmedia" element={<SocialMedialPage />} />
+                    <Route path="/social-media" element={<SocialMediaPageEN />} />
                     <Route
                         path="/socialmedia/:id"
                         element={<SocialMediaDetalle />}

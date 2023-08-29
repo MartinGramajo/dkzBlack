@@ -1,0 +1,18 @@
+.texto-estrategia-creatividad {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 769px) {
+  .texto-estrategia-creatividad {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.contenido-centrado {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
