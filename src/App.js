@@ -40,6 +40,10 @@ import CoberturaPageEN from "./en/pages/CoberturaPageEN";
 import ConsultoriaPageEN from "./en/pages/ConsultoriaPageEN";
 import PublicidadTradicionalPageEN from "./en/pages/PublicidadTradicionalPageEN";
 import InvestigacionPageEN from "./en/pages/InvestigacionPageEN";
+import CasosPageEN from "./en/pages/CasosPageEN";
+import CasosDetalleEN from "./en/pages/CasosDetalleEN";
+import AudioVisualDetalleEN from "./en/components/AudioVisualDetalleEN";
+import { SitiosWebDetalladosEN } from "./en/components/SitiosWebDetalladosEN";
 
 function App() {
 
@@ -64,7 +68,9 @@ function App() {
                     />
                     <Route path="/news/:id" element={<NovedadesDetalleEN />} />
                     <Route path="/casos" element={<Casos />} />
+                    <Route path="/cases" element={<CasosPageEN />} />
                     <Route path="/casos/:id" element={<CasosDettalle />} />
+                    <Route path="/cases/:id" element={<CasosDetalleEN />} />
                     <Route path="/eventos/:id" element={<EventosDettalle />} />
                     <Route path="/contactanos" element={<Contacto />} />
                     <Route path="/contact-us" element={<ContactoEN />} />
@@ -82,10 +88,15 @@ function App() {
                         path="/audiovisuales/:id"
                         element={<AudioVisualDetalle />}
                     />
+                    <Route
+                        path="/audio-visual-production/:id"
+                        element={<AudioVisualDetalleEN />}
+                    />
                     <Route path="/eventos" element={<EventosPage />} />
                     <Route path="/events" element={<EventosPageEN />} />
                     <Route path="/sitiosweb" element={<SitiosWeb />} />
                     <Route path="/web-sites" element={<SitiosWebPageEN />} />
+                    <Route path="/web-sites/:id" element={<SitiosWebDetalladosEN />} />
                     <Route
                         path="/sitiosweb/:id"
                         element={<SitiosWebDetallados />}
