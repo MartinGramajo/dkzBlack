@@ -46,6 +46,7 @@ import AudioVisualDetalleEN from "./en/components/AudioVisualDetalleEN";
 import { SitiosWebDetalladosEN } from "./en/components/SitiosWebDetalladosEN";
 import SocialMediaDetalleEN from "./en/components/SocialMediaDetalleEN";
 import EventosDetalleEN from "./en/components/EventosDetalleEN";
+import PublicidadDetalleEN from "./en/components/PublicidadDetalleEN";
 
 function App() {
 
@@ -123,6 +124,10 @@ function App() {
                     <Route
                         path="/publicidad/:id"
                         element={<PublicidadDetalle />}
+                    />
+                    <Route
+                        path="/traditional-advertising/:id"
+                        element={<PublicidadDetalleEN />}
                     />
 
                     <Route path="/investigacion" element={<Investigacion />} />

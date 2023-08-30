@@ -9,6 +9,7 @@ import ContenidoDetalleEN from "./ContenidoDetalleEN";
 import BotonContactanosEN from "./BotonContactanosEN";
 import { FooterReactEN } from "./footerReactEN/FooterReactEN";
 import { NavbarReactV2EN } from "./navbarReactV2EN/NavbarReactV2EN";
+import OtrosCasosEN from "./OtrosCasosEN";
 
 export default function EventosDetalleEN() {
   const params = useParams();
@@ -65,9 +66,9 @@ export default function EventosDetalleEN() {
       <div className="d-flex justify-content-center py-5 color-negro-a-negroclaro-fondo">
         <BotonContactanosEN />
       </div>
-      {/* <div className="color-negroclaro-fondo">
-        <OtrosCasos trabajos={casos} tipo="eventos" />
-      </div> */}
+      <div className="color-negroclaro-fondo">
+        <OtrosCasosEN trabajos={casos} tipo="events" />
+      </div>
       <FooterReactEN />
     </div>
   );
