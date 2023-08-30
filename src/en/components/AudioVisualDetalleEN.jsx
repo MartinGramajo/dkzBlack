@@ -8,6 +8,7 @@ import ContenidoDetalleEN from "./ContenidoDetalleEN";
 import { NavbarReactV2EN } from "./navbarReactV2EN/NavbarReactV2EN";
 import BotonContactanosEN from "./BotonContactanosEN";
 import { FooterReactEN } from "./footerReactEN/FooterReactEN";
+import OtrosCasosEN from "./OtrosCasosEN";
 
 export default function AudioVisualDetalleEN() {
   const params = useParams();
@@ -50,9 +51,9 @@ export default function AudioVisualDetalleEN() {
       <div className="d-flex justify-content-center py-5 color-negro-a-negroclaro-fondo">
         <BotonContactanosEN />
       </div>
-      {/* <div className="color-negroclaro-fondo">
-        <OtrosCasos trabajos={casos} tipo="audiovisuales" />
-      </div> */}
+      <div className="color-negroclaro-fondo">
+        <OtrosCasosEN trabajos={casos} tipo="audio-visual-production" />
+      </div>
       <FooterReactEN />
     </div>
   );
