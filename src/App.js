@@ -44,6 +44,7 @@ import CasosPageEN from "./en/pages/CasosPageEN";
 import CasosDetalleEN from "./en/pages/CasosDetalleEN";
 import AudioVisualDetalleEN from "./en/components/AudioVisualDetalleEN";
 import { SitiosWebDetalladosEN } from "./en/components/SitiosWebDetalladosEN";
+import SocialMediaDetalleEN from "./en/components/SocialMediaDetalleEN";
 
 function App() {
 
@@ -106,6 +107,10 @@ function App() {
                     <Route
                         path="/socialmedia/:id"
                         element={<SocialMediaDetalle />}
+                    />
+                    <Route
+                        path="/social-media/:id"
+                        element={<SocialMediaDetalleEN />}
                     />
                     <Route path="/consultoria" element={<Consultoria />} />
                     <Route path="/consulting-advice" element={<ConsultoriaPageEN />} />
