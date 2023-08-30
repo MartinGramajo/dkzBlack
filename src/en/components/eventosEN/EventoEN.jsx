@@ -119,15 +119,15 @@ const EventoEn = () => {
       <div className="d-flex justify-content-center ">
         <Link
           className="text-decoration-none text-white d-none d-lg-block pb-5"
-          to="/servicios"
+          to="/services"
         >
-          <h3 className="peso-bold">{"< < Volver"}</h3>
+          <h3 className="peso-bold">{"< < Back To"}</h3>
         </Link>
         <Link
           className="text-decoration-none text-white d-lg-none d-block pt-5 pb-4"
-          to="/servicios"
+          to="/services"
         >
-          <h4 className="peso-bold">{"< < Volver"}</h4>
+          <h4 className="peso-bold">{"< < Back To"}</h4>
         </Link>
       </div>
       <div className="d-flex justify-content-center py-5 color-negro-a-negroclaro-fondo">
