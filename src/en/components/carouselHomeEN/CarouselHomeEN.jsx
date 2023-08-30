@@ -103,12 +103,12 @@ export const CarouselHomeEN = () => {
               <div>
                 <div className="texto-carousel ">
                   <h1 className="peso-bold ">
-                    WE DON'T <br /> DO IT <br /> FOR MONEY
+                    WE KNOW <br /> WHAT WE DO
                   </h1>
                 </div>
                 <div className="texto-carousel-celu">
                   <h4 className="peso-bold  ">
-                    WE DON'T <br /> DO IT <br /> FOR MONEY
+                    WE KNOW <br /> WHAT WE DO
                   </h4>
                 </div>
 
@@ -221,7 +221,7 @@ export const CarouselHomeEN = () => {
           <div className="ms-3">
             <LineaNaranja />
             <h3 className="peso-bold">
-              WE DON'T <br /> DO IT <br /> FOR MONEY
+              WE KNOW <br /> WHAT WE DO
             </h3>
           </div>
           <div className="d-flex justify-content-center">
