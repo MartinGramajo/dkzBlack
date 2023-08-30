@@ -45,6 +45,7 @@ import CasosDetalleEN from "./en/pages/CasosDetalleEN";
 import AudioVisualDetalleEN from "./en/components/AudioVisualDetalleEN";
 import { SitiosWebDetalladosEN } from "./en/components/SitiosWebDetalladosEN";
 import SocialMediaDetalleEN from "./en/components/SocialMediaDetalleEN";
+import EventosDetalleEN from "./en/components/EventosDetalleEN";
 
 function App() {
 
@@ -72,6 +73,7 @@ function App() {
                     <Route path="/cases" element={<CasosPageEN />} />
                     <Route path="/casos/:id" element={<CasosDettalle />} />
                     <Route path="/cases/:id" element={<CasosDetalleEN />} />
+                    <Route path="/events/:id" element={<EventosDetalleEN />} />
                     <Route path="/eventos/:id" element={<EventosDettalle />} />
                     <Route path="/contactanos" element={<Contacto />} />
                     <Route path="/contact-us" element={<ContactoEN />} />
@@ -122,6 +124,7 @@ function App() {
                         path="/publicidad/:id"
                         element={<PublicidadDetalle />}
                     />
+
                     <Route path="/investigacion" element={<Investigacion />} />
                     <Route path="/market-research-investigation" element={<InvestigacionPageEN />} />
                 </Routes>
