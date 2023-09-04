@@ -20,8 +20,8 @@ export default function CartasEN() {
               <Image className="" src={linea} fluid alt="linea divisora" />
             </Card.Subtitle>
             <Card.Text className="subtitle-card">
-              Maximize your sales and win over your customers with our
-              innovative and highly effective solution.
+              Maximize your sales and attract your costumers with our innovative
+              and highly effective solution.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -31,7 +31,7 @@ export default function CartasEN() {
               <Image className="" src={icono2} fluid alt="icono okay" />
             </Card.Title>
             <Card.Subtitle className="title-card peso-bold">
-              I grew exponentially <br />
+              Grow exponentially <br />
               <Image className="" src={linea} fluid alt="linea divisora" />
             </Card.Subtitle>
             <Card.Text className="subtitle-card">

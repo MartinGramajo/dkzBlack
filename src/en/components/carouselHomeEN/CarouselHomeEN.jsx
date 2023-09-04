@@ -40,14 +40,14 @@ export const CarouselHomeEN = () => {
                 <div className="texto-carousel ">
                   <h1 className="peso-bold ">
                     WELCOME <br />
-                    TO THE REVOLUTION <br />
-                    DIGITAL
+                    TO THE DIGITAL <br />
+                    REVOLUTION
                   </h1>
                 </div>
                 <div className="texto-carousel-celu">
                   <h4 className="peso-bold  ">
                     WELCOME <br />
-                    TO THE REVOLUTION <br /> DIGITAL
+                    TO THE DIGITAL <br /> REVOLUTION
                   </h4>
                 </div>
                 <div className="padding-btn-contactanos ">
@@ -72,12 +72,13 @@ export const CarouselHomeEN = () => {
               <div>
                 <div className="texto-carousel ">
                   <h1 className="peso-bold ">
-                    YOUR IDEAS <br /> WHERE YOU NEVER <br /> YOU IMAGINED
+                    YOUR IDEAS <br /> WHERE YOU NEVER <br /> IMAGINED
                   </h1>
                 </div>
                 <div className="texto-carousel-celu">
                   <h4 className="peso-bold  ">
-                    YOUR IDEAS <br /> WHERE YOU NEVER <br /> YOU IMAGINED
+                    YOUR IDEAS <br /> WHERE YOU NEVER <br />
+                    IMAGINED
                   </h4>
                 </div>
                 <div className="padding-btn-contactanos ">
@@ -135,13 +136,13 @@ export const CarouselHomeEN = () => {
               <div>
                 <div className="texto-carousel ">
                   <h1 className="peso-bold ">
-                    WE ARE ENERGY
+                    WE ARE ENERGY,
                     <br /> WE ARE <br /> DKZ
                   </h1>
                 </div>
                 <div className="texto-carousel-celu">
                   <h4 className="peso-bold  ">
-                    WE ARE ENERGY
+                    WE ARE ENERGY,
                     <br /> WE ARE <br /> <span>DKZ</span>
                   </h4>
                 </div>
