@@ -42,8 +42,8 @@ const AudioVisualesEN = () => {
               <div className="padding-card-pre">
                 <h2 className="peso-bold color-naranja py-2"> CREATIVITY</h2>
                 <h4 className="peso-regular texto-contenido-card">
-                  Advertising spots, event coverage and social registers. social
-                  media. Corporate videos, infomercials. Institutional.
+                  Advertising spots, event coverage and social
+                  registers.Corporate videos, infomercials. Institutional.
                   Books.special productions.
                 </h4>
               </div>
@@ -52,8 +52,8 @@ const AudioVisualesEN = () => {
                 <h4 className="peso-regular texto-contenido-card ">
                   Equipment and technical staff (different formats according to
                   need and budget). Direction; production; direction of
-                  photography; art direction. Art direction. Set design.
-                  Casting. Make up, styling, wardrobe.
+                  photography; art direction. Set design. Casting. Make up,
+                  styling, wardrobe.
                 </h4>
               </div>
             </div>
@@ -73,7 +73,6 @@ const AudioVisualesEN = () => {
                 <h4 className="peso-regular texto-contenido-card ">
                   Editing. Sound. Color grading and color correction. Video fx.
                   Audio fx. Music and sound. Final cut and copies for any media.
-                  copies for any media.
                 </h4>
               </div>
             </div>
@@ -94,8 +93,8 @@ const AudioVisualesEN = () => {
               <div className="padding-card-pre">
                 <h5 className="peso-bold color-naranja py-2 "> CREATIVITY</h5>
                 <h6 className="peso-regular texto-contenido-card">
-                  Advertising spots, event coverage and social registers. social
-                  media. Corporate videos, infomercials. Institutional.
+                  Advertising spots, event coverage and social
+                  registers.Corporate videos, infomercials. Institutional.
                   Books.special productions.
                 </h6>
               </div>
@@ -104,8 +103,8 @@ const AudioVisualesEN = () => {
                 <h6 className="peso-regular texto-contenido-card">
                   Equipment and technical staff (different formats according to
                   need and budget). Direction; production; direction of
-                  photography; art direction. Art direction. Set design.
-                  Casting. Make up, styling, wardrobe.
+                  photography; art direction. Set design. Casting. Make up,
+                  styling, wardrobe.
                 </h6>
               </div>
             </div>
@@ -125,7 +124,6 @@ const AudioVisualesEN = () => {
                 <h6 className="peso-regular texto-contenido-card">
                   Editing. Sound. Color grading and color correction. Video fx.
                   Audio fx. Music and sound. Final cut and copies for any media.
-                  copies for any media.
                 </h6>
               </div>
             </div>

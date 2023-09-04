@@ -27,11 +27,9 @@ const CoberturaEN = () => {
             <Card.Body className="d-flex align-items-center">
               <Card.Text className="peso-bold">
                 <h4>
-                  We use different strategies to inform, persuade, promote,
-                  promote, form opinions, educate and entertain, persuade,
-                  promote, form opinions, educate and entertain. We offer
-                  original content, with genuine value and relevance to
-                  different for different sectors.
+                  We use different strategies to inform, persuade, promote, form
+                  opinions, educate and entertain. We offer original content,
+                  with genuine value and relevance for different sectors.
                 </h4>
               </Card.Text>
             </Card.Body>
@@ -55,7 +53,7 @@ const CoberturaEN = () => {
                   </spam>{" "}
                   responsible for preparing and communicating information
                   related to different journalistic and institutional
-                  activities. various journalistic and institutional activities.
+                  activities.
                 </h4>
               </Card.Text>
             </Card.Body>
@@ -67,10 +65,9 @@ const CoberturaEN = () => {
               <Card.Text className="peso-regular">
                 <h4>
                   • We conducted a survey in different graphic and audiovisual
-                  audiovisual media,{" "}
+                  media,{" "}
                   <spam className="peso-bold">
                     we have our own production and post production department.
-                    production department.
                   </spam>
                 </h4>
               </Card.Text>
@@ -89,19 +86,19 @@ const CoberturaEN = () => {
               <Card.Text className="peso-regular">
                 <h4 className="d-none d-xl-block">
                   • We create internal communication pieces with contents of an
-                  institutional nature. of an institutional nature.
+                  institutional nature.
                   <br />
                   <br />• We design and execute high impact graphic pieces with
                   the objective of in order to communicate professionally and
-                  effectively. effectively.
+                  effectively.
                 </h4>
                 <h5 className="d-xl-none d-block">
                   • We create internal communication pieces with contents of an
-                  institutional nature. of an institutional nature.
+                  institutional nature.
                   <br />
                   <br />• We design and execute high impact graphic pieces with
                   the objective of in order to communicate professionally and
-                  effectively. effectively.
+                  effectively.
                 </h5>
               </Card.Text>
             </Card.Body>
@@ -122,10 +119,9 @@ const CoberturaEN = () => {
                   <Card.Text className="peso-bold">
                     <h6 className="interlineado">
                       We use different strategies to inform, persuade, promote,
-                      promote, form opinions, educate and entertain, persuade,
-                      promote, form opinions, educate and entertain. We offer
-                      original content, with genuine value and relevance to
-                      different for different sectors.
+                      form opinions, educate and entertain. We offer original
+                      content, with genuine value and relevance for different
+                      sectors.
                     </h6>
                   </Card.Text>
                 </Card.Body>
@@ -152,7 +148,6 @@ const CoberturaEN = () => {
                     </spam>{" "}
                     responsible for preparing and communicating information
                     related to different journalistic and institutional
-                    activities. various journalistic and institutional
                     activities.
                   </h6>
                 </Card.Text>
@@ -170,10 +165,9 @@ const CoberturaEN = () => {
               <Card.Text className="peso-regular">
                 <h6>
                   • We conducted a survey in different graphic and audiovisual
-                  audiovisual media,,{" "}
+                  media,{" "}
                   <spam className="peso-bold">
                     we have our own production and post production department.
-                    production department.
                   </spam>
                 </h6>
               </Card.Text>
@@ -190,12 +184,12 @@ const CoberturaEN = () => {
               <Card.Text className="peso-regular">
                 <h6>
                   • We create internal communication pieces with contents of an
-                  institutional nature. of an institutional nature.
+                  institutional nature.
                   <br />
                   <br />
                   <br />• We design and execute high impact graphic pieces with
                   the objective of in order to communicate professionally and
-                  effectively. effectively.
+                  effectively.
                 </h6>
               </Card.Text>
             </Card.Body>

@@ -35,17 +35,15 @@ const SocialEn = () => {
           <h1 className="peso-bold">SOCIAL MEDIA</h1>
           <h4 className="py-4 peso-regular">
             In our agency, we develop customized strategies for your company
-            with creativity and company with creativity and commitment when
-            executing digital projects. digital projects. Based on a strong
-            track record in the generation of content, we work to create content
-            generation, we work to create specific campaigns and actions
-            campaigns and actions through social media platforms and channels,
-            according to the global strategy of the company.
+            with creativity and commitment when executing digital projects.
+            Based on a strong track record in the generation of content, we work
+            to create, specific campaigns and actions, Through social media
+            platforms and channels, according to the global strategy of the
+            company.
           </h4>
           <h4 className="py-4 peso-regular">
             Creating an effective social media strategy can help you grow your
-            business and create grow your business and create engagement with
-            your audience.
+            business and create engagement with your audience.
           </h4>
         </div>
         <div className="mx-3 d-md-none d-block">
@@ -53,17 +51,15 @@ const SocialEn = () => {
           <h3 className="peso-bold py-3">SOCIAL MEDIA</h3>
           <h6 className="py-3 peso-regular">
             In our agency, we develop customized strategies for your company
-            with creativity and company with creativity and commitment when
-            executing digital projects. digital projects. Based on a strong
-            track record in the generation of content, we work to create content
-            generation, we work to create specific campaigns and actions
-            campaigns and actions through social media platforms and channels,
-            according to the global strategy of the company.
+            with creativity and commitment when executing digital projects.
+            Based on a strong track record in the generation of content, we work
+            to create, specific campaigns and actions, Through social media
+            platforms and channels, according to the global strategy of the
+            company.
           </h6>
           <h6 className="py-3 peso-regular">
             Creating an effective social media strategy can help you grow your
-            business and create grow your business and create engagement with
-            your audience.
+            business and create engagement with your audience.
           </h6>
         </div>
         <div className="texto-estrategia-creatividad py-5 d-none d-md-block">
@@ -107,15 +103,15 @@ const SocialEn = () => {
           <div className="col-12 col-md-8 contenido-centrado py-1">
             <h4 className="peso-regular d-none d-md-block">
               At DKZ we believe in the importance of creating personalized
-              digital marketing strategies strategies that tell unique stories
-              that connect with your audience and generate the with your
-              audience and generate the impact you are looking for.
+              digital marketing strategies that tell unique stories which
+              connect with your audience and generate the impact you are looking
+              for.
             </h4>
             <h6 className="peso-regular d-md-none d-block mx-3">
               At DKZ we believe in the importance of creating personalized
-              digital marketing strategies strategies that tell unique stories
-              that connect with your audience and generate the with your
-              audience and generate the impact you are looking for.
+              digital marketing strategies that tell unique stories which
+              connect with your audience and generate the impact you are looking
+              for.
             </h6>
           </div>
         </div>

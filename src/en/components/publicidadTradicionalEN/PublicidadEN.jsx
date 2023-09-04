@@ -27,11 +27,9 @@ const PublicidadEN = () => {
           <h1 className="peso-bold mb-4">TRADITIONAL ADVERTISING</h1>
           <h4 className="pt-5 pb-5 mb-3 peso-regular">
             We make your brand reach mass audiences through different media:
-            press, television, radio, billboards media: press, television,
-            radio, billboards, sextuples, buses and giant LED screens. buses and
-            giant LED screens. We have the best agreements and a media media
-            agenda of maximum reach and variability according to different
-            budgets. different budgets
+            press, television, radio, billboards, buses and giant LED screens.
+            We have the best agreements and a media agenda of maximum reach and
+            variability covenant to different budgets.
           </h4>
         </div>
         <div className="d-flex mb-5 pb-4">
@@ -40,10 +38,9 @@ const PublicidadEN = () => {
               <Card.Text className="">
                 <h4 className="peso-bold interlineado3">
                   When it comes to brand positioning, it is vitally important to
-                  combine different advertising strategies brand positioning, it
-                  is vital to combine the different advertising strategies
-                  strategies that are made digitally, with these actions of
-                  traditional offline traditional offline advertising.
+                  combine different advertising strategies for brand
+                  positioning, with these actions of traditional offline
+                  advertising.
                 </h4>
               </Card.Text>
             </Card.Body>
@@ -54,8 +51,7 @@ const PublicidadEN = () => {
                 <h4 className="peso-regular interlineado3">
                   Through this strategic process, we seek to improve choice,
                   simplify purchasing processes and simplify purchasing
-                  processes and stimulate commercial innovation. stimulate
-                  commercial innovation.
+                  processes and stimulate commercial innovation.
                 </h4>
               </Card.Text>
             </Card.Body>
@@ -93,22 +89,19 @@ const PublicidadEN = () => {
               <h3 className="peso-bold mb-4">TRADITIONAL ADVERTISING</h3>
               <h6 className="pt-3 pb-4 mb-3 peso-regular interlineado">
                 We make your brand reach mass audiences through different media:
-                press, television, radio, billboards media: press, television,
-                radio, billboards, sextuples, buses and giant LED screens. buses
-                and giant LED screens. We have the best agreements and a media
-                agenda of maximum reach and variability according to different
-                budgets. to different budgets
+                press, television, radio, billboards, buses and giant LED
+                screens. We have the best agreements and a media agenda of
+                maximum reach and variability covenant to different budgets.
               </h6>
             </div>
             <Card className="carta-trans-servicios mb-5">
               <Card.Body className="d-flex align-items-start p-0">
                 <Card.Text className="">
                   <h6 className="peso-bold interlineado">
-                    It is vitally important when it comes to brand positioning
-                    to combine the different brand positioning, to combine the
-                    different advertising advertising strategies that are made
-                    digitally, with these traditional offline advertising
-                    actions.
+                    When it comes to brand positioning, it is vitally important
+                    to combine different advertising strategies for brand
+                    positioning, with these actions of traditional offline
+                    advertising.
                   </h6>
                 </Card.Text>
               </Card.Body>
@@ -151,8 +144,7 @@ const PublicidadEN = () => {
                   <h6 className="peso-regular interlineado">
                     Through this strategic process, we seek to improve choice,
                     simplify purchasing processes and simplify purchasing
-                    processes and stimulate commercial innovation. stimulate
-                    commercial innovation.
+                    processes and stimulate commercial innovation.
                   </h6>
                 </Card.Text>
               </Card.Body>
