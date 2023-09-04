@@ -18,8 +18,7 @@ const InvestigacionEN = () => {
           <h1 className="peso-bold mb-4">MARKET RESEARCH AND INVESTIGATION</h1>
           <h4 className="pt-5 pb-5 mb-3 peso-bold">
             We focus this service on the ability of our professionals to
-            establish strategies that will to establish strategies that
-            consolidate new business opportunities. opportunities.
+            establish strategies that consolidate new business opportunities.
           </h4>
         </div>
         <div className="d-flex mb-5">
@@ -28,17 +27,15 @@ const InvestigacionEN = () => {
               <Card.Text className="peso-regular">
                 <h4 className="d-none d-xl-block">
                   Above all, we seek to minimize risk, understand our customers,
-                  understand customers, understand and confront the competition.
-                  By means of different different strategies, we measure
-                  reputations and capabilities and improve improve communication
-                  in every aspect.
+                  understand and confront the competition. By means of different
+                  different strategies, we measure reputations and capabilities
+                  and improve improve communication in every aspect.
                 </h4>
                 <h5 className="d-xl-none d-block">
                   Above all, we seek to minimize risk, understand our customers,
-                  understand customers, understand and confront the competition.
-                  By means of different different strategies, we measure
-                  reputations and capabilities and improve improve communication
-                  in every aspect.
+                  understand and confront the competition. By means of different
+                  different strategies, we measure reputations and capabilities
+                  and improve improve communication in every aspect.
                 </h5>
               </Card.Text>
             </Card.Body>
@@ -120,8 +117,7 @@ const InvestigacionEN = () => {
             </h3>
             <h6 className="pt-3 pb-4 mb-3 peso-bold interlineado">
               We focus this service on the ability of our professionals to
-              establish strategies that will to establish strategies that
-              consolidate new business opportunities. opportunities.
+              establish strategies that consolidate new business opportunities.
             </h6>
           </div>
         </div>

@@ -38,9 +38,9 @@ const ConsulEN = () => {
                     marketing and merchandising
                   </spam>
                   : we carry out project audits, internal and external analysis,
-                  measurements and and external analysis, measurements and
-                  actions, with the main objective of achieving clear to achieve
-                  clear definitions for brand positioning.
+                  measurements,analysis and actions, with the main objective of
+                  achieving clear to achieve clear definitions for brand
+                  positioning.
                 </h4>
                 <h5 className="d-xl-none d-block">
                   • Consulting and advice in{" "}
@@ -48,9 +48,9 @@ const ConsulEN = () => {
                     marketing and merchandising
                   </spam>
                   : we carry out project audits, internal and external analysis,
-                  measurements and and external analysis, measurements and
-                  actions, with the main objective of achieving clear to achieve
-                  clear definitions for brand positioning.
+                  measurements,analysis and actions, with the main objective of
+                  achieving clear to achieve clear definitions for brand
+                  positioning.
                 </h5>
               </Card.Text>
             </Card.Body>
@@ -64,8 +64,8 @@ const ConsulEN = () => {
                     economic - financial
                   </spam>
                   : We qualify and evaluate a company's finances in order to
-                  then indicate strategic then indicate strategies to make them
-                  more profitable and organized. organized.
+                  then indicate strategic to make them more profitable and
+                  organized.
                 </h4>
                 <h5 className="d-xl-none d-block">
                   • Consulting and advice{" "}
@@ -73,8 +73,8 @@ const ConsulEN = () => {
                     economic - financial
                   </spam>
                   : We qualify and evaluate a company's finances in order to
-                  then indicate strategic then indicate strategies to make them
-                  more profitable and organized. organized.
+                  then indicate strategic to make them more profitable and
+                  organized.
                 </h5>
               </Card.Text>
             </Card.Body>
@@ -91,21 +91,17 @@ const ConsulEN = () => {
                   • Consulting and advice{" "}
                   <spam className="peso-bold text-uppercase">politician</spam>:
                   our management is based on the concept of positioning and
-                  political visibility. political visibility, we execute
-                  electoral campaigns, strategic consulting, public opinion
-                  research, market research and public affairs in Argentina and
-                  Spain, market research and public affairs in Argentina and
-                  Spain.
+                  political visibility. We execute electoral campaigns,
+                  strategic consulting, public opinion research, market research
+                  and public affairs in Argentina and Spain.
                 </h4>
                 <h5 className="d-xl-none d-block">
                   • Consulting and advice{" "}
                   <spam className="peso-bold text-uppercase">politician</spam>:
                   our management is based on the concept of positioning and
-                  political visibility. political visibility, we execute
-                  electoral campaigns, strategic consulting, public opinion
-                  research, market research and public affairs in Argentina and
-                  Spain, market research and public affairs in Argentina and
-                  Spain.
+                  political visibility. We execute electoral campaigns,
+                  strategic consulting, public opinion research, market research
+                  and public affairs in Argentina and Spain.
                 </h5>
               </Card.Text>
             </Card.Body>
@@ -119,17 +115,13 @@ const ConsulEN = () => {
                   • Consulting and advice{" "}
                   <spam className="peso-bold text-uppercase ">advertising</spam>
                   : based on costs and conversion amounts obtained in any of our
-                  strategies, campaigns and advertising plans. any of the
-                  strategies, campaigns and advertising plans to be executed. to
-                  be executed.
+                  strategies, campaigns and advertising plans to be executed.
                 </h4>
                 <h5 className="d-xl-none d-block">
                   • Consulting and advice{" "}
                   <spam className="peso-bold text-uppercase ">advertising</spam>
                   : based on costs and conversion amounts obtained in any of our
-                  strategies, campaigns and advertising plans. any of the
-                  strategies, campaigns and advertising plans to be executed. to
-                  be executed.
+                  strategies, campaigns and advertising plans to be executed.
                 </h5>
               </Card.Text>
             </Card.Body>
@@ -148,10 +140,9 @@ const ConsulEN = () => {
                     organization and human resources
                   </spam>
                   : our service is in charge of analyzing and diagnosing the
-                  work environment. environment, we focus on prescribing
-                  modifications, adjustments and modifications, adjustments and
-                  improvements to optimize both the and the company's
-                  performance.
+                  work environment. We focus on prescribing modifications,
+                  adjustments and modifications, adjustments and improvements to
+                  optimize both the and the company's performance.
                 </h4>
                 <h5 className="d-xl-none d-block">
                   • Consulting and advice in{" "}
@@ -159,10 +150,9 @@ const ConsulEN = () => {
                     organization and human resources
                   </spam>
                   : our service is in charge of analyzing and diagnosing the
-                  work environment. environment, we focus on prescribing
-                  modifications, adjustments and modifications, adjustments and
-                  improvements to optimize both the and the company's
-                  performance.
+                  work environment. We focus on prescribing modifications,
+                  adjustments and modifications, adjustments and improvements to
+                  optimize both the and the company's performance.
                 </h5>
               </Card.Text>
             </Card.Body>
@@ -202,9 +192,9 @@ const ConsulEN = () => {
                   MARKETING AND MERCHANDISING:
                 </spam>
                 we carry out project audits, internal and external analysis,
-                measurements and and external analysis, measurements and
-                actions, with the main objective of achieving clear to achieve
-                clear definitions for brand positioning.
+                measurements,analysis and actions, with the main objective of
+                achieving clear to achieve clear definitions for brand
+                positioning.
               </h6>
             </Card.Text>
           </Card.Body>
@@ -218,8 +208,7 @@ const ConsulEN = () => {
                   ECONOMIC - FINANCIAL:
                 </spam>
                 We qualify and evaluate a company's finances in order to then
-                indicate strategic then indicate strategies to make them more
-                profitable and organized. organized.
+                indicate strategic to make them more profitable and organized.
               </h6>
             </Card.Text>
           </Card.Body>
@@ -237,10 +226,9 @@ const ConsulEN = () => {
                 • Consulting and advice{" "}
                 <spam className="peso-bold text-uppercase">POLITICIAN:</spam>
                 our management is based on the concept of positioning and
-                political visibility. political visibility, we execute electoral
-                campaigns, strategic consulting, public opinion research, market
-                research and public affairs in Argentina and Spain, market
-                research and public affairs in Argentina and Spain.
+                political visibility. We execute electoral campaigns, strategic
+                consulting, public opinion research, market research and public
+                affairs in Argentina and Spain.
               </h6>
             </Card.Text>
           </Card.Body>
@@ -258,9 +246,7 @@ const ConsulEN = () => {
                 • Consulting and advice{" "}
                 <spam className="peso-bold text-uppercase ">ADVERTISING</spam>:
                 based on costs and conversion amounts obtained in any of our
-                strategies, campaigns and advertising plans. any of the
-                strategies, campaigns and advertising plans to be executed. to
-                be executed.
+                strategies, campaigns and advertising plans to be executed.
               </h6>
             </Card.Text>
           </Card.Body>
@@ -280,9 +266,9 @@ const ConsulEN = () => {
                   ORGANIZATION AND HUMAN RESOURCES:
                 </spam>
                 our service is in charge of analyzing and diagnosing the work
-                environment. environment, we focus on prescribing modifications,
-                adjustments and modifications, adjustments and improvements to
-                optimize both the and the company's performance.
+                environment. We focus on prescribing modifications, adjustments
+                and modifications, adjustments and improvements to optimize both
+                the and the company's performance.
               </h6>
             </Card.Text>
           </Card.Body>
