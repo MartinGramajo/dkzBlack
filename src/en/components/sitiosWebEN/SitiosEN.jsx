@@ -32,14 +32,13 @@ const SitiosEN = () => {
           <LineaNaranja />
           <h1 className="peso-bold">WEB SITES</h1>
           <h4 className="py-4 peso-regular">
-            We work on each of our developments in an exclusive way.
-            exclusively. Our ideas start from an initial conception in which we
-            implement all our projects from which we implement all of our
-            projects from scratch, without the use of use of content made by
-            third parties or reusable source code from other reusable source
-            code from other works, for DKZ each client is a new challenge.
-            challenge. We work on each of our developments in an exclusive way.
-            exclusively.
+            We work on each of our developments in an exclusive way. Our ideas
+            start from an initial conception in which we implement all our
+            projects from which we implement all of our projects from scratch,
+            without the use of use of content made by third parties or reusable
+            source code from other reusable source code from other works, for
+            DKZ each client is a new challenge. We work on each of our
+            developments in an exclusive way.
           </h4>
           <h2 className="peso-bold color-naranja py-4">
             Technologies used in our developments:
@@ -70,14 +69,13 @@ const SitiosEN = () => {
           <LineaNaranja />
           <h3 className="peso-bold py-4">WEB SITES</h3>
           <h6 className="py-4 peso-regular">
-            We work on each of our developments in an exclusive way.
-            exclusively. Our ideas start from an initial conception in which we
-            implement all our projects from which we implement all of our
-            projects from scratch, without the use of use of content made by
-            third parties or reusable source code from other reusable source
-            code from other works, for DKZ each client is a new challenge.
-            challenge. We work on each of our developments in an exclusive way.
-            exclusively.
+            We work on each of our developments in an exclusive way. Our ideas
+            start from an initial conception in which we implement all our
+            projects from which we implement all of our projects from scratch,
+            without the use of use of content made by third parties or reusable
+            source code from other reusable source code from other works, for
+            DKZ each client is a new challenge. We work on each of our
+            developments in an exclusive way.
           </h6>
           <h5 className="peso-bold color-naranja py-4">
             Technologies used in our developments:
