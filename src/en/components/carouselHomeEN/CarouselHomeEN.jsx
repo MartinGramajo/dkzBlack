@@ -14,11 +14,11 @@ import { Autoplay, Navigation } from "swiper";
 // import LineaNaranja from "../../components/LineaNaranja";
 import BtnContactEN from "../../components/BtnContactEN";
 
-import general from "../../../esp/assets/img/guille-con-letra.png";
-import operativo from "../../../esp/assets/img/nacho-con-letra.png";
-import directora from "../../../esp/assets/img/laura-con-letra.png";
-import director from "../../../esp/assets/img/director.png";
-import directorCelu from "../../../esp/assets/img/director-celu.png";
+import general from "../../../esp/assets/img/guille-letra-ingles.png";
+import operativo from "../../../esp/assets/img/nacho-letra-ingles.png";
+import directora from "../../../esp/assets/img/laura-letra-ingles.png";
+import director from "../../../esp/assets/img/fabri-letra-ingles.png";
+import directorCelu from "../../../esp/assets/img/fabri-letra-ingles.png";
 
 export const CarouselHomeEN = () => {
   return (
