@@ -28,14 +28,14 @@ const InvestigacionEN = () => {
                 <h4 className="d-none d-xl-block">
                   Above all, we seek to minimize risk, understand our customers,
                   understand and confront the competition. By means of different
-                  different strategies, we measure reputations and capabilities
-                  and improve improve communication in every aspect.
+                  strategies, we measure reputations and capabilities and
+                  improve communication in every aspect.
                 </h4>
                 <h5 className="d-xl-none d-block">
                   Above all, we seek to minimize risk, understand our customers,
                   understand and confront the competition. By means of different
-                  different strategies, we measure reputations and capabilities
-                  and improve improve communication in every aspect.
+                  strategies, we measure reputations and capabilities and
+                  improve communication in every aspect.
                 </h5>
               </Card.Text>
             </Card.Body>
@@ -132,10 +132,9 @@ const InvestigacionEN = () => {
             <Card.Text className="peso-regular">
               <h6>
                 Above all, we seek to minimize risk, understand our customers,
-                understand customers, understand and confront the competition.
-                By means of different different strategies, we measure
-                reputations and capabilities and improve improve communication
-                in every aspect.
+                understand and confront the competition. By means of different
+                strategies, we measure reputations and capabilities and improve
+                communication in every aspect.
               </h6>
             </Card.Text>
           </Card.Body>
