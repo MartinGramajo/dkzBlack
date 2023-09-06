@@ -254,7 +254,7 @@ export const CarouselHomeEN = () => {
             <div>
               <div className="text-center">
                 <Image
-                  className="w-100"
+                  className="w-75"
                   src={directorCelu}
                   fluid
                   alt="Fabri - Director Creativo"
