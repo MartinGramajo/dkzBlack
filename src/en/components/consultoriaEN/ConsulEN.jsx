@@ -20,7 +20,7 @@ const ConsulEN = () => {
         <div className="">
           <h1 className="peso-bold">CONSULTING AND ADVICE</h1>
           <h2 className="pt-4 pb-4 mb-4 peso-bold">
-            Legal, financial, political and advertising.
+            In Legal, financial, political and advertising issues.
           </h2>
           <h4 className="py-4 peso-bold mb-5">
             We focus on the client's requirements, offering alternative and
@@ -37,20 +37,18 @@ const ConsulEN = () => {
                   <spam className="peso-bold text-uppercase">
                     marketing and merchandising
                   </spam>
-                  : we carry out project audits, internal and external analysis,
-                  measurements,analysis and actions, with the main objective of
-                  achieving clear to achieve clear definitions for brand
-                  positioning.
+                  : we carry out audit projects, internal and external analysis,
+                  measurements and actions, with the main objective of achieving
+                  clear concepts for brand positioning.
                 </h4>
                 <h5 className="d-xl-none d-block">
                   • Consulting and advice in{" "}
                   <spam className="peso-bold text-uppercase">
                     marketing and merchandising
                   </spam>
-                  : we carry out project audits, internal and external analysis,
-                  measurements,analysis and actions, with the main objective of
-                  achieving clear to achieve clear definitions for brand
-                  positioning.
+                  : we carry out audit projects, internal and external analysis,
+                  measurements and actions, with the main objective of achieving
+                  clear concepts for brand positioning.
                 </h5>
               </Card.Text>
             </Card.Body>
@@ -61,20 +59,18 @@ const ConsulEN = () => {
                 <h4 className="d-none d-xl-block">
                   • Consulting and advice{" "}
                   <spam className="peso-bold text-uppercase ">
-                    economic - financial
+                    economic - financial issues
                   </spam>
-                  : We qualify and evaluate a company's finances in order to
-                  then indicate strategic to make them more profitable and
-                  organized.
+                  : We qualify and evaluate company's finances in order to
+                  indicate strategic to make them more profitable and organized.
                 </h4>
                 <h5 className="d-xl-none d-block">
                   • Consulting and advice{" "}
                   <spam className="peso-bold text-uppercase ">
-                    economic - financial
+                    economic - financial issues
                   </spam>
-                  : We qualify and evaluate a company's finances in order to
-                  then indicate strategic to make them more profitable and
-                  organized.
+                  : We qualify and evaluate company's finances in order to
+                  indicate strategic to make them more profitable and organized.
                 </h5>
               </Card.Text>
             </Card.Body>
@@ -89,16 +85,21 @@ const ConsulEN = () => {
               <Card.Text className="peso-regular">
                 <h4 className="d-none d-xl-block">
                   • Consulting and advice{" "}
-                  <spam className="peso-bold text-uppercase">politician</spam>:
-                  our management is based on the concept of positioning and
+                  <spam className="peso-bold text-uppercase">
+                    political issues
+                  </spam>
+                  : our management is based on the concept of positioning and
                   political visibility. We execute electoral campaigns,
                   strategic consulting, public opinion research, market research
                   and public affairs in Argentina and Spain.
                 </h4>
                 <h5 className="d-xl-none d-block">
                   • Consulting and advice{" "}
-                  <spam className="peso-bold text-uppercase">politician</spam>:
-                  our management is based on the concept of positioning and
+                  <spam className="peso-bold text-uppercase">
+                    {" "}
+                    political issues
+                  </spam>
+                  : our management is based on the concept of positioning and
                   political visibility. We execute electoral campaigns,
                   strategic consulting, public opinion research, market research
                   and public affairs in Argentina and Spain.
@@ -113,14 +114,18 @@ const ConsulEN = () => {
               <Card.Text className="peso-regular">
                 <h4 className="d-none d-xl-block">
                   • Consulting and advice{" "}
-                  <spam className="peso-bold text-uppercase ">advertising</spam>
-                  : based on costs and conversion amounts obtained in any of our
+                  <spam className="peso-bold text-uppercase ">
+                    advertising issues
+                  </spam>
+                  : based on costs and amounts obtained in any of our
                   strategies, campaigns and advertising plans to be executed.
                 </h4>
                 <h5 className="d-xl-none d-block">
                   • Consulting and advice{" "}
-                  <spam className="peso-bold text-uppercase ">advertising</spam>
-                  : based on costs and conversion amounts obtained in any of our
+                  <spam className="peso-bold text-uppercase ">
+                    advertising issues
+                  </spam>
+                  : based on costs and amounts obtained in any of our
                   strategies, campaigns and advertising plans to be executed.
                 </h5>
               </Card.Text>
@@ -141,8 +146,8 @@ const ConsulEN = () => {
                   </spam>
                   : our service is in charge of analyzing and diagnosing the
                   work environment. We focus on prescribing modifications,
-                  adjustments and modifications, adjustments and improvements to
-                  optimize both the and the company's performance.
+                  adjustments and improvements to optimize both the and the
+                  staff company's performance.
                 </h4>
                 <h5 className="d-xl-none d-block">
                   • Consulting and advice in{" "}
@@ -151,8 +156,8 @@ const ConsulEN = () => {
                   </spam>
                   : our service is in charge of analyzing and diagnosing the
                   work environment. We focus on prescribing modifications,
-                  adjustments and modifications, adjustments and improvements to
-                  optimize both the and the company's performance.
+                  adjustments and improvements to optimize both the and the
+                  staff company's performance.
                 </h5>
               </Card.Text>
             </Card.Body>
@@ -174,12 +179,12 @@ const ConsulEN = () => {
             <LineaNaranja />
             <h3 className="peso-bold pt-4">CONSULTING AND ADVICE</h3>
             <h6 className="py-4 peso-bold">
-              Legal, financial, political and advertising.
+              In Legal, financial, political and advertising issues.
             </h6>
             <h6 className="pt-3 peso-bold mb-5">
               We focus on the client's requirements, offering alternative and
-              effective solutions solutions that help to consolidate the work
-              scheme and the internal and the internal objectives of a company.
+              effective solutions that help to consolidate the work scheme and
+              the internal objectives of a company.
             </h6>
           </div>
         </div>
@@ -191,10 +196,9 @@ const ConsulEN = () => {
                 <spam className="peso-bold text-uppercase">
                   MARKETING AND MERCHANDISING:
                 </spam>
-                we carry out project audits, internal and external analysis,
-                measurements,analysis and actions, with the main objective of
-                achieving clear to achieve clear definitions for brand
-                positioning.
+                we carry out audit projects, internal and external analysis,
+                measurements and actions, with the main objective of achieving
+                clear concepts for brand positioning.
               </h6>
             </Card.Text>
           </Card.Body>
@@ -205,10 +209,10 @@ const ConsulEN = () => {
               <h6>
                 • Consulting and advice{" "}
                 <spam className="peso-bold text-uppercase ">
-                  ECONOMIC - FINANCIAL:
+                  ECONOMIC - FINANCIAL ISSUES:
                 </spam>
-                We qualify and evaluate a company's finances in order to then
-                indicate strategic to make them more profitable and organized.
+                We qualify and evaluate company's finances in order to indicate
+                strategic to make them more profitable and organized.
               </h6>
             </Card.Text>
           </Card.Body>
@@ -224,7 +228,9 @@ const ConsulEN = () => {
             <Card.Text className="peso-regular">
               <h6>
                 • Consulting and advice{" "}
-                <spam className="peso-bold text-uppercase">POLITICIAN:</spam>
+                <spam className="peso-bold text-uppercase">
+                  POLITICAL ISSUES:
+                </spam>
                 our management is based on the concept of positioning and
                 political visibility. We execute electoral campaigns, strategic
                 consulting, public opinion research, market research and public
@@ -244,9 +250,11 @@ const ConsulEN = () => {
             <Card.Text className="peso-regular">
               <h6>
                 • Consulting and advice{" "}
-                <spam className="peso-bold text-uppercase ">ADVERTISING</spam>:
-                based on costs and conversion amounts obtained in any of our
-                strategies, campaigns and advertising plans to be executed.
+                <spam className="peso-bold text-uppercase ">
+                  ADVERTISING ISSUES
+                </spam>
+                : based on costs and amounts obtained in any of our strategies,
+                campaigns and advertising plans to be executed.
               </h6>
             </Card.Text>
           </Card.Body>
@@ -265,10 +273,10 @@ const ConsulEN = () => {
                 <spam className="peso-bold text-uppercase ">
                   ORGANIZATION AND HUMAN RESOURCES:
                 </spam>
-                our service is in charge of analyzing and diagnosing the work
+                : our service is in charge of analyzing and diagnosing the work
                 environment. We focus on prescribing modifications, adjustments
-                and modifications, adjustments and improvements to optimize both
-                the and the company's performance.
+                and improvements to optimize both the and the staff company's
+                performance.
               </h6>
             </Card.Text>
           </Card.Body>
