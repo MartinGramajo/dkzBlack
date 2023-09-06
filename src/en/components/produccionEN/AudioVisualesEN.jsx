@@ -34,25 +34,25 @@ const AudioVisualesEN = () => {
             AUDIOVISUAL <br /> PRODUCTIONS
           </h1>
           <h4 className="padding-card peso-regular">
-            Advertising spots; coverage of events and social events. Corporate
-            videos. Infomercials. Institutional. Special productions.
+            Advertising spots, coverage of social events, corporate videos,
+            infomercials, institutional, special productions.
           </h4>
           <div className="row">
             <div className="col-12 col-md-6 ">
               <div className="padding-card-pre">
                 <h2 className="peso-bold color-naranja py-2"> CREATIVITY</h2>
                 <h4 className="peso-regular texto-contenido-card">
-                  Advertising spots, event coverage and social
-                  registers.Corporate videos, infomercials. Institutional.
-                  Books.special productions.
+                  Advertising spots, event coverage and social registers,
+                  corporate videos, infomercials, institutional, books, special
+                  productions.
                 </h4>
               </div>
               <div className="padding-card-pro pb-5">
                 <h2 className="peso-bold color-naranja py-2"> PRODUCTION</h2>
                 <h4 className="peso-regular texto-contenido-card ">
                   Equipment and technical staff (different formats according to
-                  need and budget). Direction; production; direction of
-                  photography; art direction. Set design. Casting. Make up,
+                  need and budget). Direction, production, direction of
+                  photography, art direction, set design, casting, make up,
                   styling, wardrobe.
                 </h4>
               </div>
@@ -62,7 +62,7 @@ const AudioVisualesEN = () => {
                 <h2 className="peso-bold color-naranja py-2"> PREPRODUCTION</h2>
                 <h4 className="peso-regular texto-contenido-card">
                   Creative feedback and preliminary presentation. Location
-                  scouting. Production design.
+                  scouting, production design.
                 </h4>
               </div>
               <div className="padding-card-pre">
@@ -71,8 +71,8 @@ const AudioVisualesEN = () => {
                   POSTPRODUCTION
                 </h2>
                 <h4 className="peso-regular texto-contenido-card ">
-                  Editing. Sound. Color grading and color correction. Video fx.
-                  Audio fx. Music and sound. Final cut and copies for any media.
+                  Editing, sound, color grading and color correction, video fx,
+                  audio fx. Music and sound. Final cut and copies for any media.
                 </h4>
               </div>
             </div>
@@ -85,25 +85,25 @@ const AudioVisualesEN = () => {
             AUDIOVISUAL <br /> PRODUCTIONS
           </h3>
           <h6 className="padding-card">
-            Advertising spots; coverage of events and social events. Corporate
-            videos. Infomercials. Institutional. Special productions.
+            Advertising spots, coverage of social events, corporate videos,
+            infomercials, institutional, special productions.
           </h6>
           <div className="row">
             <div className="col-12 col-md-6">
               <div className="padding-card-pre">
                 <h5 className="peso-bold color-naranja py-2 "> CREATIVITY</h5>
                 <h6 className="peso-regular texto-contenido-card">
-                  Advertising spots, event coverage and social
-                  registers.Corporate videos, infomercials. Institutional.
-                  Books.special productions.
+                  Advertising spots, event coverage and social registers,
+                  corporate videos, infomercials, institutional, books, special
+                  productions.
                 </h6>
               </div>
               <div className="padding-card-pro">
                 <h5 className="peso-bold color-naranja py-2"> PRODUCTION</h5>
                 <h6 className="peso-regular texto-contenido-card">
                   Equipment and technical staff (different formats according to
-                  need and budget). Direction; production; direction of
-                  photography; art direction. Set design. Casting. Make up,
+                  need and budget). Direction, production, direction of
+                  photography, art direction, set design, casting, make up,
                   styling, wardrobe.
                 </h6>
               </div>
@@ -113,7 +113,7 @@ const AudioVisualesEN = () => {
                 <h5 className="peso-bold color-naranja py-2"> PREPRODUCTION</h5>
                 <h6 className="peso-regular texto-contenido-card">
                   Creative feedback and preliminary presentation. Location
-                  scouting. Production design.
+                  scouting, production design.
                 </h6>
               </div>
               <div className="padding-card-pre">
@@ -122,8 +122,8 @@ const AudioVisualesEN = () => {
                   POSTPRODUCTION
                 </h5>
                 <h6 className="peso-regular texto-contenido-card">
-                  Editing. Sound. Color grading and color correction. Video fx.
-                  Audio fx. Music and sound. Final cut and copies for any media.
+                  Editing, sound, color grading and color correction, video fx,
+                  audio fx. Music and sound. Final cut and copies for any media.
                 </h6>
               </div>
             </div>
