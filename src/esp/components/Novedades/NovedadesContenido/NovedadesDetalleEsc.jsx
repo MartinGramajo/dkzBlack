@@ -18,6 +18,10 @@ export default function NovedadesDetalleEsc() {
     );
 
     const trabajos = Papa.parse(response.data, { header: true });
+    console.log(
+      "file: NovedadesDetalleEsc.jsx:21 ~ getTrabajos ~ trabajos:",
+      trabajos
+    );
     const trabajo1 = trabajos.data;
 
     const trabajoFiltrado = trabajo1.filter(
@@ -34,7 +38,7 @@ export default function NovedadesDetalleEsc() {
   const {
     id,
     seccion,
-    titular,
+    titulo,
     subtitulo,
     descripcion,
     tituloIntermedio,
@@ -67,8 +71,8 @@ export default function NovedadesDetalleEsc() {
       ) : (
         <div className="mt-5 container d-flex ">
           <div className="col-8">
-            <h6 className="text-white peso-bold mx-5 px-5">{seccion}</h6>
-            <h2 className="text-white peso-bold mx-5 px-5 py-2">{titular}</h2>
+            {/* <h6 className="text-white peso-bold mx-5 px-5">{seccion}</h6> */}
+            <h2 className="text-white peso-bold mx-5 px-5 py-2">{titulo}</h2>
             <h5 className="text-white mx-5 px-5">{subtitulo}</h5>
             <br />
             <Image
@@ -84,7 +88,7 @@ export default function NovedadesDetalleEsc() {
                 <hr className="text-white px-5" />
               </h4>
             </div>
-            <h6 className="text-white my-4 py-2 mx-5 px-5">{fecha}</h6>
+            {/* <h6 className="text-white my-4 py-2 mx-5 px-5">{fecha}</h6> */}
             <h5 className="text-white mt-4 wrap-pre mx-5 px-5">
               {descripcion}
             </h5>
@@ -121,7 +125,7 @@ export default function NovedadesDetalleEsc() {
               Todos los Artículos:
             </h4>
             <div onClick={reload}>
-              <NovedadesLista idNovedad={id}/>
+              <NovedadesLista idNovedad={id} />
             </div>
           </div>
         </div>
