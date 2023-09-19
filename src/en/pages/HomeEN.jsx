@@ -10,6 +10,7 @@ import NovedadesHomeEN from "../components/novedadesHomeEN/NovedadesHomeEN";
 import { NavbarReactV2EN } from "../components/navbarReactV2EN/NavbarReactV2EN";
 import WspEN from "../components/wappEN/WspEN";
 import { FooterReactEN } from "../components/footerReactEN/FooterReactEN";
+import VideoBannerEN from "../components/videoBannerEN/VideoBannerEN";
 
 export default function HomeEN() {
   return (
@@ -17,7 +18,7 @@ export default function HomeEN() {
       <NavbarReactV2EN />
       <WspEN />
       <div className="color-negro-fondo ">
-        <VideoBanner />
+        <VideoBannerEN />
         <CarouselHomeEN />
         <CartasEN />
       </div>
