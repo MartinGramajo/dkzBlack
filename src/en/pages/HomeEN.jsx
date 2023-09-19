@@ -22,7 +22,7 @@ export default function HomeEN() {
       <NavbarReactV2EN />
       <WspEN />
       <div className="color-negro-fondo ">
-        <VideoBannerEN />
+        <VideoBanner />
         <CarouselHomeEN />
         <CartasEN />
       </div>
