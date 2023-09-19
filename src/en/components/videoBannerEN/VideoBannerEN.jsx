@@ -1,3 +1,4 @@
+import VideoEN from "./VideoEN";
 import "./videoBannerEN.css";
 
 export default function VideoBannerEN() {
@@ -16,14 +17,7 @@ export default function VideoBannerEN() {
         <div className=" d-block d-sm-none no-clicker ">
           <div className="video-container">
             <div className="video-foreground">
-              <iframe
-                className="video-ios"
-                src="https://www.youtube.com/embed/XXX1bgaZJeg?autoplay=1&mute=1&controls=0&loop=1&playlist=XXX1bgaZJeg"
-                title="YouTube video player"
-                frameborder="0"
-                allow="autoplay; encrypted-media"
-                allowfullscreen
-              ></iframe>
+              <VideoEN />
             </div>
           </div>
         </div>

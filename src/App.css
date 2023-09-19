@@ -386,8 +386,8 @@ h6,
 }
 
 .video-container {
-  width: 100vw;
-  height: 80vh;
+  width: 100vw !important;
+  height: 80vh !important;
   overflow: hidden;
   position: relative;
 }
@@ -405,10 +405,10 @@ h6,
 }
 .video-container iframe {
   position: absolute;
-  top: -60px;
+  top: -70px;
   left: 0;
   width: 100%;
-  height: calc(100% + 120px);
+  height: calc(100% + 100px);
 }
 .video-foreground {
   pointer-events: none;

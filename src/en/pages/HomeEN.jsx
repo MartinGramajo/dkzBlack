@@ -12,6 +12,9 @@ import { NavbarReactV2EN } from "../components/navbarReactV2EN/NavbarReactV2EN";
 import WspEN from "../components/wappEN/WspEN";
 import { FooterReactEN } from "../components/footerReactEN/FooterReactEN";
 import VideoBannerEN from "../components/videoBannerEN/VideoBannerEN";
+import YouTubePlayer from "../components/videoBannerEN/YbPlayer";
+import YbPlayer from "../components/videoBannerEN/YbPlayer";
+import PruebaHomeVideo from "../components/videoBannerEN/VideoEN";
 
 export default function HomeEN() {
   return (
@@ -19,7 +22,7 @@ export default function HomeEN() {
       <NavbarReactV2EN />
       <WspEN />
       <div className="color-negro-fondo ">
-        <VideoBanner />
+        <VideoBannerEN />
         <CarouselHomeEN />
         <CartasEN />
       </div>
