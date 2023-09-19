@@ -9,7 +9,7 @@ export default function ServiciosEN() {
       {/* ESCRITORIO */}
       <div id="Servicios" className="pb-5 d-none d-sm-block">
         <LineaNaranja />
-        <h2 className="color-blanco mt-5 peso-bold">SERVICES</h2>
+        <h2 className="color-blanco mt-5 peso-bold ">SERVICES</h2>
         <h3 className="color-naranja mt-2 peso-bold mb-5">
           More than for you, we work with you.
         </h3>

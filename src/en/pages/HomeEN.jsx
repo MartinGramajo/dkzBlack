@@ -1,4 +1,5 @@
 import React from "react";
+import "./../../App.css";
 import ServiciosEN from "../components/serviciosEN/ServiciosEN";
 import AlgunosTrabajosEN from "../components/algunosTrabajosEN/AlgunosTrabajosEN";
 import DosBotonesHomeEN from "../components/dosBotonesHome/DosBotonesHomeEN";
@@ -18,7 +19,7 @@ export default function HomeEN() {
       <NavbarReactV2EN />
       <WspEN />
       <div className="color-negro-fondo ">
-        <VideoBannerEN />
+        <VideoBanner />
         <CarouselHomeEN />
         <CartasEN />
       </div>

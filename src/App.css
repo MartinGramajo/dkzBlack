@@ -413,3 +413,7 @@ h6,
 .video-foreground {
   pointer-events: none;
 }
+
+.promocional {
+  color: aquamarine;
+}
