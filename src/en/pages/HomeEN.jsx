@@ -15,6 +15,7 @@ import VideoBannerEN from "../components/videoBannerEN/VideoBannerEN";
 import YouTubePlayer from "../components/videoBannerEN/YbPlayer";
 import YbPlayer from "../components/videoBannerEN/YbPlayer";
 import PruebaHomeVideo from "../components/videoBannerEN/VideoEN";
+import VideoBanner2 from "../../esp/components/videoBanner/VideoBanner2";
 
 export default function HomeEN() {
   return (
@@ -22,7 +23,8 @@ export default function HomeEN() {
       <NavbarReactV2EN />
       <WspEN />
       <div className="color-negro-fondo ">
-        <VideoBanner />
+        {/* <VideoBanner /> */}
+        <VideoBanner2 />
         <CarouselHomeEN />
         <CartasEN />
       </div>
