@@ -16,6 +16,8 @@ import YouTubePlayer from "../components/videoBannerEN/YbPlayer";
 import YbPlayer from "../components/videoBannerEN/YbPlayer";
 import PruebaHomeVideo from "../components/videoBannerEN/VideoEN";
 import VideoBanner2 from "../../esp/components/videoBanner/VideoBanner2";
+import MapaMundiEN from "../components/mapaMundiEN/MapaMundiEN";
+import CertificacionesEN from "../components/certificacionesEN/CertificacionesEN";
 
 export default function HomeEN() {
   return (
@@ -39,6 +41,10 @@ export default function HomeEN() {
 
       <div className="color-negro-fondo ">
         <ClientesEN />
+      </div>
+      <div className="color-negro-fondo ">
+        <MapaMundiEN />
+        <CertificacionesEN />
       </div>
       <div className="color-negro-a-negroclaro-fondo">
         <DosBotonesHomeEN />
