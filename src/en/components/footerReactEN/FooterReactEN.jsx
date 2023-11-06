@@ -39,7 +39,7 @@ export const FooterReactEN = () => {
               </a>
               <a
                 className="text-decoration-none"
-                href="https://www.instagram.com/dkzstudio/"
+                href="https://www.instagram.com/dkzargentina_?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
                 target="_blank"
                 rel="noreferrer"
               >
