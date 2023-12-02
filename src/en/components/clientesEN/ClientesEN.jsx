@@ -21,6 +21,11 @@ import seven from "../../../esp/assets/logos/seven.jpg";
 import sancor from "../../../esp/assets/logos/sancor.jpg";
 import aguila from "../../../esp/assets/logos/penon.jpg";
 import tbc from "../../../esp/assets/logos/tbc.jpg";
+import argenta from "../../../esp/assets/logos/DoñaArgentina.png";
+import laestancia from "../../../esp/assets/logos/La Estancia.png";
+import torres from "../../../esp/assets/logos/LasTorres.png";
+import paz from "../../../esp/assets/logos/Paztour.png";
+import real from "../../../esp/assets/logos/WeReal.png";
 
 export default function ClientesEN() {
   return (
@@ -108,7 +113,7 @@ export default function ClientesEN() {
               />
               <Image
                 className="py-3  icono-carousel-clientes"
-                src={estancia}
+                src={laestancia}
                 alt="Aumenta tus ventas"
                 fluid
               />
@@ -143,6 +148,34 @@ export default function ClientesEN() {
               <Image
                 className="py-3  icono-carousel-clientes"
                 src={tbc}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="bg-white">
+            <div className="d-flex justify-content-center">
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={argenta}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={torres}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={paz}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={real}
                 alt="Aumenta tus ventas"
                 fluid
               />
@@ -225,7 +258,7 @@ export default function ClientesEN() {
           <SwiperSlide className="cartas-slider">
             <Image
               className="mx-5 pt-4"
-              src={estancia}
+              src={laestancia}
               alt="caja popular"
               fluid
             />
@@ -254,6 +287,28 @@ export default function ClientesEN() {
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
             <Image className="mx-5 pt-4" src={tbc} alt="caja popular" fluid />
+          </SwiperSlide>
+          <SwiperSlide className="cartas-slider">
+            <Image
+              className="mx-5 pt-4"
+              src={argenta}
+              alt="caja popular"
+              fluid
+            />
+          </SwiperSlide>
+          <SwiperSlide className="cartas-slider">
+            <Image
+              className="mx-5 pt-4"
+              src={torres}
+              alt="caja popular"
+              fluid
+            />
+          </SwiperSlide>
+          <SwiperSlide className="cartas-slider">
+            <Image className="mx-5 pt-4" src={paz} alt="caja popular" fluid />
+          </SwiperSlide>
+          <SwiperSlide className="cartas-slider">
+            <Image className="mx-5 pt-4" src={real} alt="caja popular" fluid />
           </SwiperSlide>
         </Swiper>
       </div>

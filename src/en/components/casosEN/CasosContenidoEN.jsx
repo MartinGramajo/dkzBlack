@@ -27,10 +27,10 @@ export default function CasosContenidoEN() {
     getDatos();
   }, []);
 
-  const buttons = ["Todas", ...new Set(datos.map((dato) => dato.categoriasEN))];
+  const buttons = ["Alls", ...new Set(datos.map((dato) => dato.categoriasEN))];
 
   const filter = (button) => {
-    if (button === "Todas") {
+    if (button === "Alls") {
       setMenuItem(datos);
       return;
     }
