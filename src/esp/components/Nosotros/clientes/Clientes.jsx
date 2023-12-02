@@ -15,12 +15,16 @@ import uniber from "../../../assets/logos/uniber.jpg";
 import gob from "../../../assets/logos/gobtucuman.jpg";
 import lemons from "../../../assets/logos/lemons.jpg";
 import tucutanos from "../../../assets/logos/tucutanos.jpg";
-import estancia from "../../../assets/logos/estancia.jpg";
 import urt from "../../../assets/logos/urt.jpg";
 import seven from "../../../assets/logos/seven.jpg";
 import sancor from "../../../assets/logos/sancor.jpg";
 import aguila from "../../../assets/logos/penon.jpg";
 import tbc from "../../../assets/logos/tbc.jpg";
+import argenta from "../../../assets/logos/DoñaArgentina.png";
+import laestancia from "../../../assets/logos/La Estancia.png";
+import torres from "../../../assets/logos/LasTorres.png";
+import paz from "../../../assets/logos/Paztour.png";
+import real from "../../../assets/logos/WeReal.png";
 
 export default function Clientes() {
   return (
@@ -108,7 +112,7 @@ export default function Clientes() {
               />
               <Image
                 className="py-3  icono-carousel-clientes"
-                src={estancia}
+                src={laestancia}
                 alt="Aumenta tus ventas"
                 fluid
               />
@@ -143,6 +147,34 @@ export default function Clientes() {
               <Image
                 className="py-3  icono-carousel-clientes"
                 src={tbc}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="bg-white">
+            <div className="d-flex justify-content-center">
+              <Image
+                className="py-3 icono-carousel-clientes"
+                src={argenta}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={torres}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={paz}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={real}
                 alt="Aumenta tus ventas"
                 fluid
               />

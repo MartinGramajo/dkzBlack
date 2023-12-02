@@ -18,6 +18,7 @@ import PruebaHomeVideo from "../components/videoBannerEN/VideoEN";
 import VideoBanner2 from "../../esp/components/videoBanner/VideoBanner2";
 import MapaMundiEN from "../components/mapaMundiEN/MapaMundiEN";
 import CertificacionesEN from "../components/certificacionesEN/CertificacionesEN";
+import CarouselHomeBEN from "../components/carouselHomeEN/CarouselHomeBEN";
 
 export default function HomeEN() {
   return (
@@ -27,7 +28,8 @@ export default function HomeEN() {
       <div className="color-negro-fondo ">
         {/* <VideoBanner /> */}
         <VideoBanner2 />
-        <CarouselHomeEN />
+        <CarouselHomeBEN />
+        {/* <CarouselHomeEN /> */}
         <CartasEN />
       </div>
       <div className="color-negroclaro-fondo d-lg-block d-none">

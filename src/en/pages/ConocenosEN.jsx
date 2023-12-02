@@ -1,6 +1,7 @@
 import BotonContactanosEN from "../components/BotonContactanosEN";
 import ClientesEN from "../components/clientesEN/ClientesEN";
 import CabezasEN from "../components/conocenos/cabezasEN/CabezasEN";
+import CabezasSliderBEN from "../components/conocenos/cabezasEN/CabezasSliderBEN";
 import { CabezasSliderEN } from "../components/conocenos/cabezasEN/CabezasSliderEN";
 import PorQueElegirnosEN from "../components/conocenos/elegirnos/PorQueElegirnosEN";
 import NuestroProcesoCelEN from "../components/conocenos/procesoEN/NuestroProcesoCelEN";
@@ -13,11 +14,14 @@ const ConocenosEN = () => {
     <div>
       <NavbarReactV2EN />
       <div className="color-negro-fondo">
-        <div className=" d-lg-block d-none">
+        {/* <div className=" d-lg-block d-none">
           <CabezasEN />
         </div>
         <div className="d-block d-lg-none">
           <CabezasSliderEN />
+        </div> */}
+        <div>
+          <CabezasSliderBEN />
         </div>
         <div>
           <PorQueElegirnosEN />

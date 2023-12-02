@@ -12,6 +12,7 @@ import { ClientesCelu } from "../components/Nosotros/clientes/ClientesCelu";
 import Clientes from "../components/Nosotros/clientes/Clientes";
 import { NavbarReactV2 } from "../components/navbarReactV2/NavbarReactV2";
 import { FooterReact } from "../components/FooterReact/FooterReact";
+import SliderHome from "../components/sliderHome/SliderHome";
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
       <NavbarReactV2 />
       <div className="color-negro-fondo ">
         <VideoBanner />
-        <CarouselHome />
+        <SliderHome />
+        {/* <CarouselHome /> */}
         <Cartas />
       </div>
       <div className="color-negroclaro-fondo d-lg-block d-none">

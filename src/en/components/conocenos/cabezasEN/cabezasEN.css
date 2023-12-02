@@ -1,5 +1,5 @@
-.cartas-slider {
-  width: 230px;
+/* .cartas-slider {
+  width: 220px;
   padding-bottom: 2rem;
 }
 
@@ -11,4 +11,21 @@
   top: var(--swiper-pagination-top, none);
   left: 0;
   width: none;
+} */
+
+.banner-panoramico-b {
+  width: 100%;
+  height: 800px; /* Ajusta la altura según tus necesidades */
+  overflow: hidden; /* Evita que el contenido desborde si es más alto que la altura especificada */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Establece la imagen del banner como de ancho completo y altura automática */
+.banner-panoramico-b img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
 }

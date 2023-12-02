@@ -1,6 +1,6 @@
 import React from "react";
 import PorQueElegirnos from "../components/Nosotros/elegirnos/PorQueElegirnos";
-import Cabezas from "../components/Nosotros/cabezaTeam/Cabezas";
+// import Cabezas from "../components/Nosotros/cabezaTeam/Cabezas";
 import NuestroProceso from "../components/Nosotros/nuestroProceso/NuestroProceso";
 import Clientes from "../components/Nosotros/clientes/Clientes";
 import BotonContactanos from "../components/BotonContactanos";
@@ -9,18 +9,20 @@ import { NuestroProcesoCel } from "../components/Nosotros/nuestroProceso/Nuestro
 import { ClientesCelu } from "../components/Nosotros/clientes/ClientesCelu";
 import { NavbarReactV2 } from "../components/navbarReactV2/NavbarReactV2";
 import { FooterReact } from "../components/FooterReact/FooterReact";
+import CabezasSliderB from "../components/Nosotros/cabezaTeam/CabezasSliderB";
 
 export default function Conocenos() {
   return (
     <div>
       <NavbarReactV2 />
       <div className=" color-negro-fondo">
-        <div className=" d-lg-block d-none">
-          <Cabezas />
+        <div className=" ">
+          {/* <Cabezas /> */}
+          <CabezasSliderB />
         </div>
-        <div className="d-block d-lg-none">
+        {/* <div className="d-block d-lg-none">
           <CabezasSlider />
-        </div>
+        </div> */}
       </div>
       <div>
         <PorQueElegirnos />
