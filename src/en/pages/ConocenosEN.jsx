@@ -1,8 +1,8 @@
 import BotonContactanosEN from "../components/BotonContactanosEN";
 import ClientesEN from "../components/clientesEN/ClientesEN";
-import CabezasEN from "../components/conocenos/cabezasEN/CabezasEN";
+// import CabezasEN from "../components/conocenos/cabezasEN/CabezasEN";
 import CabezasSliderBEN from "../components/conocenos/cabezasEN/CabezasSliderBEN";
-import { CabezasSliderEN } from "../components/conocenos/cabezasEN/CabezasSliderEN";
+// import { CabezasSliderEN } from "../components/conocenos/cabezasEN/CabezasSliderEN";
 import PorQueElegirnosEN from "../components/conocenos/elegirnos/PorQueElegirnosEN";
 import NuestroProcesoCelEN from "../components/conocenos/procesoEN/NuestroProcesoCelEN";
 import NuestroProcesoEN from "../components/conocenos/procesoEN/NuestroProcesoEN";

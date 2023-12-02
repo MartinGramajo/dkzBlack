@@ -1,5 +1,5 @@
 import React from "react";
-import CarouselHome from "../components/carouselHome/CarouselHome";
+// import CarouselHome from "../components/carouselHome/CarouselHome";
 import Servicios from "../components/servicios/Servicios";
 import Cartas from "../components/carouselHome/Cartas";
 import AlgunosTrabajos from "../components/algunosTrabajos/AlgunosTrabajos";

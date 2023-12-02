@@ -5,16 +5,11 @@ import "./SliderHome.css";
 import banner from "../../assets/img/1.jpg";
 import banner2 from "../../assets/img/2.jpg";
 import banner3 from "../../assets/img/3.jpg";
-import banner4 from "../../assets/img/4.jpg";
-import banner5 from "../../assets/img/5.jpg";
-import banner6 from "../../assets/img/6.JPG";
 
 import bannerCuadrado1 from "../../assets/img/1cuadrada.jpg";
 import bannerCuadrado2 from "../../assets/img/2cuadrada.jpg";
 import bannerCuadrado3 from "../../assets/img/3cuadrada.jpg";
-import bannerCuadrado4 from "../../assets/img/4cuadrada.jpg";
-import bannerCuadrado5 from "../../assets/img/5cuadrada.jpg";
-import bannerCuadrado6 from "../../assets/img/6cuadrada.jpg";
+
 import LineaNaranja from "../LineaNaranja";
 const SliderHome = () => {
   return (

@@ -4,7 +4,7 @@ import PorQueElegirnos from "../components/Nosotros/elegirnos/PorQueElegirnos";
 import NuestroProceso from "../components/Nosotros/nuestroProceso/NuestroProceso";
 import Clientes from "../components/Nosotros/clientes/Clientes";
 import BotonContactanos from "../components/BotonContactanos";
-import { CabezasSlider } from "../components/Nosotros/cabezaTeam/CabezasSlider";
+// import { CabezasSlider } from "../components/Nosotros/cabezaTeam/CabezasSlider";
 import { NuestroProcesoCel } from "../components/Nosotros/nuestroProceso/NuestroProcesoCel";
 import { ClientesCelu } from "../components/Nosotros/clientes/ClientesCelu";
 import { NavbarReactV2 } from "../components/navbarReactV2/NavbarReactV2";

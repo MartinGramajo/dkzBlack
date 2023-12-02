@@ -15,7 +15,6 @@ import uniber from "../../../esp/assets/logos/uniber.jpg";
 import gob from "../../../esp/assets/logos/gobtucuman.jpg";
 import lemons from "../../../esp/assets/logos/lemons.jpg";
 import tucutanos from "../../../esp/assets/logos/tucutanos.jpg";
-import estancia from "../../../esp/assets/logos/estancia.jpg";
 import urt from "../../../esp/assets/logos/urt.jpg";
 import seven from "../../../esp/assets/logos/seven.jpg";
 import sancor from "../../../esp/assets/logos/sancor.jpg";
