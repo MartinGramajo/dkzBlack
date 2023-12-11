@@ -4,7 +4,7 @@ import "./cabezasEN.css";
 
 import banner4 from "../../../../esp/assets/img/4.jpg";
 import banner5 from "../../../../esp/assets/img/5.jpg";
-import banner6 from "../../../../esp/assets/img/6.JPG";
+import banner6 from "../../../../esp/assets/img/6.jpg";
 
 import bannerCuadrado4 from "../../../../esp/assets/img/4cuadrada.jpg";
 import bannerCuadrado5 from "../../../../esp/assets/img/5cuadrada.jpg";

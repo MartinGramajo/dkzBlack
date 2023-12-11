@@ -79,10 +79,10 @@ const CarouselHomeBEN = () => {
       </div>
       <article className="container mt-5">
         <div className="d-none d-md-block text-center">
-          <h2 className="peso-bold pb-4"> " WE ARE ENERGY, WE ARE DKZ"</h2>
+          <h2 className="peso-bold pb-4"> WE ARE ENERGY, WE ARE DKZ</h2>
         </div>
         <div className="d-md-none d-block text-center">
-          <h3 className="peso-bold py-4">" WE ARE ENERGY, WE ARE DKZ"</h3>
+          <h3 className="peso-bold py-4"> WE ARE ENERGY, WE ARE DKZ</h3>
         </div>
       </article>
     </div>
