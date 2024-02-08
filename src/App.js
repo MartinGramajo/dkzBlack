@@ -47,6 +47,13 @@ import { SitiosWebDetalladosEN } from "./en/components/SitiosWebDetalladosEN";
 import SocialMediaDetalleEN from "./en/components/SocialMediaDetalleEN";
 import EventosDetalleEN from "./en/components/EventosDetalleEN";
 import PublicidadDetalleEN from "./en/components/PublicidadDetalleEN";
+import Noticias1 from "./esp/pages/noticias/Noticias1";
+import Noticias2 from "./esp/pages/noticias/Noticias2";
+import Noticias3 from "./esp/pages/noticias/Noticias3";
+import Noticias4 from "./esp/pages/noticias/Noticias4";
+import Noticias5 from "./esp/pages/noticias/Noticias5";
+import Noticias6 from "./esp/pages/noticias/Noticias6";
+import NovedadesNew from "./esp/pages/NovedadesNew";
 
 function App() {
 
@@ -64,6 +71,13 @@ function App() {
                     <Route path="/servicios" element={<ServiciosPage />} />
                     <Route path="/services" element={<ServiciosPageEN />} />
                     <Route path="/novedades" element={<Novedades />} />
+                    <Route path="/novedades/todas" element={<NovedadesNew />} />
+                    <Route path="/noticia/dkz-concluye-un-2023-con-grandes-exitos" element={<Noticias1 />} />
+                    <Route path="/noticia/dkz-celebra-su-cuarto-aniversario-y-desembarca-en-españa" element={<Noticias2 />} />
+                    <Route path="/noticia/se-realizo-la-primera-edicion-del-foro-publicitario-en-tucuman" element={<Noticias3 />} />
+                    <Route path="/noticia/dkz-se-sumo-al-consejo-publicitario-argentino" element={<Noticias4 />} />
+                    <Route path="/noticia/fabricio-meriglio-es-el-nuevo-dgc-de-dkz-studio" element={<Noticias5 />} />
+                    <Route path="/noticia/un-tucumano-sera-jurado-del-consejo-publicitario" element={<Noticias6 />} />
                     <Route path="/news" element={<NovedadesEN />} />
                     <Route
                         path="/novedades/:id"

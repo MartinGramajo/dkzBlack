@@ -57,7 +57,7 @@ export const NovedadesDetalleCel = () => {
         </div>
       ) : (
         <div className="mx-3 pb-5">
-          <h6 className="text-white peso-bold mb-4">{seccion}</h6>
+          {/* <h6 className="text-white peso-bold mb-4">{seccion}</h6> */}
 
           <h3 className="text-white peso-bold">{titulo}</h3>
           <h5 className="text-white mt-4 ">{subtitulo}</h5>

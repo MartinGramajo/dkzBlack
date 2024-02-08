@@ -13,6 +13,7 @@ import Clientes from "../components/Nosotros/clientes/Clientes";
 import { NavbarReactV2 } from "../components/navbarReactV2/NavbarReactV2";
 import { FooterReact } from "../components/FooterReact/FooterReact";
 import SliderHome from "../components/sliderHome/SliderHome";
+import NovedadesHomeNew from "../components/NovedadesHomeNwe/NovedadesHomeNew";
 
 export default function Home() {
   return (
@@ -49,7 +50,8 @@ export default function Home() {
         <DosBotonesHome />
       </div>
       <div className="color-negroclaro-fondo ">
-        <NovedadesHome />
+        {/* <NovedadesHome /> */}
+        <NovedadesHomeNew />
       </div>
       <FooterReact />
     </div>
