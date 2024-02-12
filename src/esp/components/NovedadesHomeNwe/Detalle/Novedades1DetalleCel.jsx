@@ -117,8 +117,12 @@ export const Novedades1DetalleCel = () => {
       </div>
 
       <div className="d-flex justify-content-center pt-4">
-        <Link className="text-decoration-none text-white" to="/novedades">
-          <Button as={Link} to="/novedades" className="boton-naranja-grande">
+        <Link className="text-decoration-none text-white" to="/novedades/todas">
+          <Button
+            as={Link}
+            to="/novedades/todas"
+            className="boton-naranja-grande"
+          >
             <h5 className="peso-bold ps-4 d-lg-none d-block">MÁS NOVEDADES</h5>
             <h3 className="peso-bold pe-3 d-lg-none d-block">➝</h3>
           </Button>

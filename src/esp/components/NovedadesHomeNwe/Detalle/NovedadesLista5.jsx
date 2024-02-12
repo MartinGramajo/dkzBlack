@@ -9,7 +9,12 @@ export default function NovedadesLista5() {
         <div className="mx-4 mx-sm-0"></div>
         <div>
           <div className="py-4 novedades-nav w-100">
-            <Link to={"/novedades/"} className="tamaño-card-novedades">
+            <Link
+              to={
+                "/noticia/dkz-celebra-su-cuarto-aniversario-y-desembarca-en-españa"
+              }
+              className="tamaño-card-novedades"
+            >
               <div className="fondo-novedades mb-4">
                 <Image
                   className="mb-3 imagen-lista-noticia "
@@ -23,15 +28,17 @@ export default function NovedadesLista5() {
                       DKZ CELEBRA SU CUARTO ANIVERSARIO Y DESEMBARCA EN ESPAÑA
                     </h5>
                   </div>
-                  {/* <h6 className="peso-regular mx-4 mx-sm-0">
-                    {trabajo.resumen}
-                  </h6> */}
                 </div>
               </div>
             </Link>
           </div>
           <div className="py-4 novedades-nav w-100">
-            <Link to={"/novedades/"} className="tamaño-card-novedades">
+            <Link
+              to={
+                "/noticia/se-realizo-la-primera-edicion-del-foro-publicitario-en-tucuman"
+              }
+              className="tamaño-card-novedades"
+            >
               <div className="fondo-novedades mb-4">
                 <Image
                   className="mb-3 imagen-lista-noticia "
@@ -46,15 +53,15 @@ export default function NovedadesLista5() {
                       TUCUMÁN
                     </h5>
                   </div>
-                  {/* <h6 className="peso-regular mx-4 mx-sm-0">
-                    {trabajo.resumen}
-                  </h6> */}
                 </div>
               </div>
             </Link>
           </div>
           <div className="py-4 novedades-nav w-100">
-            <Link to={"/novedades/"} className="tamaño-card-novedades">
+            <Link
+              to={"/noticia/dkz-se-sumo-al-consejo-publicitario-argentino"}
+              className="tamaño-card-novedades"
+            >
               <div className="fondo-novedades mb-4">
                 <Image
                   className="mb-3 imagen-lista-noticia "
@@ -68,9 +75,6 @@ export default function NovedadesLista5() {
                       DKZ SE SUMÓ AL CONSEJO PUBLICITARIO ARGENTINO
                     </h5>
                   </div>
-                  {/* <h6 className="peso-regular mx-4 mx-sm-0">
-                    {trabajo.resumen}
-                  </h6> */}
                 </div>
               </div>
             </Link>

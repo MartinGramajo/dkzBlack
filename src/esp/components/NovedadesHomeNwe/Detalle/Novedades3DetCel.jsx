@@ -33,7 +33,6 @@ const noticia1 = {
     "https://res.cloudinary.com/dlzcbrqax/image/upload/v1686880310/Prensa/guille_y_fabri_MINI_gckvdn.jpg",
 };
 
-
 export default function Novedades3DetCel() {
   const {
     id,
@@ -91,8 +90,12 @@ export default function Novedades3DetCel() {
       </div>
 
       <div className="d-flex justify-content-center pt-4">
-        <Link className="text-decoration-none text-white" to="/novedades">
-          <Button as={Link} to="/novedades" className="boton-naranja-grande">
+        <Link className="text-decoration-none text-white" to="/novedades/todas">
+          <Button
+            as={Link}
+            to="/novedades/todas"
+            className="boton-naranja-grande"
+          >
             <h5 className="peso-bold ps-4 d-lg-none d-block">MÁS NOVEDADES</h5>
             <h3 className="peso-bold pe-3 d-lg-none d-block">➝</h3>
           </Button>
