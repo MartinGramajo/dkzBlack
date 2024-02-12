@@ -54,6 +54,12 @@ import Noticias4 from "./esp/pages/noticias/Noticias4";
 import Noticias5 from "./esp/pages/noticias/Noticias5";
 import Noticias6 from "./esp/pages/noticias/Noticias6";
 import NovedadesNew from "./esp/pages/NovedadesNew";
+import Noticias1EN from "./en/pages/NoticiasEN/Noticias1EN";
+import Noticias2EN from "./en/pages/NoticiasEN/Noticias2EN";
+import Noticias3EN from "./en/pages/NoticiasEN/Noticias3EN";
+import Noticias4EN from "./en/pages/NoticiasEN/Noticias4EN";
+import Noticias5EN from "./en/pages/NoticiasEN/Noticias5EN";
+import Noticias6EN from "./en/pages/NoticiasEN/Noticias6EN";
 
 function App() {
 
@@ -79,6 +85,12 @@ function App() {
                     <Route path="/noticia/fabricio-meriglio-es-el-nuevo-dgc-de-dkz-studio" element={<Noticias5 />} />
                     <Route path="/noticia/un-tucumano-sera-jurado-del-consejo-publicitario" element={<Noticias6 />} />
                     <Route path="/news" element={<NovedadesEN />} />
+                    <Route path="/news/dkz-concludes-2023-with-great-success" element={<Noticias1EN />} />
+                    <Route path="/news/dkz-celebrates-its-fourth-anniversary-and-disembarks-in-spain" element={<Noticias2EN />} />
+                    <Route path="/news/the-first-edition-of-the-advertising-forum-was-held-in-tucuman" element={<Noticias3EN />} />
+                    <Route path="/news/DKZ-joined-the-Argentine-Advertising-Council" element={<Noticias4EN />} />
+                    <Route path="/news/Fabricio-Meriglio-is-DKZ-Studio's-new-DGC" element={<Noticias5EN />} />
+                    <Route path="/news/A-tucumano-will-be-a-jury-of-the-Argentine-Advertising-Council" element={<Noticias6EN />} />
                     <Route
                         path="/novedades/:id"
                         element={<NovedadesDetalle />}

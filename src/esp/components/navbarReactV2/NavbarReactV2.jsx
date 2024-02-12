@@ -69,7 +69,7 @@ export const NavbarReactV2 = () => {
               </Nav.Link>
               <Nav.Link
                 className="peso-bold-asap"
-                to="/novedades"
+                to="/novedades/todas"
                 as={NavLink}
                 href
               >

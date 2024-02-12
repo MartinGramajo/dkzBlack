@@ -29,30 +29,152 @@ export default function NovedadesHomeEN() {
     getTrabajos();
   }, []);
   return (
+    // <div className="pb-5">
+
+    //   <div id="NovedadesHome" className=" padding-titulo d-none d-xl-block">
+    //     <div className="container">
+    //       <LineaNaranja />
+    //       <h2 className="color-blanco mt-5 peso-bold">NEWS</h2>
+    //       <div className="d-flex flex-wrap justify-content-between pt-5 cards-novedades">
+    //         {trabajos.slice(0, 3).map((trabajo, i) => (
+    //           <NavLink to={"/news/" + trabajo.id} className="" key={i}>
+    //             <div
+    //               className="fondo-novedades-home"
+    //               style={{
+    //                 backgroundImage: `url(${trabajo.imagenMini})`,
+    //               }}
+    //             >
+    //               <h6 className="peso-bold novedades-home-texto px-4 pt-3">
+    //                 {trabajo.tituloEN}
+    //               </h6>
+    //               <h6 className="peso-regular interlineado novedades-home-texto px-4 pb-3 pt-0">
+    //                 {trabajo.resumenEN}
+    //               </h6>
+    //             </div>
+    //           </NavLink>
+    //         ))}
+    //       </div>
+    //     </div>
+    //   </div>
+
+    //   <div id="NovedadesHome" className="padding-titulo d-xl-none d-block ">
+    //     <div className="container">
+    //       <div className="mx-3">
+    //         <LineaNaranja />
+    //         <h3 className="color-blanco mt-4 peso-bold">NEWS</h3>
+    //       </div>
+    //     </div>
+    //     <div className="pt-5 pb-0">
+    //       <Swiper
+    //         effect={"coverflow"}
+    //         grabCursor={true}
+    //         centeredSlides={true}
+    //         initialSlide={1}
+    //         navigation={false}
+    //         control={true}
+    //         slidesPerView={"auto"}
+    //         coverflowEffect={{
+    //           rotate: 0,
+    //           strech: 0,
+    //           depth: 100,
+    //           modifier: 2.5,
+    //           slideShadows: false,
+    //         }}
+    //         modules={[EffectCoverflow, Navigation]}
+    //         spaceBetween={-20} // o margin en cada elemento
+    //         className="swiper-novedades"
+    //       >
+    //         {trabajos.slice(0, 3).map((trabajo, i) => (
+    //           <SwiperSlide key={i}>
+    //             <NavLink to={"/news/" + trabajo.id} className="">
+    //               <div
+    //                 className="fondo-novedades-home"
+    //                 style={{
+    //                   backgroundImage: `url(${trabajo.imagenMini})`,
+    //                 }}
+    //               >
+    //                 <h6 className="peso-bold novedades-home-texto px-4 pt-3">
+    //                   {trabajo.titulo}
+    //                 </h6>
+    //                 <h6 className="peso-regular interlineado novedades-home-texto px-4 pb-3 pt-0">
+    //                   {trabajo.resumen}
+    //                 </h6>
+    //               </div>
+    //             </NavLink>
+    //           </SwiperSlide>
+    //         ))}
+    //       </Swiper>
+    //     </div>
+    //   </div>
+    // </div>
     <div className="pb-5">
       {/* ESCRITTORIO */}
       <div id="NovedadesHome" className=" padding-titulo d-none d-xl-block">
         <div className="container">
           <LineaNaranja />
-          <h2 className="color-blanco mt-5 peso-bold">NEWS</h2>
+          <h2 className="color-blanco mt-5 peso-bold">NOVEDADES</h2>
           <div className="d-flex flex-wrap justify-content-between pt-5 cards-novedades">
-            {trabajos.slice(0, 3).map((trabajo, i) => (
-              <NavLink to={"/news/" + trabajo.id} className="" key={i}>
+            <div>
+              <NavLink
+                to={"/news/dkz-concludes-2023-with-great-success"}
+                className=""
+              >
                 <div
                   className="fondo-novedades-home"
                   style={{
-                    backgroundImage: `url(${trabajo.imagenMini})`,
+                    backgroundImage: `url("https://res.cloudinary.com/dlzcbrqax/image/upload/v1704326341/Captura_de_pantalla_2024-01-03_205820_vc0sq0.png")`,
                   }}
                 >
-                  <h6 className="peso-bold novedades-home-texto px-4 pt-3">
-                    {trabajo.tituloEN}
-                  </h6>
-                  <h6 className="peso-regular interlineado novedades-home-texto px-4 pb-3 pt-0">
-                    {trabajo.resumenEN}
+                  <h6 className="peso-bold novedades-home-texto px-4 py-3">
+                    DKZ CONCLUDES 2023 WITH GREAT SUCCESS
                   </h6>
                 </div>
               </NavLink>
-            ))}
+            </div>
+            <div>
+              <div>
+                <NavLink
+                  to={
+                    "/news/dkz-celebrates-its-fourth-anniversary-and-disembarks-in-spain"
+                  }
+                  className=""
+                >
+                  <div
+                    className="fondo-novedades-home"
+                    style={{
+                      backgroundImage: `url("https://res.cloudinary.com/dlzcbrqax/image/upload/v1693582932/Prensa/cuadradodkzesp_lsrdgd.jpg")`,
+                    }}
+                  >
+                    <h6 className="peso-bold novedades-home-texto px-4 py-3">
+                      DKZ CELEBRATES ITS FOURTH ANNIVERSARY AND DISEMBARKS IN
+                      SPAIN
+                    </h6>
+                  </div>
+                </NavLink>
+              </div>
+            </div>
+            <div>
+              <div>
+                <NavLink
+                  to={
+                    "/news/the-first-edition-of-the-advertising-forum-was-held-in-tucuman"
+                  }
+                  className=""
+                >
+                  <div
+                    className="fondo-novedades-home"
+                    style={{
+                      backgroundImage: `url("https://res.cloudinary.com/dlzcbrqax/image/upload/v1686880310/Prensa/guille_y_fabri_MINI_gckvdn.jpg")`,
+                    }}
+                  >
+                    <h6 className="peso-bold novedades-home-texto px-4 py-3">
+                      THE FIRST EDITION OF THE ADVERTISING FORUM WAS HELD IN
+                      TUCUMAN
+                    </h6>
+                  </div>
+                </NavLink>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -61,7 +183,7 @@ export default function NovedadesHomeEN() {
         <div className="container">
           <div className="mx-3">
             <LineaNaranja />
-            <h3 className="color-blanco mt-4 peso-bold">NEWS</h3>
+            <h3 className="color-blanco mt-4 peso-bold">NOVEDADES</h3>
           </div>
         </div>
         <div className="pt-5 pb-0">
@@ -84,25 +206,63 @@ export default function NovedadesHomeEN() {
             spaceBetween={-20} // o margin en cada elemento
             className="swiper-novedades"
           >
-            {trabajos.slice(0, 3).map((trabajo, i) => (
-              <SwiperSlide key={i}>
-                <NavLink to={"/news/" + trabajo.id} className="">
-                  <div
-                    className="fondo-novedades-home"
-                    style={{
-                      backgroundImage: `url(${trabajo.imagenMini})`,
-                    }}
-                  >
-                    <h6 className="peso-bold novedades-home-texto px-4 pt-3">
-                      {trabajo.titulo}
-                    </h6>
-                    <h6 className="peso-regular interlineado novedades-home-texto px-4 pb-3 pt-0">
-                      {trabajo.resumen}
-                    </h6>
-                  </div>
-                </NavLink>
-              </SwiperSlide>
-            ))}
+            <SwiperSlide>
+              <NavLink
+                to={"/news/dkz-concludes-2023-with-great-success"}
+                className=""
+              >
+                <div
+                  className="fondo-novedades-home"
+                  style={{
+                    backgroundImage: `url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1704326341/Captura_de_pantalla_2024-01-03_205820_vc0sq0.png)`,
+                  }}
+                >
+                  <h6 className="peso-bold novedades-home-texto px-4 py-3">
+                    DKZ CONCLUDES 2023 WITH GREAT SUCCESS
+                  </h6>
+                </div>
+              </NavLink>
+            </SwiperSlide>
+            <SwiperSlide>
+              <NavLink
+                to={
+                  "/news/dkz-celebrates-its-fourth-anniversary-and-disembarks-in-spain"
+                }
+                className=""
+              >
+                <div
+                  className="fondo-novedades-home"
+                  style={{
+                    backgroundImage: `url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1693582932/Prensa/cuadradodkzesp_lsrdgd.jpg)`,
+                  }}
+                >
+                  <h6 className="peso-bold novedades-home-texto px-4 py-3">
+                    DKZ CELEBRATES ITS FOURTH ANNIVERSARY AND DISEMBARKS IN
+                    SPAIN
+                  </h6>
+                </div>
+              </NavLink>
+            </SwiperSlide>
+            <SwiperSlide>
+              <NavLink
+                to={
+                  "/news/the-first-edition-of-the-advertising-forum-was-held-in-tucuman"
+                }
+                className=""
+              >
+                <div
+                  className="fondo-novedades-home"
+                  style={{
+                    backgroundImage: `url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1686880310/Prensa/guille_y_fabri_MINI_gckvdn.jpg)`,
+                  }}
+                >
+                  <h6 className="peso-bold novedades-home-texto px-4 pt-3">
+                    THE FIRST EDITION OF THE ADVERTISING FORUM WAS HELD IN
+                    TUCUMAN
+                  </h6>
+                </div>
+              </NavLink>
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>
