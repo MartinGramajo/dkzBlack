@@ -22,7 +22,7 @@ const noticia1 = {
     "El CPA es una comunidad de empresas, agencias, medios, organizaciones e instituciones que se unen para promover valor social a través de la comunicación. “DKZ decidió formar parte porque creemos que, por medio de una gestión continua y efectiva, podemos transformar la vida de algunas personas”, concluyó.",
   descripcion2b: "",
   imagen1:
-    "https://res.cloudinary.com/dlzcbrqax/image/upload/v1663116234/Prensa/noticia2_novkwh_wxeuqi.png",
+    "https://res.cloudinary.com/dlzcbrqax/image/upload/v1663116234/Prensa/noticia1_tfk0yo_jjiutk.png",
   imagen2: "",
   imagen3: "",
   fecha: "",
@@ -30,7 +30,7 @@ const noticia1 = {
   textoImagen2: "",
   textoImagen3: "",
   imagenMini:
-    "https://res.cloudinary.com/dlzcbrqax/image/upload/v1663116234/Prensa/noticia2_novkwh_wxeuqi.png",
+    "https://res.cloudinary.com/dlzcbrqax/image/upload/v1663116234/Prensa/noticia1_tfk0yo_jjiutk.png",
 };
 
 export default function Novedades5DetCel() {

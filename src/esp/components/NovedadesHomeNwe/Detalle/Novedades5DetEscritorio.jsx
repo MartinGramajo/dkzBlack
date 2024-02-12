@@ -23,7 +23,7 @@ const noticia1 = {
   descripcion2b:
     "“La energía creativa que impregna los pasillos de DKZ provoca vértigo. Sorprende el ritmo del crecimiento de la agencia tomando en cuenta los pocos años que llevan en el mercado. Por supuesto, la clave está en la actitud innovadora con la que encaran cada proyecto; sin importar su envergadura”, confesó Fabricio en una nota de bienvenida en las oficinas de la agencia en San Miguel de Tucumán",
   imagen1:
-    "https://res.cloudinary.com/dlzcbrqax/image/upload/v1663116234/Prensa/noticia2_novkwh_wxeuqi.png",
+    "https://res.cloudinary.com/dlzcbrqax/image/upload/v1663116234/Prensa/noticia1_tfk0yo_jjiutk.png",
   imagen2: "",
   imagen3: "",
   fecha: "",
@@ -31,7 +31,7 @@ const noticia1 = {
   textoImagen2: "",
   textoImagen3: "",
   imagenMini:
-    "https://res.cloudinary.com/dlzcbrqax/image/upload/v1663118036/Prensa/noticia1_tfk0yo_dlnncf.png",
+    "https://res.cloudinary.com/dlzcbrqax/image/upload/v1663116234/Prensa/noticia1_tfk0yo_jjiutk.png",
 };
 
 export default function Novedades5DetEscritorio() {

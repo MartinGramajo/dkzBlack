@@ -25,7 +25,7 @@ const noticia1 = {
   descripcion2b:
     "“The creative energy that permeates DKZ's halls causes vertigo. Surprise the rate of agency's growth taking into account the few years they have been in the market. Of course, the key is in the innovative attitude with which each project faces; regardless of its size,” manufactured manufacturing in a welcome note in the agency offices in San Miguel de Tucumán.",
   imagen1:
-    "https://res.cloudinary.com/dlzcbrqax/image/upload/v1663116234/Prensa/noticia2_novkwh_wxeuqi.png",
+    "https://res.cloudinary.com/dlzcbrqax/image/upload/v1663116234/Prensa/noticia1_tfk0yo_jjiutk.png",
   imagen2: "",
   imagen3: "",
   fecha: "",
@@ -33,7 +33,7 @@ const noticia1 = {
   textoImagen2: "",
   textoImagen3: "",
   imagenMini:
-    "https://res.cloudinary.com/dlzcbrqax/image/upload/v1663118036/Prensa/noticia1_tfk0yo_dlnncf.png",
+    "https://res.cloudinary.com/dlzcbrqax/image/upload/v1663116234/Prensa/noticia1_tfk0yo_jjiutk.png",
 };
 export default function Novedades6DetallesCelEN() {
   const {
