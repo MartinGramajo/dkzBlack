@@ -34,7 +34,7 @@ export default function NovedadesHomeNew() {
                     backgroundImage: `url("https://res.cloudinary.com/dlzcbrqax/image/upload/v1704326341/Captura_de_pantalla_2024-01-03_205820_vc0sq0.png")`,
                   }}
                 >
-                  <h6 className="peso-bold novedades-home-texto px-4 pt-3">
+                  <h6 className="peso-bold novedades-home-texto px-4 py-3">
                     DKZ CONCLUYE UN 2023 CON GRANDES ÉXITOS
                   </h6>
                 </div>
@@ -54,7 +54,7 @@ export default function NovedadesHomeNew() {
                       backgroundImage: `url("https://res.cloudinary.com/dlzcbrqax/image/upload/v1693582932/Prensa/cuadradodkzesp_lsrdgd.jpg")`,
                     }}
                   >
-                    <h6 className="peso-bold novedades-home-texto px-4 pt-3">
+                    <h6 className="peso-bold novedades-home-texto px-4 py-3">
                       DKZ CELEBRA SU CUARTO ANIVERSARIO Y DESEMBARCA EN ESPAÑA
                     </h6>
                   </div>
@@ -75,7 +75,7 @@ export default function NovedadesHomeNew() {
                       backgroundImage: `url("https://res.cloudinary.com/dlzcbrqax/image/upload/v1686880310/Prensa/guille_y_fabri_MINI_gckvdn.jpg")`,
                     }}
                   >
-                    <h6 className="peso-bold novedades-home-texto px-4 pt-3">
+                    <h6 className="peso-bold novedades-home-texto px-4 py-3">
                       SE REALIZÓ LA PRIMERA EDICIÓN DEL FORO PUBLICITARIO EN
                       TUCUMÁN
                     </h6>
