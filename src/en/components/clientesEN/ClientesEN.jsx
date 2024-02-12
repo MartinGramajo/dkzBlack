@@ -182,6 +182,8 @@ export default function ClientesEN() {
           </SwiperSlide>
         </Swiper>
       </div>
+
+      {/* celular */}
       <div className="d-block d-lg-none">
         <Swiper
           slidesPerView={"auto"}
@@ -197,15 +199,20 @@ export default function ClientesEN() {
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper bg-white"
         >
-          <SwiperSlide className="cartas-slider">
-            <Image className="mx-5 pt-4" src={caja} alt="caja popular" fluid />
+          <SwiperSlide className="cartas-slider ">
+            <Image
+              className="mx-5 icono-carousel-clientes py-4"
+              src={caja}
+              alt="caja popular"
+              fluid
+            />
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
-            <Image className="mx-5 pt-4" src={speed} alt="caja popular" fluid />
+            <Image className="mx-5 " src={speed} alt="caja popular" fluid />
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
             <Image
-              className="mx-5 pt-4"
+              className="mx-5 icono-carousel-clientes py-4"
               src={gaceta}
               alt="caja popular"
               fluid
@@ -213,7 +220,7 @@ export default function ClientesEN() {
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
             <Image
-              className="mx-5 pt-4"
+              className="mx-5  icono-carousel-clientes py-4"
               src={schilman}
               alt="caja popular"
               fluid
@@ -221,7 +228,7 @@ export default function ClientesEN() {
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
             <Image
-              className="mx-5 pt-4"
+              className="mx-5 icono-carousel-clientes py-4"
               src={patagonia}
               alt="caja popular"
               fluid
@@ -229,18 +236,18 @@ export default function ClientesEN() {
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
             <Image
-              className="mx-5 pt-4"
+              className="mx-5  icono-carousel-clientes py-4"
               src={uniber}
               alt="caja popular"
               fluid
             />
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
-            <Image className="mx-5 pt-4" src={gob} alt="caja popular" fluid />
+            <Image className="mx-5 " src={gob} alt="caja popular" fluid />
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
             <Image
-              className="mx-5 pt-4"
+              className="mx-5  icono-carousel-clientes py-4"
               src={lemons}
               alt="caja popular"
               fluid
@@ -248,7 +255,7 @@ export default function ClientesEN() {
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
             <Image
-              className="mx-5 pt-4"
+              className="mx-5 icono-carousel-clientes py-4"
               src={tucutanos}
               alt="caja popular"
               fluid
@@ -256,21 +263,31 @@ export default function ClientesEN() {
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
             <Image
-              className="mx-5 pt-4"
+              className="mx-5 icono-carousel-clientes py-4"
               src={laestancia}
               alt="caja popular"
               fluid
             />
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
-            <Image className="mx-5 pt-4" src={urt} alt="caja popular" fluid />
-          </SwiperSlide>
-          <SwiperSlide className="cartas-slider">
-            <Image className="mx-5 pt-4" src={seven} alt="caja popular" fluid />
+            <Image
+              className="mx-5  icono-carousel-clientes py-4"
+              src={urt}
+              alt="caja popular"
+              fluid
+            />
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
             <Image
-              className="mx-5 pt-4"
+              className="mx-5  icono-carousel-clientes py-4"
+              src={seven}
+              alt="caja popular"
+              fluid
+            />
+          </SwiperSlide>
+          <SwiperSlide className="cartas-slider">
+            <Image
+              className="mx-5  icono-carousel-clientes py-4"
               src={sancor}
               alt="caja popular"
               fluid
@@ -278,18 +295,23 @@ export default function ClientesEN() {
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
             <Image
-              className="mx-5 pt-4"
+              className="mx-5  icono-carousel-clientes py-4"
               src={aguila}
               alt="caja popular"
               fluid
             />
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
-            <Image className="mx-5 pt-4" src={tbc} alt="caja popular" fluid />
+            <Image
+              className="mx-5  icono-carousel-clientes py-4"
+              src={tbc}
+              alt="caja popular"
+              fluid
+            />
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
             <Image
-              className="mx-5 pt-4"
+              className="mx-5  icono-carousel-clientes py-4"
               src={argenta}
               alt="caja popular"
               fluid
@@ -297,17 +319,27 @@ export default function ClientesEN() {
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
             <Image
-              className="mx-5 pt-4"
+              className="mx-5  icono-carousel-clientes py-4"
               src={torres}
               alt="caja popular"
               fluid
             />
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
-            <Image className="mx-5 pt-4" src={paz} alt="caja popular" fluid />
+            <Image
+              className="mx-5 icono-carousel-clientes py-4"
+              src={paz}
+              alt="caja popular"
+              fluid
+            />
           </SwiperSlide>
           <SwiperSlide className="cartas-slider">
-            <Image className="mx-5 pt-4" src={real} alt="caja popular" fluid />
+            <Image
+              className="mx-5 icono-carousel-clientes py-4"
+              src={real}
+              alt="caja popular"
+              fluid
+            />
           </SwiperSlide>
         </Swiper>
       </div>
