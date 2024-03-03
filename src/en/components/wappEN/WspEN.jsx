@@ -8,7 +8,7 @@ export default function WspEN() {
       <div>
         <a
           className=""
-          href="https://wa.link/s6wtyd"
+          href="https://wa.link/0nt3p8"
           target="_blank"
           rel="noreferrer"
         >

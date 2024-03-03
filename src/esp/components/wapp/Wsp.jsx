@@ -8,7 +8,7 @@ export default function Wsp() {
       <div>
         <a
           className=""
-          href="https://wa.link/6g3x2p"
+          href="https://wa.link/6syfgs"
           target="_blank"
           rel="noreferrer"
         >

@@ -25,6 +25,8 @@ import laestancia from "../../../assets/logos/La Estancia.png";
 import torres from "../../../assets/logos/LasTorres.png";
 import paz from "../../../assets/logos/Paztour.png";
 import real from "../../../assets/logos/WeReal.png";
+import abanco from "../../../assets/logos/abanco.png";
+import polo from "../../../assets/logos/polosalud.png";
 
 export default function Clientes() {
   return (
@@ -50,6 +52,46 @@ export default function Clientes() {
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper "
         >
+          <SwiperSlide className="bg-white">
+            <div className="d-flex justify-content-center">
+              <Image
+                className="py-3 icono-carousel-clientes"
+                src={polo}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3 icono-carousel-clientes"
+                src={abanco}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3 icono-carousel-clientes"
+                src={argenta}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={torres}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={paz}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={real}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+            </div>
+          </SwiperSlide>
           <SwiperSlide className="bg-white">
             <div className="d-flex justify-content-center">
               <Image
@@ -147,34 +189,6 @@ export default function Clientes() {
               <Image
                 className="py-3  icono-carousel-clientes"
                 src={tbc}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="bg-white">
-            <div className="d-flex justify-content-center">
-              <Image
-                className="py-3 icono-carousel-clientes"
-                src={argenta}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={torres}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={paz}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={real}
                 alt="Aumenta tus ventas"
                 fluid
               />

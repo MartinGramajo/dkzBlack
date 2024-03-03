@@ -29,6 +29,8 @@ import laestancia from "../../../assets/logos/La Estancia.png";
 import torres from "../../../assets/logos/LasTorres.png";
 import paz from "../../../assets/logos/Paztour.png";
 import real from "../../../assets/logos/WeReal.png";
+import abanco from "../../../assets/logos/abanco.png";
+import polo from "../../../assets/logos/polosalud.png";
 
 export const ClientesCelu = () => {
   return (
@@ -57,6 +59,54 @@ export const ClientesCelu = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper bg-white"
       >
+        <SwiperSlide className="cartas-slider">
+          <Image
+            className="mx-5 py-4 icono-carousel-clientes"
+            src={polo}
+            alt="caja popular"
+            fluid
+          />
+        </SwiperSlide>
+        <SwiperSlide className="cartas-slider">
+          <Image
+            className="mx-5 py-4 icono-carousel-clientes"
+            src={abanco}
+            alt="caja popular"
+            fluid
+          />
+        </SwiperSlide>
+        <SwiperSlide className="cartas-slider">
+          <Image
+            className="mx-5 py-4 icono-carousel-clientes"
+            src={argenta}
+            alt="caja popular"
+            fluid
+          />
+        </SwiperSlide>
+        <SwiperSlide className="cartas-slider">
+          <Image
+            className="mx-5 py-4 icono-carousel-clientes"
+            src={torres}
+            alt="caja popular"
+            fluid
+          />
+        </SwiperSlide>
+        <SwiperSlide className="cartas-slider">
+          <Image
+            className="mx-5 py-4 icono-carousel-clientes"
+            src={paz}
+            alt="caja popular"
+            fluid
+          />
+        </SwiperSlide>
+        <SwiperSlide className="cartas-slider">
+          <Image
+            className="mx-5 py-4 icono-carousel-clientes"
+            src={real}
+            alt="caja popular"
+            fluid
+          />
+        </SwiperSlide>
         <SwiperSlide className="cartas-slider">
           <Image
             className="mx-5 py-4 icono-carousel-clientes"
@@ -173,38 +223,6 @@ export const ClientesCelu = () => {
           <Image
             className="mx-5 py-4 icono-carousel-clientes"
             src={tbc}
-            alt="caja popular"
-            fluid
-          />
-        </SwiperSlide>
-        <SwiperSlide className="cartas-slider">
-          <Image
-            className="mx-5 py-4 icono-carousel-clientes"
-            src={argenta}
-            alt="caja popular"
-            fluid
-          />
-        </SwiperSlide>
-        <SwiperSlide className="cartas-slider">
-          <Image
-            className="mx-5 py-4 icono-carousel-clientes"
-            src={torres}
-            alt="caja popular"
-            fluid
-          />
-        </SwiperSlide>
-        <SwiperSlide className="cartas-slider">
-          <Image
-            className="mx-5 py-4 icono-carousel-clientes"
-            src={paz}
-            alt="caja popular"
-            fluid
-          />
-        </SwiperSlide>
-        <SwiperSlide className="cartas-slider">
-          <Image
-            className="mx-5 py-4 icono-carousel-clientes"
-            src={real}
             alt="caja popular"
             fluid
           />
