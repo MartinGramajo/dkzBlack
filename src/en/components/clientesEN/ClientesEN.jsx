@@ -26,6 +26,8 @@ import torres from "../../../esp/assets/logos/LasTorres.png";
 import paz from "../../../esp/assets/logos/Paztour.png";
 import real from "../../../esp/assets/logos/WeReal.png";
 
+import polo from "../../../esp/assets/logos/polosalud.png";
+import abanco from "../../../esp/assets/logos/abanco.png";
 export default function ClientesEN() {
   return (
     <div>
@@ -50,6 +52,46 @@ export default function ClientesEN() {
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper "
         >
+          <SwiperSlide className="bg-white">
+            <div className="d-flex justify-content-center">
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={polo}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={abanco}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={argenta}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={torres}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={paz}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+              <Image
+                className="py-3  icono-carousel-clientes"
+                src={real}
+                alt="Aumenta tus ventas"
+                fluid
+              />
+            </div>
+          </SwiperSlide>
           <SwiperSlide className="bg-white">
             <div className="d-flex justify-content-center">
               <Image
@@ -152,34 +194,6 @@ export default function ClientesEN() {
               />
             </div>
           </SwiperSlide>
-          <SwiperSlide className="bg-white">
-            <div className="d-flex justify-content-center">
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={argenta}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={torres}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={paz}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={real}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-            </div>
-          </SwiperSlide>
         </Swiper>
       </div>
 
@@ -199,6 +213,54 @@ export default function ClientesEN() {
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper bg-white"
         >
+          <SwiperSlide className="cartas-slider">
+            <Image
+              className="mx-5  icono-carousel-clientes py-4"
+              src={polo}
+              alt="caja popular"
+              fluid
+            />
+          </SwiperSlide>
+          <SwiperSlide className="cartas-slider">
+            <Image
+              className="mx-5  icono-carousel-clientes py-4"
+              src={abanco}
+              alt="caja popular"
+              fluid
+            />
+          </SwiperSlide>
+          <SwiperSlide className="cartas-slider">
+            <Image
+              className="mx-5  icono-carousel-clientes py-4"
+              src={argenta}
+              alt="caja popular"
+              fluid
+            />
+          </SwiperSlide>
+          <SwiperSlide className="cartas-slider">
+            <Image
+              className="mx-5  icono-carousel-clientes py-4"
+              src={torres}
+              alt="caja popular"
+              fluid
+            />
+          </SwiperSlide>
+          <SwiperSlide className="cartas-slider">
+            <Image
+              className="mx-5 icono-carousel-clientes py-4"
+              src={paz}
+              alt="caja popular"
+              fluid
+            />
+          </SwiperSlide>
+          <SwiperSlide className="cartas-slider">
+            <Image
+              className="mx-5 icono-carousel-clientes py-4"
+              src={real}
+              alt="caja popular"
+              fluid
+            />
+          </SwiperSlide>
           <SwiperSlide className="cartas-slider ">
             <Image
               className="mx-5 icono-carousel-clientes py-4"
@@ -305,38 +367,6 @@ export default function ClientesEN() {
             <Image
               className="mx-5  icono-carousel-clientes py-4"
               src={tbc}
-              alt="caja popular"
-              fluid
-            />
-          </SwiperSlide>
-          <SwiperSlide className="cartas-slider">
-            <Image
-              className="mx-5  icono-carousel-clientes py-4"
-              src={argenta}
-              alt="caja popular"
-              fluid
-            />
-          </SwiperSlide>
-          <SwiperSlide className="cartas-slider">
-            <Image
-              className="mx-5  icono-carousel-clientes py-4"
-              src={torres}
-              alt="caja popular"
-              fluid
-            />
-          </SwiperSlide>
-          <SwiperSlide className="cartas-slider">
-            <Image
-              className="mx-5 icono-carousel-clientes py-4"
-              src={paz}
-              alt="caja popular"
-              fluid
-            />
-          </SwiperSlide>
-          <SwiperSlide className="cartas-slider">
-            <Image
-              className="mx-5 icono-carousel-clientes py-4"
-              src={real}
               alt="caja popular"
               fluid
             />
