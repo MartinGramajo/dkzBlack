@@ -2,7 +2,7 @@ import axios from "axios";
 import Papa from "papaparse";
 import { useState } from "react";
 import { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 import BotonContactanos from "../components/BotonContactanos";
 import OtrosCasos from "../components/OtrosCasos";
@@ -74,11 +74,27 @@ export default function SocialMediaDetalle() {
           <h4 className="color-naranja peso-bold pt-4 pb-0">Click Here!</h4>
         </a>
       </div>
+
       <div className="d-flex justify-content-center py-5 color-negro-a-negroclaro-fondo">
         <BotonContactanos />
       </div>
+
       <div className="color-negroclaro-fondo">
         <OtrosCasos trabajos={casos} tipo="socialmedia" />
+      </div>
+      <div className="d-flex justify-content-center  color-negroclaro-fondo">
+        <Link
+          className="text-decoration-none text-white d-none d-lg-block pb-5"
+          to="/servicios"
+        >
+          <h3 className="peso-bold">{"< < Volver"}</h3>
+        </Link>
+        <Link
+          className="text-decoration-none text-white d-lg-none d-block pt-5 pb-4"
+          to="/servicios"
+        >
+          <h4 className="peso-bold">{"< < Volver"}</h4>
+        </Link>
       </div>
       <FooterReact />
     </div>

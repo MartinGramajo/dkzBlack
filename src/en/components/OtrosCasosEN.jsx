@@ -61,6 +61,7 @@ export default function OtrosCasosEN({ trabajos, tipo }) {
           ))}
         </div>
       </div>
+
       <div className="d-xl-none d-block ">
         <div className="pt-5 pb-3">
           <Swiper

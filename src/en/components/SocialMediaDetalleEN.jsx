@@ -2,7 +2,7 @@ import axios from "axios";
 import Papa from "papaparse";
 import { useState } from "react";
 import { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 import ContenidoDetalleEN from "./ContenidoDetalleEN";
 import { NavbarReactV2EN } from "./navbarReactV2EN/NavbarReactV2EN";
@@ -79,6 +79,20 @@ export default function SocialMediaDetalleEN() {
       </div>
       <div className="color-negroclaro-fondo">
         <OtrosCasosEN trabajos={casos} tipo="social-media" />
+      </div>
+      <div className="d-flex justify-content-center  color-negroclaro-fondo">
+        <Link
+          className="text-decoration-none text-white d-none d-lg-block pb-5"
+          to="/services"
+        >
+          <h3 className="peso-bold">{"< < Back To"}</h3>
+        </Link>
+        <Link
+          className="text-decoration-none text-white d-lg-none d-block pt-5 pb-4"
+          to="/services"
+        >
+          <h4 className="peso-bold">{"< < Back To"}</h4>
+        </Link>
       </div>
       <FooterReactEN />
     </div>

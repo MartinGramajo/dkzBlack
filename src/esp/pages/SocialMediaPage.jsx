@@ -8,6 +8,7 @@ export default function SocialMedialPage() {
     <div>
       <NavbarReactV2 />
       <Social />
+
       <FooterReact />
     </div>
   );
