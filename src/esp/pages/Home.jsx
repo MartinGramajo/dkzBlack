@@ -50,7 +50,6 @@ export default function Home() {
         <DosBotonesHome />
       </div>
       <div className="color-negroclaro-fondo ">
-        {/* <NovedadesHome /> */}
         <NovedadesHomeNew />
       </div>
       <FooterReact />

@@ -16,7 +16,7 @@ export default function Cartas() {
               <Image className="" src={icono1} fluid alt="icono okay" />
             </Card.Title>
             <Card.Subtitle className="title-card peso-bold">
-              Aumentá tus ventas <br />
+              Aumenta tus ventas <br />
               <Image className="" src={linea} fluid alt="linea divisora" />
             </Card.Subtitle>
             <Card.Text className="subtitle-card">
@@ -31,7 +31,7 @@ export default function Cartas() {
               <Image className="" src={icono2} fluid alt="icono okay" />
             </Card.Title>
             <Card.Subtitle className="title-card peso-bold">
-              Crecé exponencialmente <br />
+              Crece exponencialmente <br />
               <Image className="" src={linea} fluid alt="linea divisora" />
             </Card.Subtitle>
             <Card.Text className="subtitle-card">
@@ -50,7 +50,7 @@ export default function Cartas() {
               <Image className="" src={linea} fluid alt="linea divisora" />
             </Card.Subtitle>
             <Card.Text className="subtitle-card">
-              Acelerá tu presencia en línea y domina el mercado con nuestra
+              Acelera tu presencia en línea y domina el mercado con nuestra
               estrategia de marketing digital imparable.
             </Card.Text>
           </Card.Body>
