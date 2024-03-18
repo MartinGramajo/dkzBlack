@@ -28,6 +28,22 @@ import real from "../../../assets/logos/WeReal.png";
 import abanco from "../../../assets/logos/abanco.png";
 import polo from "../../../assets/logos/polosalud.png";
 
+import abanco250 from "../../../assets/logos/abancos250.png";
+import cartagena250 from "../../../assets/logos/cartagena250.png";
+import wereal250 from "../../../assets/logos/wereal250.png";
+import polo250 from "../../../assets/logos/polo250.png";
+import roma250 from "../../../assets/logos/roma250.png";
+
+import dilema250 from "../../../assets/logos/dilema250.png";
+import fecovita250 from "../../../assets/logos/fecovita250.png";
+import mondelez250 from "../../../assets/logos/mondelez250.png";
+import toro250 from "../../../assets/logos/toro250.png";
+
+import cp250 from "../../../assets/logos/cajapopular250.png";
+import sancor250 from "../../../assets/logos/sancor250.png";
+import speed250 from "../../../assets/logos/speed250.png";
+import toka250 from "../../../assets/logos/toka250.png";
+
 export default function Clientes() {
   return (
     <div>
@@ -56,37 +72,31 @@ export default function Clientes() {
             <div className="d-flex justify-content-center">
               <Image
                 className="py-3 icono-carousel-clientes"
-                src={polo}
+                src={abanco250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3 icono-carousel-clientes"
-                src={abanco}
+                src={cartagena250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3 icono-carousel-clientes"
-                src={argenta}
+                src={wereal250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes"
-                src={torres}
+                src={polo250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes"
-                src={paz}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={real}
+                src={roma250}
                 alt="Aumenta tus ventas"
                 fluid
               />
@@ -96,31 +106,25 @@ export default function Clientes() {
             <div className="d-flex justify-content-center">
               <Image
                 className="py-3 icono-carousel-clientes mx-5"
-                src={caja}
+                src={dilema250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes mx-5"
-                src={speed}
+                src={fecovita250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes mx-5"
-                src={gaceta}
+                src={mondelez250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes mx-5"
-                src={schilman}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes mx-5"
-                src={patagonia}
+                src={toro250}
                 alt="Aumenta tus ventas"
                 fluid
               />
@@ -130,65 +134,25 @@ export default function Clientes() {
             <div className="d-flex justify-content-center">
               <Image
                 className="py-3 icono-carousel-clientes"
-                src={uniber}
+                src={cp250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes"
-                src={gob}
+                src={sancor250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes"
-                src={lemons}
+                src={toka250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes"
-                src={tucutanos}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={laestancia}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="bg-white">
-            <div className="d-flex justify-content-center">
-              <Image
-                className="py-3 icono-carousel-clientes"
-                src={urt}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={seven}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={sancor}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={aguila}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={tbc}
+                src={speed250}
                 alt="Aumenta tus ventas"
                 fluid
               />

@@ -28,6 +28,23 @@ import real from "../../../esp/assets/logos/WeReal.png";
 
 import polo from "../../../esp/assets/logos/polosalud.png";
 import abanco from "../../../esp/assets/logos/abanco.png";
+
+import abanco250 from "../../../esp/assets/logos/abancos250.png";
+import cartagena250 from "../../../esp/assets/logos/cartagena250.png";
+import wereal250 from "../../../esp/assets/logos/wereal250.png";
+import polo250 from "../../../esp/assets/logos/polo250.png";
+import roma250 from "../../../esp/assets/logos/roma250.png";
+
+import dilema250 from "../../../esp/assets/logos/dilema250.png";
+import fecovita250 from "../../../esp/assets/logos/fecovita250.png";
+import mondelez250 from "../../../esp/assets/logos/mondelez250.png";
+import toro250 from "../../../esp/assets/logos/toro250.png";
+
+import cp250 from "../../../esp/assets/logos/cajapopular250.png";
+import sancor250 from "../../../esp/assets/logos/sancor250.png";
+import speed250 from "../../../esp/assets/logos/speed250.png";
+import toka250 from "../../../esp/assets/logos/toka250.png";
+
 export default function ClientesEN() {
   return (
     <div>
@@ -56,37 +73,31 @@ export default function ClientesEN() {
             <div className="d-flex justify-content-center">
               <Image
                 className="py-3  icono-carousel-clientes"
-                src={polo}
+                src={abanco250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes"
-                src={abanco}
+                src={cartagena250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes"
-                src={argenta}
+                src={wereal250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes"
-                src={torres}
+                src={polo250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes"
-                src={paz}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={real}
+                src={roma250}
                 alt="Aumenta tus ventas"
                 fluid
               />
@@ -96,31 +107,25 @@ export default function ClientesEN() {
             <div className="d-flex justify-content-center">
               <Image
                 className="py-3 icono-carousel-clientes mx-5"
-                src={caja}
+                src={dilema250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes mx-5"
-                src={speed}
+                src={fecovita250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes mx-5"
-                src={gaceta}
+                src={mondelez250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes mx-5"
-                src={schilman}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes mx-5"
-                src={patagonia}
+                src={toro250}
                 alt="Aumenta tus ventas"
                 fluid
               />
@@ -130,65 +135,25 @@ export default function ClientesEN() {
             <div className="d-flex justify-content-center">
               <Image
                 className="py-3 icono-carousel-clientes"
-                src={uniber}
+                src={cp250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes"
-                src={gob}
+                src={sancor250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes"
-                src={lemons}
+                src={toka250}
                 alt="Aumenta tus ventas"
                 fluid
               />
               <Image
                 className="py-3  icono-carousel-clientes"
-                src={tucutanos}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={laestancia}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="bg-white">
-            <div className="d-flex justify-content-center">
-              <Image
-                className="py-3 icono-carousel-clientes"
-                src={urt}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={seven}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={sancor}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={aguila}
-                alt="Aumenta tus ventas"
-                fluid
-              />
-              <Image
-                className="py-3  icono-carousel-clientes"
-                src={tbc}
+                src={speed250}
                 alt="Aumenta tus ventas"
                 fluid
               />
@@ -216,7 +181,7 @@ export default function ClientesEN() {
           <SwiperSlide className="cartas-slider">
             <Image
               className="mx-5  icono-carousel-clientes py-4"
-              src={polo}
+              src={abanco250}
               alt="caja popular"
               fluid
             />
@@ -224,7 +189,7 @@ export default function ClientesEN() {
           <SwiperSlide className="cartas-slider">
             <Image
               className="mx-5  icono-carousel-clientes py-4"
-              src={abanco}
+              src={cartagena250}
               alt="caja popular"
               fluid
             />
@@ -232,7 +197,7 @@ export default function ClientesEN() {
           <SwiperSlide className="cartas-slider">
             <Image
               className="mx-5  icono-carousel-clientes py-4"
-              src={argenta}
+              src={wereal250}
               alt="caja popular"
               fluid
             />
@@ -240,7 +205,7 @@ export default function ClientesEN() {
           <SwiperSlide className="cartas-slider">
             <Image
               className="mx-5  icono-carousel-clientes py-4"
-              src={torres}
+              src={polo250}
               alt="caja popular"
               fluid
             />
@@ -248,7 +213,7 @@ export default function ClientesEN() {
           <SwiperSlide className="cartas-slider">
             <Image
               className="mx-5 icono-carousel-clientes py-4"
-              src={paz}
+              src={roma250}
               alt="caja popular"
               fluid
             />
@@ -256,7 +221,7 @@ export default function ClientesEN() {
           <SwiperSlide className="cartas-slider">
             <Image
               className="mx-5 icono-carousel-clientes py-4"
-              src={real}
+              src={dilema250}
               alt="caja popular"
               fluid
             />
@@ -264,18 +229,7 @@ export default function ClientesEN() {
           <SwiperSlide className="cartas-slider ">
             <Image
               className="mx-5 icono-carousel-clientes py-4"
-              src={caja}
-              alt="caja popular"
-              fluid
-            />
-          </SwiperSlide>
-          <SwiperSlide className="cartas-slider">
-            <Image className="mx-5 " src={speed} alt="caja popular" fluid />
-          </SwiperSlide>
-          <SwiperSlide className="cartas-slider">
-            <Image
-              className="mx-5 icono-carousel-clientes py-4"
-              src={gaceta}
+              src={fecovita250}
               alt="caja popular"
               fluid
             />
@@ -283,7 +237,7 @@ export default function ClientesEN() {
           <SwiperSlide className="cartas-slider">
             <Image
               className="mx-5  icono-carousel-clientes py-4"
-              src={schilman}
+              src={mondelez250}
               alt="caja popular"
               fluid
             />
@@ -291,7 +245,7 @@ export default function ClientesEN() {
           <SwiperSlide className="cartas-slider">
             <Image
               className="mx-5 icono-carousel-clientes py-4"
-              src={patagonia}
+              src={toro250}
               alt="caja popular"
               fluid
             />
@@ -299,18 +253,7 @@ export default function ClientesEN() {
           <SwiperSlide className="cartas-slider">
             <Image
               className="mx-5  icono-carousel-clientes py-4"
-              src={uniber}
-              alt="caja popular"
-              fluid
-            />
-          </SwiperSlide>
-          <SwiperSlide className="cartas-slider">
-            <Image className="mx-5 " src={gob} alt="caja popular" fluid />
-          </SwiperSlide>
-          <SwiperSlide className="cartas-slider">
-            <Image
-              className="mx-5  icono-carousel-clientes py-4"
-              src={lemons}
+              src={cp250}
               alt="caja popular"
               fluid
             />
@@ -318,15 +261,7 @@ export default function ClientesEN() {
           <SwiperSlide className="cartas-slider">
             <Image
               className="mx-5 icono-carousel-clientes py-4"
-              src={tucutanos}
-              alt="caja popular"
-              fluid
-            />
-          </SwiperSlide>
-          <SwiperSlide className="cartas-slider">
-            <Image
-              className="mx-5 icono-carousel-clientes py-4"
-              src={laestancia}
+              src={sancor250}
               alt="caja popular"
               fluid
             />
@@ -334,7 +269,7 @@ export default function ClientesEN() {
           <SwiperSlide className="cartas-slider">
             <Image
               className="mx-5  icono-carousel-clientes py-4"
-              src={urt}
+              src={toka250}
               alt="caja popular"
               fluid
             />
@@ -342,31 +277,7 @@ export default function ClientesEN() {
           <SwiperSlide className="cartas-slider">
             <Image
               className="mx-5  icono-carousel-clientes py-4"
-              src={seven}
-              alt="caja popular"
-              fluid
-            />
-          </SwiperSlide>
-          <SwiperSlide className="cartas-slider">
-            <Image
-              className="mx-5  icono-carousel-clientes py-4"
-              src={sancor}
-              alt="caja popular"
-              fluid
-            />
-          </SwiperSlide>
-          <SwiperSlide className="cartas-slider">
-            <Image
-              className="mx-5  icono-carousel-clientes py-4"
-              src={aguila}
-              alt="caja popular"
-              fluid
-            />
-          </SwiperSlide>
-          <SwiperSlide className="cartas-slider">
-            <Image
-              className="mx-5  icono-carousel-clientes py-4"
-              src={tbc}
+              src={speed250}
               alt="caja popular"
               fluid
             />
