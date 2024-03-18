@@ -14,6 +14,7 @@ import { NavbarReactV2 } from "../components/navbarReactV2/NavbarReactV2";
 import { FooterReact } from "../components/FooterReact/FooterReact";
 import SliderHome from "../components/sliderHome/SliderHome";
 import NovedadesHomeNew from "../components/NovedadesHomeNwe/NovedadesHomeNew";
+import DondeEncontrarnos from "../components/DondeEncontrarnos/DondeEncontrarnos";
 
 export default function Home() {
   return (
@@ -51,6 +52,9 @@ export default function Home() {
       </div>
       <div className="color-negroclaro-fondo ">
         <NovedadesHomeNew />
+      </div>
+      <div className="color-negroclaro-fondo ">
+        <DondeEncontrarnos />
       </div>
       <FooterReact />
     </div>

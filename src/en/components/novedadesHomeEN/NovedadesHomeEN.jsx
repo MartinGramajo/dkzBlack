@@ -112,7 +112,7 @@ export default function NovedadesHomeEN() {
       <div id="NovedadesHome" className=" padding-titulo d-none d-xl-block">
         <div className="container">
           <LineaNaranja />
-          <h2 className="color-blanco mt-5 peso-bold">NOVEDADES</h2>
+          <h2 className="color-blanco mt-5 peso-bold">NEWS</h2>
           <div className="d-flex flex-wrap justify-content-between pt-5 cards-novedades">
             <div>
               <NavLink
@@ -183,7 +183,7 @@ export default function NovedadesHomeEN() {
         <div className="container">
           <div className="mx-3">
             <LineaNaranja />
-            <h3 className="color-blanco mt-4 peso-bold">NOVEDADES</h3>
+            <h3 className="color-blanco mt-4 peso-bold">NEWS</h3>
           </div>
         </div>
         <div className="pt-5 pb-0">

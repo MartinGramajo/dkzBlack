@@ -19,6 +19,7 @@ import VideoBanner2 from "../../esp/components/videoBanner/VideoBanner2";
 import MapaMundiEN from "../components/mapaMundiEN/MapaMundiEN";
 import CertificacionesEN from "../components/certificacionesEN/CertificacionesEN";
 import CarouselHomeBEN from "../components/carouselHomeEN/CarouselHomeBEN";
+import DondeEncontrarnosEN from "../components/DondeEncontrarnosEN/DondeEncontrarnosEn";
 
 export default function HomeEN() {
   return (
@@ -53,6 +54,9 @@ export default function HomeEN() {
       </div>
       <div className="color-negroclaro-fondo ">
         <NovedadesHomeEN />
+      </div>
+      <div className="color-negroclaro-fondo ">
+        <DondeEncontrarnosEN />
       </div>
       <FooterReactEN />
     </div>

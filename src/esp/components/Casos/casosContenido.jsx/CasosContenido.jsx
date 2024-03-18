@@ -45,7 +45,7 @@ export default function CasosContenido() {
       <div className="d-none d-sm-block container">
         <div className="mx-3 mx-sm-0">
           <LineaNaranja />
-          <h2 className="peso-bold">CASOS DE EXITO! MIRÁ COMO LO HICIMOS</h2>
+          <h2 className="peso-bold">CASOS DE EXITO! OBSERVA CÓMO LO HICIMOS</h2>
           <div className="my-3">
             <BotonesCat button={buttons} filter={filter} />
           </div>
@@ -70,7 +70,9 @@ export default function CasosContenido() {
         <div className="container">
           <div className="mx-3 mx-sm-0">
             <LineaNaranja />
-            <h2 className="peso-bold">CASOS DE EXITO! MIRÁ COMO LO HICIMOS</h2>
+            <h2 className="peso-bold">
+              CASOS DE EXITO! OBSERVA CÓMO LO HICIMOS
+            </h2>
             <div className="my-3">
               <BotonesCat button={buttons} filter={filter} />
             </div>
