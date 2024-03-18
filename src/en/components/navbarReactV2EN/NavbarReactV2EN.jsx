@@ -9,6 +9,8 @@ import usa from "../../../esp/assets/img/usa.png";
 import { NavLink } from "react-router-dom";
 import { useEffect } from "react";
 
+import dkz250 from "../../../esp/assets/logos/dkz250.png";
+
 export const NavbarReactV2EN = () => {
   return (
     <Navbar
@@ -20,7 +22,12 @@ export const NavbarReactV2EN = () => {
       <Container>
         <Navbar.Brand>
           <Nav.Link to="/en" as={NavLink} id="#principal">
-            <Image src={logo} alt="Logo-DKZ" fluid />
+            <Image
+              className="logo-navbar-250"
+              src={dkz250}
+              alt="Logo-DKZ"
+              fluid
+            />
           </Nav.Link>
         </Navbar.Brand>
         <div className="d-flex ms-auto">

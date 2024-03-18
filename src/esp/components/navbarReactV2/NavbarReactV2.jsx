@@ -9,6 +9,8 @@ import usa from "../../assets/img/usa.png";
 import { NavLink } from "react-router-dom";
 import "./navReactV2.css";
 
+import dkz250 from "../../assets/logos/dkz250.png";
+
 export const NavbarReactV2 = () => {
   return (
     <Navbar
@@ -20,7 +22,12 @@ export const NavbarReactV2 = () => {
       <Container>
         <Navbar.Brand>
           <Nav.Link to="/" as={NavLink} id="#principal">
-            <Image src={logo} alt="Logo-DKZ" fluid />
+            <Image
+              className="logo-navbar-250"
+              src={dkz250}
+              alt="Logo-DKZ"
+              fluid
+            />
           </Nav.Link>
         </Navbar.Brand>
         <div className="d-flex ms-auto">
